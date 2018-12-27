@@ -18,7 +18,7 @@
   <meta name="description" content="Postdoctoral Research Fellow">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://PratheepaJ.github.io/publication/">
+  <link rel="alternate" hreflang="en-us" href="/publication/">
 
   
 
@@ -38,7 +38,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#EAF04E">
   
 
   
@@ -60,7 +60,7 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
         
       
     
@@ -73,7 +73,7 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -84,7 +84,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-127179591-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -98,15 +98,15 @@
   
 
   
-  <link rel="alternate" href="https://PratheepaJ.github.io/publication/index.xml" type="application/rss+xml" title="Personal Website">
-  <link rel="feed" href="https://PratheepaJ.github.io/publication/index.xml" type="application/rss+xml" title="Personal Website">
+  <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="Personal Website">
+  <link rel="feed" href="/publication/index.xml" type="application/rss+xml" title="Personal Website">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://PratheepaJ.github.io/publication/">
+  <link rel="canonical" href="/publication/">
 
   
   
@@ -117,10 +117,13 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@PratheepaJ">
+  <meta property="twitter:creator" content="@PratheepaJ">
+  
   <meta property="og:site_name" content="Personal Website">
-  <meta property="og:url" content="https://PratheepaJ.github.io/publication/">
+  <meta property="og:url" content="/publication/">
   <meta property="og:title" content="Publications | Personal Website">
-  <meta property="og:description" content="Postdoctoral Research Fellow"><meta property="og:image" content="https://PratheepaJ.github.io/img/profile.png">
+  <meta property="og:description" content="Postdoctoral Research Fellow"><meta property="og:image" content="/img/profile.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2017-01-01T00:00:00-08:00">
@@ -128,12 +131,38 @@
 
   
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#EAF04E",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#EAF04E"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+</script>
+
+
   
 
   <title>Publications | Personal Website</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -609,6 +638,10 @@
 </div>
 <div class="container">
   <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
   
 
   <p class="powered-by">
