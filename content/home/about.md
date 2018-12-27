@@ -10,10 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Multi-domain methods",
-    "Resampling methods for dependent data",
-    "Bayesian statistics",
-    "Saddlepoint approximations"
+    "Multi-domain Methods",
+    "High-dimensional Statistical Inference",
+    "Resampling Dependent Data",
+    "Bayesian Statistics",
+    "Saddlepoint Approximations for Statistics"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -36,6 +37,10 @@ weight = 5
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a postdoctoral research fellow in the Department of Statistics at Stanford University. I am broadly interested in problems in multi-domain and longitudinal data with applications to biomedical sciences. My current research is on developing statistical methods to leverage both microbiome and mass cytometry data. I am working with [Professor Susan Holmes](http://statweb.stanford.edu/~susan/). 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I received a Ph.D. in Mathematics (2016) with an emphasis in Statistics from Texas Tech University under the supervision of [Professor Alex Trindade](http://www.math.ttu.edu/~atrindad/). My doctoral dissertation was on developing statistical methods based on saddlepoint approximations to make inferences with the applications to spatial, time series, and survival analysis. While I was a doctoral student, I gained experience in applying the statistical methods for metagenomic and clinical research at the Research and Testing Center in Lubbock and the Clinical Research Institute at Texas Tech University Health Sciences Center as an intern.
+
+I received a MS in Statistics from Texas Tech University under the supervision of [Professor Alex Trindade](http://www.math.ttu.edu/~atrindad/). My master thesis was on developing a computationally fast and accurate method to make inferences on spatial regression model parameters based on saddlepoint approximations. I received a BS degree in Statistics and Operations Research from [University of Peradeniya](https://sci.pdn.ac.lk/scs/) in Sri Lanka and was a lecturer in statistics before coming to Texas Tech University.
+
+I am also interested in teaching, mentoring, curriculum development, and community outreach. Specifically, I am interested in teaching the theoretical understanding of statistical methods.
