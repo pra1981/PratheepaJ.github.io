@@ -38,7 +38,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#EAF04E">
   
 
   
@@ -60,7 +60,7 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
         
       
     
@@ -73,7 +73,7 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -84,7 +84,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-127179591-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -117,6 +117,9 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@PratheepaJ">
+  <meta property="twitter:creator" content="@PratheepaJ">
+  
   <meta property="og:site_name" content="Personal Website">
   <meta property="og:url" content="/privacy/">
   <meta property="og:title" content="Privacy Policy | Personal Website">
@@ -130,12 +133,38 @@
 
   
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#EAF04E",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#EAF04E"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+</script>
+
+
   
 
   <title>Privacy Policy | Personal Website</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -490,8 +519,8 @@
         
       
       <li>
-        <a itemprop="sameAs" href="/#contact" >
-          <i class="fas fa-envelope"></i>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/pratheepajega/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
         </a>
       </li>
       
@@ -507,7 +536,7 @@
         
       
       <li>
-        <a itemprop="sameAs" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <a itemprop="sameAs" href="https://twitter.com/PratheepaJ" target="_blank" rel="noopener">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -522,7 +551,7 @@
         
       
       <li>
-        <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=7zY2XNYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
           <i class="ai ai-google-scholar"></i>
         </a>
       </li>
@@ -539,8 +568,23 @@
         
       
       <li>
-        <a itemprop="sameAs" href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <a itemprop="sameAs" href="https://github.com/PratheepJ" target="_blank" rel="noopener">
           <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/files/cv.pdf" >
+          <i class="ai ai-cv"></i>
         </a>
       </li>
       
@@ -554,6 +598,14 @@
     
     
 
+    
+    <div class="article-widget">
+      <div class="post-nav">
+  
+  
+</div>
+
+    </div>
     
 
     
