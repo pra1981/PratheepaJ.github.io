@@ -9,11 +9,11 @@
 baseurl = "https://PratheepaJ.github.io/"
 
 # Title of your site
-title = "Personal Website"
+title = "Pratheepa Jeganathan"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; Pratheepa Jeganathan 2018"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -64,16 +64,16 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "jpratheepa31@gmail.com"
-  address = "390 Serra Mall, Stanford, CA 94305"
-  #office_hours = """
- # Monday 10:00 to 13:00\\
+  address = ""
+  office_hours = """
+  # Monday 10:00 to 13:00\\
   #Wednesday 09:00 to 10:00\\
   #Otherwise email to book an appointment
   #"""
-  #phone = "888 888 88 88"
-  #skype = "echo123"
-  #telegram = ""
-  #keybase = ""  # Your keybase.io username.
+  phone = ""
+  skype = ""
+  telegram = ""
+  keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
   appointment_url = ""
@@ -182,7 +182,7 @@ enableGitInfo = false
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = true
+  privacy_pack = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
