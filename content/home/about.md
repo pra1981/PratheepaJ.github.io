@@ -11,7 +11,6 @@ weight = 5
 [interests]
   interests = [
     "Multi-domain Methods",
-    "High-dimensional Statistical Inference",
     "Resampling Dependent Data",
     "Bayesian Statistics",
     "Saddlepoint Approximations for Statistics"
