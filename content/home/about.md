@@ -35,11 +35,11 @@ weight = 5
  
 +++
 
-# Biography
+## Biography
 
 I am a postdoctoral research fellow in the Department of Statistics at Stanford University. I am broadly interested in problems in multi-domain and longitudinal data with applications to biomedical sciences. My current research is on developing statistical methods to leverage both microbiome and mass cytometry data. I am working with [Professor Susan Holmes](http://statweb.stanford.edu/~susan/). 
 
-I received a Ph.D. in Mathematics (2016) with an emphasis in Statistics from Texas Tech University under the supervision of [Professor Alex Trindade](http://www.math.ttu.edu/~atrindad/). My doctoral dissertation was on developing statistical methods based on saddlepoint approximations to make inferences with the applications to spatial, time series, and survival analysis. While I was a doctoral student, I gained experience in applying the statistical methods for metagenomic and clinical research at the Research and Testing Center in Lubbock and the Clinical Research Institute at Texas Tech University Health Sciences Center as an intern.
+I received a Ph.D. in Mathematics (2016) with an emphasis in Statistics from Texas Tech University under the supervision of [Professor Alex Trindade](http://www.math.ttu.edu/~atrindad/). My doctoral dissertation was on developing statistical methods based on saddlepoint approximations to make inferences on spatial, time series, and survival data. While I was a doctoral student, I gained experience in applying the statistical methods for metagenomic and clinical research at the Research and Testing Center in Lubbock and the Clinical Research Institute at Texas Tech University Health Sciences Center as an intern.
 
 I received a MS in Statistics from Texas Tech University under the supervision of [Professor Alex Trindade](http://www.math.ttu.edu/~atrindad/). My master thesis was on developing a computationally fast and accurate method to make inferences on spatial regression model parameters based on saddlepoint approximations. I received a BS degree in Statistics and Operations Research from [University of Peradeniya](https://sci.pdn.ac.lk/scs/) in Sri Lanka and was a lecturer in statistics before coming to Texas Tech University.
 
