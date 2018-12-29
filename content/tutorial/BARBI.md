@@ -1,5 +1,5 @@
 +++
-title = "BARBI"
+title = "BAyesian Reduction in Background Interference"
 
 date = 2018-12-28T00:00:00
 # lastmod = 2018-09-09T00:00:00
@@ -15,6 +15,6 @@ linktitle = "BARBI"
   weight = 1
 +++
 
-In this tutorial, I'll demonstrate how to use BARBI for removing contaminants in low-biomass samples:
+In this tutorial, I'll demonstrate how to use `BARBI` for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):
 
 

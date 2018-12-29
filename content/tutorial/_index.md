@@ -1,7 +1,7 @@
 +++
 title = ""
 
-date = 2018-09-09T00:00:00
+date = 2018-12-28T00:00:00
 # lastmod = 2018-09-09T00:00:00
 
 draft = false  # Is this a draft? true/false
@@ -16,8 +16,9 @@ type = "docs"  # Do not modify.
 
 I present 
 
-* **Project and software documentation**
+* **Software documentation**
 * **Tutorials on statistics**
+* **Tutorials on statistics for microbiome**
 
 <!---The parent folder may be renamed, for example, to `docs` for project documentation or `course` for creating an online course.
 
