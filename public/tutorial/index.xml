@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan</title>
-    <link>/tutorial/</link>
+    <link>https://PratheepaJ.github.io/tutorial/</link>
     <description>Recent content on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://PratheepaJ.github.io/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BARBI</title>
-      <link>/tutorial/barbi/</link>
+      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>/tutorial/barbi/</guid>
+      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
       <description>In this tutorial, I&amp;rsquo;ll demonstrate how to use BARBI for removing contaminants in low-biomass samples:</description>
     </item>
     
     <item>
       <title>bootLong</title>
-      <link>/tutorial/bootlong/</link>
+      <link>https://PratheepaJ.github.io/tutorial/bootlong/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>/tutorial/bootlong/</guid>
+      <guid>https://PratheepaJ.github.io/tutorial/bootlong/</guid>
       <description>In this tutorial, I&amp;rsquo;ll demonstrate how to use bootLong for making inferences on longitudinal microbiome data:</description>
     </item>
     
