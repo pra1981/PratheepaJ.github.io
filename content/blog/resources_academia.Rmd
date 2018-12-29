@@ -2,7 +2,7 @@
 categories: []
 date: "2018-12-28T23:11:30-08:00"
 draft: false
-image:
+image: 
   caption: ""
   focal_point: ""
 tags: []
