@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/tutorial/</link>
+    <link>/tutorial/</link>
     <description>Recent content on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Fri, 28 Dec 2018 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="https://PratheepaJ.github.io/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BAyesian Reduction in Background Interference</title>
-      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
+      <link>/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
+      <guid>/tutorial/barbi/</guid>
       <description>In this tutorial, I&amp;rsquo;ll demonstrate how to use BARBI for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):</description>
     </item>
     
     <item>
       <title>Beta Binomial Distribution</title>
-      <link>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</link>
+      <link>/tutorial/beta_binomial_modeling_count/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</guid>
+      <guid>/tutorial/beta_binomial_modeling_count/</guid>
       <description>The Beta Binomial Distribution implemented in corncob package.</description>
     </item>
     
     <item>
       <title>Empirical saddlepoint approximation for smoothing survival functions under right-censored data</title>
-      <link>https://PratheepaJ.github.io/tutorial/espa/</link>
+      <link>/tutorial/espa/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/espa/</guid>
+      <guid>/tutorial/espa/</guid>
       <description>In this tutorial, I&amp;rsquo;ll demonstrate how to use ESPA for smoothing Kaplan Meier Estimator:</description>
     </item>
     
     <item>
       <title>Saddelpoint-based bootstrap (SPBB) inference for spatial regression models</title>
-      <link>https://PratheepaJ.github.io/tutorial/spbbspatial/</link>
+      <link>/tutorial/spbbspatial/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/spbbspatial/</guid>
+      <guid>/tutorial/spbbspatial/</guid>
       <description>In this tutorial, I&amp;rsquo;ll demonstrate how to use SPBBspatial for making inferences on spatial depndence parameter in the spatial regression models:</description>
     </item>
     
     <item>
       <title>Block bootstrap method for longitudinal microbiome data</title>
-      <link>https://PratheepaJ.github.io/tutorial/bootlong/</link>
+      <link>/tutorial/bootlong/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/bootlong/</guid>
+      <guid>/tutorial/bootlong/</guid>
       <description>In this tutorial, I&amp;rsquo;ll demonstrate how to use bootLong for making inferences on longitudinal microbiome data:</description>
     </item>
     
