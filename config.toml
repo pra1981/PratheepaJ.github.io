@@ -23,7 +23,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "pratheepajeganathan"
+disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-127179591-1"
@@ -260,10 +260,10 @@ enableGitInfo = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  #[[params.social]]
-    #icon = "envelope"
-    #icon_pack = "fas"
-    #link = "mailto:jpratheepa31@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fas"
+    link = "mailto:jpratheepa31@gmail.com"  # For a direct email link, use "mailto:test@example.org".
   
   [[params.social]]
     icon = "linkedin"

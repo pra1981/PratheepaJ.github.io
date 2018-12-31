@@ -36,7 +36,7 @@ weight = 5
 
 ## Biography
 
-I am a postdoctoral research fellow in the Department of Statistics at Stanford University. I am advised by [Susan Holmes](http://statweb.stanford.edu/~susan/). I am broadly interested in statistical modeling of multi-domain and longitudinal data with applications to high-throughput sequencing (HiSeq) and mass cytometry (CyTOF). My current research is developing statistical methods to leverage both microbiome and mass cytometry data.  
+I am a postdoctoral research fellow in the Department of Statistics at Stanford University, working with [Susan Holmes](http://statweb.stanford.edu/~susan/). I am broadly interested in statistical modeling of multi-domain and longitudinal data with applications to high-throughput sequencing (HiSeq) and mass cytometry (CyTOF). My current research is developing statistical methods to leverage both microbiome and mass cytometry data.  
 
 I received a Ph.D. in Mathematics (2016) with an emphasis in Statistics from Texas Tech University under the supervision of [Alex Trindade](http://www.math.ttu.edu/~atrindad/). My doctoral dissertation was developing statistical methods based on saddlepoint approximations to make inferences on spatial, time series, and survival data. While I was a doctoral student, I gained experience in applying the statistical methods for metagenomic and clinical research at the [Research & Testing Laboratory](http://www.medicalbiofilm.org/) in Lubbock advised by ([Stephen Boyd Cox](https://www.researchgate.net/profile/Stephen_Cox3)
 ) and the [Clinical Research Institute](https://www.ttuhsc.edu/clinical-research/) at Texas Tech University Health Sciences Center advised by [Alex Trindade](http://www.math.ttu.edu/~atrindad/).
