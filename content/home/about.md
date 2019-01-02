@@ -13,7 +13,7 @@ weight = 5
     "Multi-domain Methods",
     "Resampling Methods for Dependent Data",
     "Bayesian Statistics",
-    "Saddlepoint Approximations for Statistics"
+    "Saddlepoint Approximations in Statistics"
   ]
 
 # List your qualifications (such as academic degrees).
