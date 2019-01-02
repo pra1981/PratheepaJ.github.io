@@ -13,3 +13,5 @@ list_format = 2
 image = ""
 caption = ""
 +++
+
+I am interested in teaching the theoretical understanding of statistical methods and [R](https://cran.r-project.org/) (a staistical programming language)
