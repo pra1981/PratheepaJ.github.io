@@ -8,7 +8,12 @@ tags: []
 image:
   caption: ''
   focal_point: ''
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 6
+    dev: "svg"
 ---
 
 Happy New Year to Everyone!
-![2019](/img/IMG_3506.PNG)
+![Welcome 2019](/img/IMG_3506.PNG)
