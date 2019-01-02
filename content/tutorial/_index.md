@@ -15,11 +15,12 @@ type = "docs"  # Do not modify.
 
 +++
 
-I present 
+I write tutorials on the following topics: 
 
 * **Software documentation**
 * **Tutorials on statistics**
 * **Tutorials on statistics for microbiome**
+* **Tutorials on R**
 
 <!---The parent folder may be renamed, for example, to `docs` for project documentation or `course` for creating an online course.
 
