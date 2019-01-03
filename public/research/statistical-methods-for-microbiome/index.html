@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Statistical Methods.">
+  <meta name="description" content="Statistical Methods for 16S and shot-gun metagenomics data.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/teaching/statistical-methods/">
+  <link rel="alternate" hreflang="en-us" href="/research/statistical-methods-for-microbiome/">
 
   
 
@@ -106,7 +106,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/teaching/statistical-methods/">
+  <link rel="canonical" href="/research/statistical-methods-for-microbiome/">
 
   
   
@@ -121,20 +121,21 @@
   <meta property="twitter:creator" content="@PratheepaJ">
   
   <meta property="og:site_name" content="Pratheepa Jeganathan">
-  <meta property="og:url" content="/teaching/statistical-methods/">
-  <meta property="og:title" content="MATH 2300 (TTU) | Pratheepa Jeganathan">
-  <meta property="og:description" content="Statistical Methods."><meta property="og:image" content="/img/profile.png">
+  <meta property="og:url" content="/research/statistical-methods-for-microbiome/">
+  <meta property="og:title" content="Statistical Methods for Microbiome Data | Pratheepa Jeganathan">
+  <meta property="og:description" content="Statistical Methods for 16S and shot-gun metagenomics data."><meta property="og:image" content="/img/profile.png">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2019-01-02T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2019-01-02T00:00:00&#43;00:00">
   
+
   
 
   
 
-  
-
-  <title>MATH 2300 (TTU) | Pratheepa Jeganathan</title>
+  <title>Statistical Methods for Microbiome Data | Pratheepa Jeganathan</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -331,7 +332,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">MATH 2300 (TTU)</h1>
+  <h1 itemprop="name">Statistical Methods for Microbiome Data</h1>
 
   
 
@@ -349,9 +350,9 @@
 
   <span class="article-date">
     
-    <meta content="" itemprop="datePublished">
-    <time datetime="" itemprop="dateModified">
-      Jan 1, 0001
+    <meta content="2019-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 2, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -371,35 +372,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=MATH%202300%20%28TTU%29&amp;url=%2fteaching%2fstatistical-methods%2f"
+         href="https://twitter.com/intent/tweet?text=Statistical%20Methods%20for%20Microbiome%20Data&amp;url=%2fresearch%2fstatistical-methods-for-microbiome%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fteaching%2fstatistical-methods%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fresearch%2fstatistical-methods-for-microbiome%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fteaching%2fstatistical-methods%2f&amp;title=MATH%202300%20%28TTU%29"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fresearch%2fstatistical-methods-for-microbiome%2f&amp;title=Statistical%20Methods%20for%20Microbiome%20Data"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fteaching%2fstatistical-methods%2f&amp;title=MATH%202300%20%28TTU%29"
+         href="http://service.weibo.com/share/share.php?url=%2fresearch%2fstatistical-methods-for-microbiome%2f&amp;title=Statistical%20Methods%20for%20Microbiome%20Data"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=MATH%202300%20%28TTU%29&amp;body=%2fteaching%2fstatistical-methods%2f">
+         href="mailto:?subject=Statistical%20Methods%20for%20Microbiome%20Data&amp;body=%2fresearch%2fstatistical-methods-for-microbiome%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -437,37 +438,83 @@
     <div class="article-style" itemprop="articleBody">
       
 
+
+
+
+
 <div id="TOC">
 <ul>
-<li><a href="#math-2300">MATH 2300</a><ul>
-<li><a href="#description">Description</a></li>
-<li><a href="#syllabus">Syllabus</a></li>
-<li><a href="#lecture-notes">Lecture Notes</a></li>
+<li><a href="#block-bootstrap-method">Block Bootstrap Method</a><ul>
+<li><a href="#method">Method</a></li>
+<li><a href="#software">Software</a></li>
+<li><a href="#paper">Paper</a></li>
 </ul></li>
+<li><a href="#bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples">Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples</a><ul>
+<li><a href="#software-1">Software</a></li>
+<li><a href="#papers">Paper(s)</a></li>
+</ul></li>
+<li><a href="#references">References</a></li>
 </ul>
 </div>
 
-<div id="math-2300" class="section level1">
-<h1>MATH 2300</h1>
-<p>I taught statistical Methods (MATH 2300) for undergraduates at Texas Tech University.</p>
-<ul>
-<li>Fall 2012[40+42 students in two classes]</li>
-<li>Spring 2013[15+43]</li>
-<li>Summer 2013 [21]</li>
-<li>Fall 2013 [116]</li>
-<li>Spring 2014 [45+47]</li>
-<li>Fall 2014 [125]</li>
-<li>Fall 2015 [44])</li>
-</ul>
-<div id="description" class="section level2">
-<h2>Description</h2>
-<p><a href="https://catalog.ttu.edu/preview_course_nopop.php?catoid=2&amp;coid=9599">Course description.</a></p>
+<div id="block-bootstrap-method" class="section level1">
+<h1>Block Bootstrap Method</h1>
+<p>Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability.</p>
+<p>Longitudinal microbiome data are used to either model abundance over time or compare the abundances of bacteria between two or more cohorts. We have devised a method for making nonparametric inferences in longitudinal microbiome data in the latter case.</p>
+<div id="method" class="section level2">
+<h2>Method</h2>
+<p>The proposed resampling method combined moving block bootstrap (MBB) method <span class="citation">(Lahiri 2013)</span>, empirical subsampling method <span class="citation">(Hall, Horowitz, and Jing 1995)</span>, mixture model <span class="citation">(McMurdie and Holmes 2014)</span>, generalized linear model <span class="citation">(Diggle 2002)</span>, generalized estimating equation <span class="citation">(Liang and Zeger 1986)</span>, median-ratio method <span class="citation">(Anders and Huber 2010)</span>, and shrinkage estimation<span class="citation">(Robbins 1956; Stephens 2016)</span> to enabling inference on microbiome longitudinal data. With the optimal block size computed using subsampling, the MBB method accounts for within-subject dependency by using overlapping blocks of repeated observations within each subject to draw valid inferences based on approximately pivotal statistics. This resampling method for dependent data was motivated by the literature on the block bootstrap method for time series data along with subsampling method for optimal block size estimation.</p>
 </div>
-<div id="syllabus" class="section level2">
-<h2>Syllabus</h2>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<p>I developed an open-source R package <a href="https://github.com/PratheepaJ/bootLong">bootLong</a> to make our method accessible and provide tools for exploring within-subject dependency in longitudinal data. Look at the <a href="https://pratheepaj.github.io/tutorial/bootlong/">tutorial.</a></p>
 </div>
-<div id="lecture-notes" class="section level2">
-<h2>Lecture Notes</h2>
+<div id="paper" class="section level2">
+<h2>Paper</h2>
+<p>The manuscript is available at <a href="https://arxiv.org/abs/1809.01832">arXiv</a>.</p>
+</div>
+</div>
+<div id="bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples" class="section level1">
+<h1>Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples</h1>
+<p>With the potential to diagnose any known microbial organism, metagenomic Next-Generation Sequencing (NGS) has been regarded as a tool that will revolutionize infectious disease diagnostics. NGS removes the need for a pre-informed hypothesis from clinicians, detects nonculturable organisms, and can be optimized to include a turnaround time of 24-48 hours. Only recently, however, has the scientific community begun to understand the pitfalls of NGS. Microbial nucleic acids from reagent and lab environment contamination have been shown to result in signals that researchers falsely infer to be the cause of a patient’s illness. This problem is exacerbated in low biomass samples, such as plasma, where more than 99% of sequencing reads align to the human genome .</p>
+<p>Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in ultra-low biomass samples are limited.</p>
+<div id="software-1" class="section level2">
+<h2>Software</h2>
+<p>Our method will be available as an open-source R package at <a href="https://github.com/PratheepaJ/BARBI">BARBI</a>. <a href="https://pratheepaj.github.io/tutorial/barbi/">Tutorial</a> will be avaialble soon.</p>
+</div>
+<div id="papers" class="section level2">
+<h2>Paper(s)</h2>
+<p>SIRS (In preparation)</p>
+<p>Healthy Flossing (In preparation)</p>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-AndersHuber2010">
+<p>Anders, Simon, and Wolfgang Huber. 2010. “Differential Expression Analysis for Sequence Count Data.” <em>Genome Biology</em> 11 (10). BioMed Central: R106.</p>
+</div>
+<div id="ref-D2002">
+<p>Diggle, Peter. 2002. <em>Analysis of Longitudinal Data</em>. Oxford University Press.</p>
+</div>
+<div id="ref-HHJ1995">
+<p>Hall, Peter, Joel L Horowitz, and Bing-Yi Jing. 1995. “On Blocking Rules for the Bootstrap with Dependent Data.” <em>Biometrika</em> 82 (3). Biometrika Trust: 561–74.</p>
+</div>
+<div id="ref-lahiri2013">
+<p>Lahiri, Soumendra Nath. 2013. <em>Resampling Methods for Dependent Data</em>. Springer Science &amp; Business Media.</p>
+</div>
+<div id="ref-liang1986">
+<p>Liang, Kung-Yee, and Scott L Zeger. 1986. “Longitudinal Data Analysis Using Generalized Linear Models.” <em>Biometrika</em> 73 (1). Oxford University Press: 13–22.</p>
+</div>
+<div id="ref-MH2014">
+<p>McMurdie, Paul J, and Susan Holmes. 2014. “Waste Not, Want Not: Why Rarefying Microbiome Data Is Inadmissible.” <em>PLoS Comput Biol</em> 10 (4). Public Library of Science: e1003531.</p>
+</div>
+<div id="ref-Robbins1956">
+<p>Robbins, Herbert. 1956. “An Empirical Bayes Approach to Statistics.” Columbia University, New York City, United States.</p>
+</div>
+<div id="ref-Stephens2016">
+<p>Stephens, Matthew. 2016. “False Discovery Rates: A New Deal.” <em>Biostatistics</em> 18 (2). Oxford University Press: 275–94.</p>
+</div>
 </div>
 </div>
 
@@ -592,13 +639,13 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/teaching/stats205/" rel="next">STATS 205 (Stanford)</a>
+    <a href="/research/current-projects/" rel="next">Statistical Methods for Multi-domain Data</a>
   </div>
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/teaching/introduction-to-statistics-with-application-to-business/" rel="prev">MATH 2345 (TTU)</a>
+    <a href="/research/microbiome-studies/" rel="prev">Microbiome Studies</a>
   </div>
   
 </div>

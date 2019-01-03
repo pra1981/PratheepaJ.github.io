@@ -1,13 +1,36 @@
 ---
-title: Statistical Methods
+title: MATH 2300 (TTU)
+summary: Statistical Methods.
 author: 'PJ'
-date: '2019-01-01'
+date: ''
 slug: statistical-methods
 categories: []
 tags: []
 image:
   caption: ''
   focal_point: ''
+output:
+  blogdown::html_page:
+    toc: true
+weight: 2
 ---
 
-I taught Statistical Methods for Undergraduates at Texas Tech University. 
+# MATH 2300
+
+I taught statistical Methods (MATH 2300) for undergraduates at Texas Tech University.
+
+ -  Fall 2012[40+42 students in two classes]
+ -  Spring 2013[15+43]
+ -  Summer 2013 [21]
+ -  Fall 2013 [116]
+ -  Spring 2014 [45+47]
+ -  Fall 2014 [125]
+ -  Fall 2015 [44]) 
+
+## Description
+
+[Course description.](https://catalog.ttu.edu/preview_course_nopop.php?catoid=2&coid=9599)
+
+##  Syllabus
+
+##  Lecture Notes

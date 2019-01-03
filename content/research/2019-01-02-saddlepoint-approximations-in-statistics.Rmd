@@ -1,0 +1,74 @@
+---
+title: Saddlepoint Approximations in Statistics
+summary: "Saddlepoint-based bootstrap method (SPBB), multivariate SPBB, extension of empirical saddlepoint apporximation for right-censored data, bivariate saddlepoint approximations."
+author: ~
+date: '2019-01-02'
+slug: saddlepoint-approximations-in-statistics
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+weight: 4
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)
+
+The second project for my PhD dissertation was to generalize the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators. 
+
+## Method
+
+## Software
+
+## Paper
+
+I presented my work on mSPBB in my PhD dissertation part I.
+
+These are unpublished work. 
+
+# Saddlepoint Approximation for Bivariate Cumultative Distribution Function (CDF)
+
+We defined the formula for the variable that was not defined in [Wang (1990)](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C)
+
+## Correction to the formula
+
+## Software
+
+## Paper
+
+
+
+# Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.
+
+One of the projects for my dissertation work was to derive a class of statistical method to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right censored.
+
+##  Method
+
+To work around these issues, we define the empirical moment generating function (MGF) of the tail-completed density function based on the KM estimator, then, using the saddlepoint method, accurately approximate a smooth survival function. Before using the saddlepoint method for this purpose, however, we establish the convergence results of the modified version of the empirical MGF based on the KM estimator using the M-estimation and multivariate delta method. According to the simulations, the empirical saddlepoint approximation method produces better estimation than existing methods, such as log-spline. We apply this method for several event-time data from the clinical research to estimate a smooth survival curve. 
+
+## Software
+
+I developed an open-source R package [ESPA](https://github.com/PratheepaJ/ESPA) that make our method easily accessible. Look at the [tutorial.](https://pratheepaj.github.io/tutorial/espa/)
+
+##  Paper
+
+Paper will be available at the Canadian journal of statistics (accepted - 2018).
+
+
+# Saddlepoint-Based Bootstrap Method (SPBB)
+
+We consider a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In the spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data. 
+
+## Method
+The SPBB method is used to construct confidence intervals for parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator. 
+
+##  Software
+
+An R pacakge [SPBBspatial](https://github.com/PratheepaJ/SPBBspatial) implements our method. Look at the [tutorial](https://pratheepaj.github.io/tutorial/spbbspatial/)
+
+##  Paper
+
+This paper is available at [_Spatial statistics_](https://www.sciencedirect.com/science/article/pii/S2211675315000020) journal.

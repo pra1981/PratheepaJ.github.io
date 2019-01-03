@@ -1,0 +1,33 @@
+---
+title: MATH 3342 (TTU)
+summary: Mathematical Statistics for Engineers and Scientists.
+author: "PJ"
+date: '2019-01-02'
+slug: mathematical-statistics-for-engineers-and-scientists
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+output:
+  blogdown::html_page:
+    toc: true
+weight: 4
+---
+
+# MATH 3342
+
+I taught mathematical statistics for engineers and scientists (MATH 3342) for undergraduates at Texas Tech University.
+
+  - Spring 2015 [149 students]
+  - Summer 2015 [27]
+  - Spring 2016 [44]
+  - Summer 2016 [21] 
+
+## Description
+
+[Course description.](https://catalog.ttu.edu/preview_course_nopop.php?catoid=2&coid=9611)
+
+##  Syllabus
+
+##  Lecture Notes

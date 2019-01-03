@@ -1,0 +1,28 @@
+---
+title: STATS 205 (Stanford)
+summary: " Introduction to Nonparametric Statistics."
+author: ~
+date: '2019-01-02'
+slug: stats205
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+output:
+  blogdown::html_page:
+    toc: true
+weight: 1
+---
+
+# STATS 205
+
+I'll be teaching introduction to nonparametric statistics in Spring 2019.
+
+## Description
+
+[Course description.](https://explorecourses.stanford.edu/search;jsessionid=e5dmnhispf8m1f3y292ir18jq?q=STATS+205%3A+Introduction+to+Nonparametric+Statistics&view=catalog&filter-coursestatus-Active=on&academicYear=20152016)
+
+##  Syllabus
+
+##  Lecture Notes

@@ -14,4 +14,4 @@ image = ""
 caption = ""
 +++
 
-I am interested in teaching the theoretical understanding of statistical methods and [R](https://cran.r-project.org/) (a staistical programming language)
+I am interested in teaching the theoretical understanding of statistical methods and [R](https://cran.r-project.org/) (a statistical programming language.)

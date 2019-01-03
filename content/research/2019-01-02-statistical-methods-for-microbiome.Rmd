@@ -1,0 +1,58 @@
+---
+title: Statistical Methods for Microbiome Data
+summary: "Statistical Methods for 16S and shot-gun metagenomics data."
+author: ~
+date: '2019-01-02'
+slug: statistical-methods-for-microbiome
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+weight: 2
+header-includes:
+   - \usepackage{amsmath}
+   - \usepackage{mathtools}
+   - \usepackage{amssymb}
+   - \usepackage{amsfonts}
+bibliography: PJreferences.bib
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Block Bootstrap Method
+
+Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability. 
+
+Longitudinal microbiome data are used to either model abundance over time or compare the abundances of bacteria between two or more cohorts. We have devised a method for making nonparametric inferences in longitudinal microbiome data in the latter case.
+
+##  Method
+
+The proposed resampling method combined moving block bootstrap (MBB) method [@lahiri2013], empirical subsampling method [@HHJ1995], mixture model [@MH2014], generalized linear model [@D2002], generalized estimating equation [@liang1986], median-ratio method [@AndersHuber2010], and shrinkage estimation[@Robbins1956;@Stephens2016] to enabling inference on microbiome longitudinal data. With the optimal block size computed using subsampling, the MBB method accounts for within-subject dependency by using overlapping blocks of repeated observations within each subject to draw valid inferences based on approximately pivotal statistics. This resampling method for dependent data was motivated by the literature on the block bootstrap method for time series data along with subsampling method for optimal block size estimation. 
+
+## Software
+
+I developed an open-source R package [bootLong](https://github.com/PratheepaJ/bootLong) to make our method accessible and provide tools for exploring within-subject dependency in longitudinal data. Look at the [tutorial.](https://pratheepaj.github.io/tutorial/bootlong/)
+
+##  Paper
+
+The manuscript is available at [arXiv](https://arxiv.org/abs/1809.01832).
+
+#  Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples
+
+With the potential to diagnose any known microbial organism, metagenomic Next-Generation Sequencing (NGS) has been regarded as a tool that will revolutionize infectious disease diagnostics. NGS removes the need for a pre-informed hypothesis from clinicians, detects nonculturable organisms, and can be optimized to include a turnaround time of 24-48 hours. Only recently, however, has the scientific community begun to understand the pitfalls of NGS. Microbial nucleic acids from reagent and lab environment contamination have been shown to result in signals that researchers falsely infer to be the cause of a patient’s illness. This problem is exacerbated in low biomass samples, such as plasma, where more than 99\% of sequencing reads align to the human genome \citep{grumaz2016}.
+
+Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in ultra-low biomass samples are limited. 
+
+## Software
+
+Our method will be available as an open-source R package at [BARBI](https://github.com/PratheepaJ/BARBI). [Tutorial](https://pratheepaj.github.io/tutorial/barbi/) will be avaialble soon.
+
+## Paper(s)
+
+SIRS (In preparation)
+
+Healthy Flossing (In preparation)
+
+# References
