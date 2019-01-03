@@ -7,20 +7,387 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Current Projects</title>
+      <title>STATS 205 (Stanford)</title>
+      <link>/teaching/stats205/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stats205/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#stats-205&#34;&gt;STATS 205&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;stats-205&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;STATS 205&lt;/h1&gt;
+&lt;p&gt;I’ll be teaching introduction to nonparametric statistics in Spring 2019.&lt;/p&gt;
+&lt;div id=&#34;description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://explorecourses.stanford.edu/search;jsessionid=e5dmnhispf8m1f3y292ir18jq?q=STATS+205%3A+Introduction+to+Nonparametric+Statistics&amp;amp;view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;academicYear=20152016&#34;&gt;Course description.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;syllabus&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Syllabus&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lecture-notes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Lecture Notes&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistical Methods for Multi-domain Data</title>
       <link>/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/research/current-projects/</guid>
       <description>
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#integrating-microbiome-and-cytof-data&#34;&gt;Integrating Microbiome and CyTOF data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#modeling-the-dynamical-interactions&#34;&gt;Modeling the Dynamical Interactions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
-&lt;div id=&#34;statistical-methods-for-multi-domain-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Statistical methods for multi-domain data&lt;/h2&gt;
+&lt;div id=&#34;integrating-microbiome-and-cytof-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Integrating Microbiome and CyTOF data&lt;/h2&gt;
+&lt;p&gt;High-throughput technologies have revolutionized the quantification of human diseases with molecular and biological multiple mediators. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and dependency. I am currently working on establishing a data structure and workflow for storing, processing, transforming multi-domain data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;modeling-the-dynamical-interactions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Modeling the Dynamical Interactions&lt;/h2&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistical Methods for Microbiome Data</title>
+      <link>/research/statistical-methods-for-microbiome/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/research/statistical-methods-for-microbiome/</guid>
+      <description>
+
+
+
+
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#block-bootstrap-method&#34;&gt;Block Bootstrap Method&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples&#34;&gt;Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#software-1&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#papers&#34;&gt;Paper(s)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;block-bootstrap-method&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Block Bootstrap Method&lt;/h1&gt;
+&lt;p&gt;Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability.&lt;/p&gt;
+&lt;p&gt;Longitudinal microbiome data are used to either model abundance over time or compare the abundances of bacteria between two or more cohorts. We have devised a method for making nonparametric inferences in longitudinal microbiome data in the latter case.&lt;/p&gt;
+&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;The proposed resampling method combined moving block bootstrap (MBB) method &lt;span class=&#34;citation&#34;&gt;(Lahiri 2013)&lt;/span&gt;, empirical subsampling method &lt;span class=&#34;citation&#34;&gt;(Hall, Horowitz, and Jing 1995)&lt;/span&gt;, mixture model &lt;span class=&#34;citation&#34;&gt;(McMurdie and Holmes 2014)&lt;/span&gt;, generalized linear model &lt;span class=&#34;citation&#34;&gt;(Diggle 2002)&lt;/span&gt;, generalized estimating equation &lt;span class=&#34;citation&#34;&gt;(Liang and Zeger 1986)&lt;/span&gt;, median-ratio method &lt;span class=&#34;citation&#34;&gt;(Anders and Huber 2010)&lt;/span&gt;, and shrinkage estimation&lt;span class=&#34;citation&#34;&gt;(Robbins 1956; Stephens 2016)&lt;/span&gt; to enabling inference on microbiome longitudinal data. With the optimal block size computed using subsampling, the MBB method accounts for within-subject dependency by using overlapping blocks of repeated observations within each subject to draw valid inferences based on approximately pivotal statistics. This resampling method for dependent data was motivated by the literature on the block bootstrap method for time series data along with subsampling method for optimal block size estimation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;I developed an open-source R package &lt;a href=&#34;https://github.com/PratheepaJ/bootLong&#34;&gt;bootLong&lt;/a&gt; to make our method accessible and provide tools for exploring within-subject dependency in longitudinal data. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/bootlong/&#34;&gt;tutorial.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;The manuscript is available at &lt;a href=&#34;https://arxiv.org/abs/1809.01832&#34;&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples&lt;/h1&gt;
+&lt;p&gt;With the potential to diagnose any known microbial organism, metagenomic Next-Generation Sequencing (NGS) has been regarded as a tool that will revolutionize infectious disease diagnostics. NGS removes the need for a pre-informed hypothesis from clinicians, detects nonculturable organisms, and can be optimized to include a turnaround time of 24-48 hours. Only recently, however, has the scientific community begun to understand the pitfalls of NGS. Microbial nucleic acids from reagent and lab environment contamination have been shown to result in signals that researchers falsely infer to be the cause of a patient’s illness. This problem is exacerbated in low biomass samples, such as plasma, where more than 99% of sequencing reads align to the human genome .&lt;/p&gt;
+&lt;p&gt;Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in ultra-low biomass samples are limited.&lt;/p&gt;
+&lt;div id=&#34;software-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;Our method will be available as an open-source R package at &lt;a href=&#34;https://github.com/PratheepaJ/BARBI&#34;&gt;BARBI&lt;/a&gt;. &lt;a href=&#34;https://pratheepaj.github.io/tutorial/barbi/&#34;&gt;Tutorial&lt;/a&gt; will be avaialble soon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;papers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper(s)&lt;/h2&gt;
+&lt;p&gt;SIRS (In preparation)&lt;/p&gt;
+&lt;p&gt;Healthy Flossing (In preparation)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-AndersHuber2010&#34;&gt;
+&lt;p&gt;Anders, Simon, and Wolfgang Huber. 2010. “Differential Expression Analysis for Sequence Count Data.” &lt;em&gt;Genome Biology&lt;/em&gt; 11 (10). BioMed Central: R106.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-D2002&#34;&gt;
+&lt;p&gt;Diggle, Peter. 2002. &lt;em&gt;Analysis of Longitudinal Data&lt;/em&gt;. Oxford University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-HHJ1995&#34;&gt;
+&lt;p&gt;Hall, Peter, Joel L Horowitz, and Bing-Yi Jing. 1995. “On Blocking Rules for the Bootstrap with Dependent Data.” &lt;em&gt;Biometrika&lt;/em&gt; 82 (3). Biometrika Trust: 561–74.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-lahiri2013&#34;&gt;
+&lt;p&gt;Lahiri, Soumendra Nath. 2013. &lt;em&gt;Resampling Methods for Dependent Data&lt;/em&gt;. Springer Science &amp;amp; Business Media.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-liang1986&#34;&gt;
+&lt;p&gt;Liang, Kung-Yee, and Scott L Zeger. 1986. “Longitudinal Data Analysis Using Generalized Linear Models.” &lt;em&gt;Biometrika&lt;/em&gt; 73 (1). Oxford University Press: 13–22.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-MH2014&#34;&gt;
+&lt;p&gt;McMurdie, Paul J, and Susan Holmes. 2014. “Waste Not, Want Not: Why Rarefying Microbiome Data Is Inadmissible.” &lt;em&gt;PLoS Comput Biol&lt;/em&gt; 10 (4). Public Library of Science: e1003531.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Robbins1956&#34;&gt;
+&lt;p&gt;Robbins, Herbert. 1956. “An Empirical Bayes Approach to Statistics.” Columbia University, New York City, United States.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Stephens2016&#34;&gt;
+&lt;p&gt;Stephens, Matthew. 2016. “False Discovery Rates: A New Deal.” &lt;em&gt;Biostatistics&lt;/em&gt; 18 (2). Oxford University Press: 275–94.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MATH 2300 (TTU)</title>
+      <link>/teaching/statistical-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/statistical-methods/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#math-2300&#34;&gt;MATH 2300&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;math-2300&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;MATH 2300&lt;/h1&gt;
+&lt;p&gt;I taught statistical Methods (MATH 2300) for undergraduates at Texas Tech University.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fall 2012[40+42 students in two classes]&lt;/li&gt;
+&lt;li&gt;Spring 2013[15+43]&lt;/li&gt;
+&lt;li&gt;Summer 2013 [21]&lt;/li&gt;
+&lt;li&gt;Fall 2013 [116]&lt;/li&gt;
+&lt;li&gt;Spring 2014 [45+47]&lt;/li&gt;
+&lt;li&gt;Fall 2014 [125]&lt;/li&gt;
+&lt;li&gt;Fall 2015 [44])&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://catalog.ttu.edu/preview_course_nopop.php?catoid=2&amp;amp;coid=9599&#34;&gt;Course description.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;syllabus&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Syllabus&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lecture-notes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Lecture Notes&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microbiome Studies</title>
+      <link>/research/microbiome-studies/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/research/microbiome-studies/</guid>
+      <description>
+
+
+&lt;p&gt;We are working on establishing a workflow for analyzing metagenomics data in agriculture.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MATH 2345 (TTU)</title>
+      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#math-2345&#34;&gt;MATH 2345&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;math-2345&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;MATH 2345&lt;/h1&gt;
+&lt;p&gt;I taught introduction to statistics with application to business (MATH2345) for undergraduates at Texas Tech University.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Summer 2014 [25 students]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://catalog.ttu.edu/preview_course_nopop.php?catoid=2&amp;amp;coid=9602&#34;&gt;Course description.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;syllabus&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Syllabus&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lecture-notes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Lecture Notes&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MATH 3342 (TTU)</title>
+      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#math-3342&#34;&gt;MATH 3342&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;math-3342&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;MATH 3342&lt;/h1&gt;
+&lt;p&gt;I taught mathematical statistics for engineers and scientists (MATH 3342) for undergraduates at Texas Tech University.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring 2015 [149 students]&lt;/li&gt;
+&lt;li&gt;Summer 2015 [27]&lt;/li&gt;
+&lt;li&gt;Spring 2016 [44]&lt;/li&gt;
+&lt;li&gt;Summer 2016 [21]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://catalog.ttu.edu/preview_course_nopop.php?catoid=2&amp;amp;coid=9611&#34;&gt;Course description.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;syllabus&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Syllabus&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lecture-notes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Lecture Notes&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Saddlepoint Approximations in Statistics</title>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#multivariate-saddlepoint-based-bootstrap-method-mspbb&#34;&gt;Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#saddlepoint-approximation-for-bivariate-cumultative-distribution-function-cdf&#34;&gt;Saddlepoint Approximation for Bivariate Cumultative Distribution Function (CDF)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#correction-to-the-formula&#34;&gt;Correction to the formula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software-1&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper-1&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring.&#34;&gt;Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method-1&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software-2&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper-2&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#saddlepoint-based-bootstrap-method-spbb&#34;&gt;Saddlepoint-Based Bootstrap Method (SPBB)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method-2&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software-3&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper-3&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;multivariate-saddlepoint-based-bootstrap-method-mspbb&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)&lt;/h1&gt;
+&lt;p&gt;The second project for my PhD dissertation was to generalize the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators.&lt;/p&gt;
+&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;I presented my work on mSPBB in my PhD dissertation part I.&lt;/p&gt;
+&lt;p&gt;These are unpublished work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;saddlepoint-approximation-for-bivariate-cumultative-distribution-function-cdf&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Saddlepoint Approximation for Bivariate Cumultative Distribution Function (CDF)&lt;/h1&gt;
+&lt;p&gt;We defined the formula for the variable that was not defined in &lt;a href=&#34;https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C&#34;&gt;Wang (1990)&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;correction-to-the-formula&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Correction to the formula&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.&lt;/h1&gt;
+&lt;p&gt;One of the projects for my dissertation work was to derive a class of statistical method to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right censored.&lt;/p&gt;
+&lt;div id=&#34;method-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;To work around these issues, we define the empirical moment generating function (MGF) of the tail-completed density function based on the KM estimator, then, using the saddlepoint method, accurately approximate a smooth survival function. Before using the saddlepoint method for this purpose, however, we establish the convergence results of the modified version of the empirical MGF based on the KM estimator using the M-estimation and multivariate delta method. According to the simulations, the empirical saddlepoint approximation method produces better estimation than existing methods, such as log-spline. We apply this method for several event-time data from the clinical research to estimate a smooth survival curve.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;I developed an open-source R package &lt;a href=&#34;https://github.com/PratheepaJ/ESPA&#34;&gt;ESPA&lt;/a&gt; that make our method easily accessible. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/espa/&#34;&gt;tutorial.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;Paper will be available at the Canadian journal of statistics (accepted - 2018).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;saddlepoint-based-bootstrap-method-spbb&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Saddlepoint-Based Bootstrap Method (SPBB)&lt;/h1&gt;
+&lt;p&gt;We consider a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In the spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data.&lt;/p&gt;
+&lt;div id=&#34;method-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;The SPBB method is used to construct confidence intervals for parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;An R pacakge &lt;a href=&#34;https://github.com/PratheepaJ/SPBBspatial&#34;&gt;SPBBspatial&lt;/a&gt; implements our method. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/spbbspatial/&#34;&gt;tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;This paper is available at &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675315000020&#34;&gt;&lt;em&gt;Spatial statistics&lt;/em&gt;&lt;/a&gt; journal.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -35,19 +402,6 @@
 
 
 &lt;p&gt;Happy New Year to Everyone! &lt;img src=&#34;/img/IMG_3506.PNG&#34; alt=&#34;Welcome 2019&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Statistical Methods</title>
-      <link>/teaching/statistical-methods/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/statistical-methods/</guid>
-      <description>
-
-
-&lt;p&gt;I taught Statistical Methods for Undergraduates at Texas Tech University.&lt;/p&gt;
 </description>
     </item>
     
@@ -115,116 +469,6 @@
       
       <guid>/tutorial/spbbspatial/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;SPBBspatial&lt;/code&gt; for making inferences on spatial depndence parameter in the spatial regression models:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Block bootstrap method for longitudinal microbiome data</title>
-      <link>/tutorial/bootlong/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
-      
-      <guid>/tutorial/bootlong/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use bootLong for making inferences on longitudinal microbiome data:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
-      
-      <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>/post/2016-12-30-hello-markdown/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>/post/2016-12-30-hello-markdown/</guid>
-      <description>&lt;p&gt;This is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown (&lt;code&gt;*.Rmd&lt;/code&gt;). The major differences are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (&lt;code&gt;```{r}&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;A plain Markdown post is rendered through &lt;a href=&#34;https://gohugo.io/overview/configuration/&#34; target=&#34;_blank&#34;&gt;Blackfriday&lt;/a&gt;, and an R Markdown document is compiled by &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;rmarkdown&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;http://pandoc.org&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:&lt;/p&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Write an R package.&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Write a book.&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; &amp;hellip;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Profit!&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (&lt;a href=&#34;https://github.com/yihui/hugo-lithium&#34; target=&#34;_blank&#34;&gt;hugo-lithium&lt;/a&gt;) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: &lt;code&gt;`$ $`&lt;/code&gt;; display style: &lt;code&gt;`$$ $$`&lt;/code&gt;), e.g., &lt;code&gt;$S_n = \sum_{i=1}^n X_i$&lt;/code&gt;.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:This-is-because&#34;&gt;&lt;a href=&#34;#fn:This-is-because&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.&lt;/p&gt;
-
-&lt;p&gt;When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the &lt;code&gt;ext&lt;/code&gt; argument of the function &lt;code&gt;blogdown::new_post()&lt;/code&gt;, e.g.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_post(&amp;quot;Post Title&amp;quot;, ext = &#39;.Rmd&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:This-is-because&#34;&gt;This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., &lt;code&gt;\$50 and $100&lt;/code&gt; renders &amp;ldquo;\$50 and $100&amp;rdquo;. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:This-is-because&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
