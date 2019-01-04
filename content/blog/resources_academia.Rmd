@@ -14,6 +14,10 @@ output:
     dev: "svg"
 ---
 
+```{r echo = FALSE}
+knitr::include_graphics('/img/small.jpg')
+```
+
 <!-- [Sherri Rose](http://drsherrirose.org/resources/) -->
 
 - [The Effort Report](http://effortreport.libsyn.com/): Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on. 
