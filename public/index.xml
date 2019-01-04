@@ -444,7 +444,7 @@ Figure 1: Welcome 2019
 Figure 1: March 20, 2016
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a href=&#34;#fig:first-ext-image&#34;&gt;1&lt;/a&gt; is my attempt to embed an external image in a Rmarkdown file.&lt;/p&gt;
+&lt;p&gt;Figure &lt;a href=&#34;#fig:first-ext-image&#34;&gt;1&lt;/a&gt; is my attempt to embed an external image in a Rmarkdown file.&lt;/p&gt;
 </description>
     </item>
     
