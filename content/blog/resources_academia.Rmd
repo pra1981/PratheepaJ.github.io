@@ -1,5 +1,6 @@
 ---
 title: Resources for Academia
+summary: ""
 date: "2018-12-28T23:11:30-08:00"
 draft: false
 image: 

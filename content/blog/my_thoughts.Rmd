@@ -1,5 +1,6 @@
 ---
 title: My Thoughts
+summary: ""
 author: "PJ"
 date: "2018-12-28T23:04:00-08:00"
 draft: false
