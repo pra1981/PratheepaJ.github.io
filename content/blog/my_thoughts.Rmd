@@ -17,4 +17,8 @@ output:
 
 If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.
 
-![March 20, 2016](/img/March_20_2016.jpeg)
+```{r echo = FALSE}
+knitr::include_graphics('/img/March_20_2016.jpg')
+```
+
+
