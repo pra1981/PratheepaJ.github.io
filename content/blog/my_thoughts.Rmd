@@ -1,12 +1,13 @@
 ---
-categories: []
+title: My Thoughts
+author: "PJ"
 date: "2018-12-28T23:04:00-08:00"
-draft: true
+draft: false
 image:
   caption: ""
   focal_point: ""
+categories: []
 tags: []
-title: My Thoughts
 output:
   blogdown::html_page:
     toc: true
