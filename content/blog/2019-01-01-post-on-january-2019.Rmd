@@ -17,8 +17,8 @@ output:
 
 Happy New Year to Everyone!
 
-```{r echo = FALSE}
-knitr::include_graphics('/img/IMG_3506.jpg')
+```{r first-ext-image, fig.cap="March 20, 2016", echo = FALSE}
+knitr::include_graphics('/img/March_20_2016.jpg')
 ```
 
 Welcome 2019
