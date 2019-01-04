@@ -11,7 +11,7 @@ image:
 output:
   blogdown::html_page:
     toc: true
-draft: false
+draft: true
 ---
 
 Happy New Year to Everyone!

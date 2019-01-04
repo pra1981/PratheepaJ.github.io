@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Posts on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="https://PratheepaJ.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/blog/post-on-january-2019/</link>
+      <link>/blog/post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/blog/post-on-january-2019/</guid>
+      <guid>/blog/post-on-january-2019/</guid>
       <description> Happy New Year to Everyone! </description>
     </item>
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/blog/resources_academia/</link>
+      <link>/blog/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/blog/resources_academia/</guid>
+      <guid>/blog/resources_academia/</guid>
       <description>The Effort Report: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.
 Mathematical Writing: Every mathematician should read this book and keep near to his/her desk.</description>
     </item>
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/blog/my_thoughts/</link>
+      <link>/blog/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/blog/my_thoughts/</guid>
+      <guid>/blog/my_thoughts/</guid>
       <description>If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.</description>
     </item>
     
