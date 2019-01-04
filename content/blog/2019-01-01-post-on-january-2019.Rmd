@@ -17,4 +17,9 @@ output:
 ---
 
 Happy New Year to Everyone!
-![Welcome 2019](/img/IMG_3506.PNG)
+
+```{r welcome-2019,fig.cap="Welcome 2019" ,echo = FALSE}
+knitr::include_graphics('/img/IMG_3506.PNG')
+```
+
+
