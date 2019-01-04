@@ -16,6 +16,6 @@ output:
 
 <!-- [Sherri Rose](http://drsherrirose.org/resources/) -->
 
-[The Effort Report](http://effortreport.libsyn.com/): Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on. 
+- [The Effort Report](http://effortreport.libsyn.com/): Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on. 
 
-[Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf): Every mathematician should read this book and keep near to his/her desk.  
+- [Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf): Every mathematician should read this book and keep near to his/her desk.  
