@@ -17,8 +17,8 @@ output:
 
 Happy New Year to Everyone!
 
-```{r welcome-2019, fig.cap="Welcome 2019", echo = FALSE}
+```{r echo = FALSE}
 knitr::include_graphics('/img/IMG_3506.jpg')
 ```
 
-
+Welcome 2019

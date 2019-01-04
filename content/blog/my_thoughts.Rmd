@@ -21,4 +21,4 @@ If you expect to have trust on significant other, be fully transparent: especial
 knitr::include_graphics('/img/March_20_2016.jpg')
 ```
 
-Figure \@ref(fig:first-ext-image) is my attempt to embed an external image in a Rmarkdown file.
+Figure \@ref(fig:first-ext-image) is my attempt to embed an external image in an Rmarkdown file.
