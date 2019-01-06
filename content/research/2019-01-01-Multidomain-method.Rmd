@@ -1,6 +1,6 @@
 ---
 title: Statistical Methods for Multidomain Data
-summary: "Data structure and Multi-table statistical methods "
+summary: "Data structure and Multitable statistical methods "
 author: Pratheepa Jeganathan
 date: '2019-01-01'
 slug: current-projects
