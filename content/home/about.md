@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Multi-domain Methods",
+    "Multidomain Methods",
     "Resampling Methods for Dependent Data",
     "Bayesian Statistics",
     "Saddlepoint Approximations in Statistics"
@@ -43,6 +43,6 @@ and (2) the [Clinical Research Institute](https://www.ttuhsc.edu/clinical-resear
 
 I received an MS in Statistics from Texas Tech University, advised by [Alex Trindade](http://www.math.ttu.edu/~atrindad/). I received a BS degree in Statistics and Operations Research from [University of Peradeniya](https://sci.pdn.ac.lk/scs/) in Sri Lanka and was a lecturer in statistics before coming to Texas Tech University.
 
-Apart from research, I am interested in teaching, mentoring, curriculum development, community outreach, and sports. 
+Apart from research, I am interested in teaching, mentoring, curriculum development, community outreach, sports, and art. 
 
 My CV can be found [here](files/cv.pdf) 
