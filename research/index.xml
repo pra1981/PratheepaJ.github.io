@@ -2,61 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Pratheepa Jeganathan</title>
-    <link>/research/</link>
+    <link>https://PratheepaJ.github.io/research/</link>
     <description>Recent content in Research on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://PratheepaJ.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Statistical Methods for Multidomain Data</title>
-      <link>/research/current-projects/</link>
+      <link>https://PratheepaJ.github.io/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/research/current-projects/</guid>
-      <description>  Integrating Microbiome and CyTOF data Modeling the Dynamical Interactions   Integrating Microbiome and CyTOF data High-throughput technologies have revolutionized the quantification of human diseases with molecular and biological multiple mediators. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multidomain, and dependency. I am currently working on establishing a data structure and workflow for storing, processing, transforming multidomain data.
- Modeling the Dynamical Interactions  </description>
-    </item>
-    
-    <item>
-      <title>Statistical Methods for Multidomain Data</title>
-      <link>/research/current-projects/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/research/current-projects/</guid>
+      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
       <description>  Integrating Microbiome and CyTOF data Modeling the Dynamical Interactions   Integrating Microbiome and CyTOF data High-throughput technologies have revolutionized the quantification of human diseases with molecular and biological multiple mediators. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multidomain, and dependency. I am currently working on establishing a data structure and workflow for storing, processing, transforming multidomain data.
  Modeling the Dynamical Interactions  </description>
     </item>
     
     <item>
       <title>Statistical Methods for Microbiome Data</title>
-      <link>/research/statistical-methods-for-microbiome/</link>
+      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/research/statistical-methods-for-microbiome/</guid>
+      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
       <description>Block Bootstrap Method Method Software Paper  Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples Software Paper(s)  References   Block Bootstrap Method Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability.
 Longitudinal microbiome data are used to either model abundance over time or compare the abundances of bacteria between two or more cohorts.</description>
     </item>
     
     <item>
       <title>Microbiome Studies</title>
-      <link>/research/microbiome-studies/</link>
+      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/research/microbiome-studies/</guid>
+      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
       <description>We are working on establishing a workflow for analyzing metagenomics data in agriculture.</description>
     </item>
     
     <item>
       <title>Saddlepoint Approximations in Statistics</title>
-      <link>/research/saddlepoint-approximations-in-statistics/</link>
+      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
+      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
       <description>Multivariate Saddlepoint-Based Bootstrap Method (mSPBB) Method Software Paper  Saddlepoint Approximation for Bivariate Cumultative Distribution Function (CDF) Correction to the formula Software Paper  Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring. Method Software Paper  Saddlepoint-Based Bootstrap Method (SPBB) Method Software Paper    Multivariate Saddlepoint-Based Bootstrap Method (mSPBB) The second project for my PhD dissertation was to generalize the SPBB method to make inferences on the multiple parameters of a statistical model.</description>
     </item>
     
