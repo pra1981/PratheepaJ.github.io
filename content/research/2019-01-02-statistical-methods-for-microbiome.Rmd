@@ -1,6 +1,6 @@
 ---
 title: Statistical Methods for Microbiome Data
-summary: "Statistical Methods for 16S and shot-gun metagenomics data."
+summary: "Statistical Methods for 16S and shotgun metagenomics data."
 author: ~
 date: '2019-01-02'
 slug: statistical-methods-for-microbiome
