@@ -1,6 +1,6 @@
 ---
 title: My Thoughts
-summary: ""
+summary: " "
 author: "PJ"
 date: "2018-12-28T23:04:00-08:00"
 draft: false
@@ -14,6 +14,9 @@ output:
     toc: true
     fig_width: 6
     dev: "svg"
+reading_time: true
+share: true
+profile: true
 ---
 
 If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.

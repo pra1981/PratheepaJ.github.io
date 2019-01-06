@@ -13,6 +13,7 @@ weight: 4
 output:
   blogdown::html_page:
     toc: true
+type: "page"
 ---
 
 # Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)

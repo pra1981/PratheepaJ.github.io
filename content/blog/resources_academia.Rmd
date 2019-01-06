@@ -1,6 +1,6 @@
 ---
 title: Resources for Academia
-summary: ""
+summary: " "
 date: "2018-12-28T23:11:30-08:00"
 draft: false
 image: 
@@ -13,6 +13,9 @@ output:
     toc: true
     fig_width: 6
     dev: "svg"
+reading_time: true
+share: true
+profile: true
 ---
 
 ```{r echo = FALSE}

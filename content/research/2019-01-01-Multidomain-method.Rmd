@@ -13,6 +13,8 @@ weight: 1
 output:
   blogdown::html_page:
     toc: true
+share: false
+profile: false
 ---
 
 ##  Integrating Microbiome and CyTOF data
