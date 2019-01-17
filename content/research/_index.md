@@ -14,7 +14,7 @@ image = ""
 caption = ""
 +++
 
-My research interests include topics in 1) statistical modeling of multidomain and longitudinal data to various problems in high-throughput sequencing (HiSeq) and mass cytometry (CyTOF) and 2) saddlepoint approximations to problems in statistical inference. 
+My research interests include topics in 1) statistical modeling of multi-domain and longitudinal data to various problems in high-throughput sequencing (HiSeq) and mass cytometry (CyTOF) and 2) saddlepoint approximations to problems in statistical inference. 
 
 My current research focuses on developing statistical methods to leverage both microbiome and mass cytometry data. My recent research has focused on block bootstrap method for longitudinal microbiome data and Bayesian inference for identifying DNA contaminants. 
 
