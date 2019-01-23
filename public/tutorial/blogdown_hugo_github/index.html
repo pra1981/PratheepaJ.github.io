@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Acknowledgments Thanks to blogdown authors.
+This is my starting point. I told my interest in creating a website to my mentor and she suggested the following two sites:
+Thanks to Alison Hill.
+This is a December 2017 post so I read through it while I was reading blogdown. I decided to use Github for deploying my website. So I followed the next post on using blogdown.
+Thanks to Amber Thomas.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/tutorial/blogdown_hugo_github/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-127179591-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Pratheepa Jeganathan">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Pratheepa Jeganathan">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/tutorial/blogdown_hugo_github/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@PratheepaJ">
+  <meta property="twitter:creator" content="@PratheepaJ">
+  
+  <meta property="og:site_name" content="Pratheepa Jeganathan">
+  <meta property="og:url" content="/tutorial/blogdown_hugo_github/">
+  <meta property="og:title" content="Creating a Website | Pratheepa Jeganathan">
+  <meta property="og:description" content="Acknowledgments Thanks to blogdown authors.
+This is my starting point. I told my interest in creating a website to my mentor and she suggested the following two sites:
+Thanks to Alison Hill.
+This is a December 2017 post so I read through it while I was reading blogdown. I decided to use Github for deploying my website. So I followed the next post on using blogdown.
+Thanks to Amber Thomas."><meta property="og:image" content="/img/profile.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-22T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-22T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Creating a Website | Pratheepa Jeganathan</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Pratheepa Jeganathan</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/research/">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/teaching/">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Creating a Website</h1>
+
+  
+  <p class="page-subtitle">blogdown, Hugo, Github, R markdown</p>
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-22 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 22, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Creating%20a%20Website&amp;url=%2ftutorial%2fblogdown_hugo_github%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2ftutorial%2fblogdown_hugo_github%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftutorial%2fblogdown_hugo_github%2f&amp;title=Creating%20a%20Website"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2ftutorial%2fblogdown_hugo_github%2f&amp;title=Creating%20a%20Website"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Creating%20a%20Website&amp;body=%2ftutorial%2fblogdown_hugo_github%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<div id="acknowledgments" class="section level2">
+<h2>Acknowledgments</h2>
+<p><strong>Thanks to <a href="https://bookdown.org/yihui/blogdown/">blogdown authors</a></strong>.</p>
+<p>This is my starting point. I told my interest in creating a website to my mentor and she suggested the following two sites:</p>
+<p><strong>Thanks to <a href="https://alison.rbind.io/post/up-and-running-with-blogdown/">Alison Hill</a></strong>.</p>
+<p>This is a December 2017 post so I read through it while I was reading <a href="https://bookdown.org/yihui/blogdown/">blogdown</a>. I decided to use Github for deploying my website. So I followed the next post on using blogdown.</p>
+<p><strong>Thanks to <a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/">Amber Thomas</a></strong>.</p>
+<p>This is a December 2016 post. I was able to grasp the workflow, and I put some extra effort to learn in depth <a href="https://www.youtube.com/watch?v=qtIqKaDlqXo&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3"><code>Hugo</code></a>, <a href="https://bookdown.org/yihui/blogdown/"><code>blogdown</code></a>, <a href="https://bookdown.org/yihui/rmarkdown/"><code>R Markdown</code></a>, <a href="https://themes.gohugo.io/academic/"><code>Academic theme</code></a>.</p>
+<p>While I was searching for adding external images to R markdown, I came across the following <a href="https://blogdown-demo.rbind.io/">demo</a>: A Life Saver!</p>
+<p>Exploiting all these resources along with my small hacks, I created this website!</p>
+<p>Here is the workflow:</p>
+</div>
+<div id="go-to-github" class="section level2">
+<h2>Go to Github</h2>
+<ul>
+<li><p>Create <code>Username.github.io</code> repo in Github.</p></li>
+<li>Clone it to your local computer (just one folder down in the hierarchy <code>UserWebsite</code>.)
+<ul>
+<li>If this is your first time using Github in your machine, <a href="https://help.github.com/articles/connecting-to-github-with-ssh/">authenticate</a> to get access to your Github via url.</li>
+</ul></li>
+</ul>
+<pre class="bash"><code>$cd /path/to/one/foler/above/the/clone (in my case path to UserWebsite)
+
+$git clone your/url/of/the/repo #still use url </code></pre>
+<ul>
+<li>remove README.md in the clone <code>Username.github.io</code>.</li>
+</ul>
+</div>
+<div id="go-to-rstudio" class="section level2">
+<h2>Go to Rstudio</h2>
+<ul>
+<li><p>Open R Studio.</p></li>
+<li><p>Create a new project and choose ‘existing directory’ (<code>UserWebsite</code>) that is above the working directory (<code>Username.github.io</code>) that you created (clone) from Github.</p>
+<ul>
+<li>Keep working directory <code>Username.github.io</code> completely empty to create a site.</li>
+</ul></li>
+<li><p>Install blogdown from Github:</p></li>
+</ul>
+<pre class="r"><code>devtools::install_github(&quot;rstudio/blogdown&quot;)</code></pre>
+<pre class="r"><code>library(blogdown)</code></pre>
+<ul>
+<li>If you need a latest version of hugo
+<ul>
+<li>If you install <code>hugo</code> the first time, install <a href="https://brew.sh/">Homebrew</a>.</li>
+</ul></li>
+</ul>
+<pre class="r"><code># First check whether you already have hugo
+hugo_version()
+install_hugo(force = TRUE)</code></pre>
+<ul>
+<li>In R Studio set the working directory to your clone Github directory.</li>
+</ul>
+<pre class="r"><code>setwd(&quot;Username.github.io&quot;)</code></pre>
+<ul>
+<li>Choose a <a href="https://themes.gohugo.io/">theme</a>.</li>
+</ul>
+<pre class="r"><code>blogdown::new_site(theme = &quot;gcushen/hugo-academic&quot;, theme_example = TRUE)</code></pre>
+<pre class="r"><code>blogdown::hugo_version()</code></pre>
+<ul>
+<li>I had install Hugo independently of <code>install_hugo</code> so I received the following warning. Then, I deleted one of them.</li>
+</ul>
+<p>For example, the warning mesagge was</p>
+<p>Warning message: In find_exec(“hugo”, “Hugo”, “You can install it via blogdown::install_hugo()”) : Found hugo at “~/Library/Application Support/Hugo/hugo” and “/usr/local/bin/hugo”. The former will be used. If you don’t need both copies, you may delete/uninstall one.</p>
+<pre class="r"><code>unlink(&#39;~/Library/Application Support/Hugo&#39;, recursive = TRUE)</code></pre>
+</div>
+<div id="deploying-at-github" class="section level2">
+<h2>Deploying at Github</h2>
+<p><em>Note: The following steps are from <a href="http://amber.rbind.io/blog/2016/12/19/creatingsite/">Amber Thomas</a> to keep the flow in this article.</em> <!-- (10/03/2018) --></p>
+<ol style="list-style-type: decimal">
+<li>Go to your repo on GitHub. Go to <code>Username.github.io</code>.</li>
+</ol>
+<p>On the left-hand side you’ll see a button that reads “Branch: Master”. Click on it and in the text box type “sources” and click “Create branch: sources from ‘master’”.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Now you have 2 branches: ‘sources’ and ‘master’. You should see a button next to “1 commit” that reads “2 branches”. Click on it.</p></li>
+<li><p>You should see that ‘master’ is your default branch and ‘sources’ is your active branch. We want to switch these, so click the button that says “Change default branch”.</p></li>
+<li><p>Under Default Branch, choose ‘sources’ from the dropdown menu and click update. It will ask if you are sure. If you have followed each step so far and have nothing on your master branch, then click “I understand, update the default branch”.</p></li>
+<li><p>Your default branch is now ‘sources’. In your command line interface (terminal or git bash) navigate to your github working directory (for me, it’s Username.github.io), and type the following to download your changes to your local machine.</p></li>
+</ol>
+<!-- The following is missing in Amber's tutorial: -->
+<pre class="bash"><code>git fetch</code></pre>
+<p>then type,</p>
+<pre class="bash"><code>git checkout sources</code></pre>
+<p>Now we need to set up a Subbranch in the Github repository so that you will push all the files to <code>sources</code> and the public folder to <code>master</code>.</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Set up a Subbranch.</li>
+</ol>
+<p>copy and save <code>setup.sh</code> in your <code>Username.github.io</code> directory.</p>
+<p>(copy <a href="https://github.com/PratheepaJ/PratheepaJ.github.io/blob/sources/setup.sh">setup.sh</a> and change your $USERNAME and $SOURCES)</p>
+<p>make sure nothing in your master branch because setup.sh will delete everything in the master branch.</p>
+<pre class="bash"><code>bash setup.sh (only run one time) </code></pre>
+<p>If you get to authenticate your access to Github repo via ssh (earlier you might have used url)</p>
+<ul>
+<li><p>authentication steps</p></li>
+<li><p><strong>ssh key to github and known_hosts</strong>: <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent">adding your ssh key to the ssh-agent</a></p></li>
+<li><p>Go to terminal and the directory should be `Username.github.io’</p></li>
+</ul>
+<pre class="bash"><code>ssh -T git@github.com</code></pre>
+<ul>
+<li>then say ‘yes’</li>
+</ul>
+</div>
+<div id="after-setup" class="section level2">
+<h2>After Setup</h2>
+<ul>
+<li>add posts or modify local files (or don’t do anything)</li>
+<li>open config.toml and set : baseurl = “<a href="https://Username.github.io/" class="uri">https://Username.github.io/</a>”</li>
+</ul>
+<div id="go-to-terminal-and-push-changes-to-github-remote" class="section level3">
+<h3>Go to terminal and push changes to Github remote</h3>
+<pre class="bash"><code>git status 
+git add .
+git commit -m &quot;default page&quot;
+git push</code></pre>
+<p>You have pushed all the changes in the local computer to <code>sources</code>.</p>
+<p>Copy and save <a href="https://github.com/PratheepaJ/PratheepaJ.github.io/blob/sources/deploy.sh"><code>deploy.sh</code></a> file into your local computer <code>Username.github.io</code> directory.</p>
+<pre class="bash"><code>bash deploy.sh</code></pre>
+<ol style="list-style-type: decimal">
+<li><p>This will pull the public folder in <code>master</code> branch to <code>sources</code> branch (because we have just now push local changes to <code>sources</code> branch.)</p></li>
+<li><p>Building the website (inside the Username.github.io) by calling: <code>hugo</code></p></li>
+<li><p>Then, push updated public folder to <code>sources</code> branch.</p></li>
+<li><p>Then, pushing updated public folder to <code>master</code> branch.</p></li>
+</ol>
+</div>
+<div id="adding-changes" class="section level3">
+<h3>Adding changes</h3>
+<ul>
+<li>modify post or add posts or modify pages.</li>
+</ul>
+<pre class="bash"><code>git status
+git add.
+git commit -m &quot;changes made&quot;
+git push
+bash deploy.sh</code></pre>
+<p>Note:</p>
+<p><code>sources</code> branch will contain all the contents in the Username.github.io and the public folder in the <code>sources</code> will be pused to <code>master</code> branch.</p>
+</div>
+</div>
+<div id="extras-adding-posts-modifying-posts-etc.-i-will-add-more-while-i-am-updating-my-website." class="section level2">
+<h2>Extras (adding posts, modifying posts, etc.) I will add more while I am updating my website.</h2>
+<div id="create-a-main-menu-in-config.toml-and-a-folder-to-put-all-the-rmd" class="section level3">
+<h3>Create a <code>main menu</code> in config.toml and a <code>folder</code> to put all the Rmd</h3>
+<ul>
+<li>create <code>blog</code> folder inside the <code>content</code> folder</li>
+<li>add <code>_index.md</code> (Hugo will look into this)</li>
+<li>adding Rmds</li>
+<li>If there are many other folders research, teaching, add _index.md to each content/blog, content/research, content/teaching etc</li>
+</ul>
+</div>
+<div id="adding-a-post" class="section level3">
+<h3>Adding a post</h3>
+<pre class="r"><code>new_post(title = &quot;Post on January 2019&quot;, subdir = &quot;blog/&quot;, ext = &quot;.Rmd&quot;)</code></pre>
+</div>
+<div id="in-my-website-i-have-tutorials-with-drop-down-menu-in-the-right." class="section level3">
+<h3>In my website I have <code>Tutorials</code> with drop down menu in the right.</h3>
+<p>How did I make it. I followed exampleSite but trying to figure out a way to use Rmds.</p>
+<ul>
+<li>content/tutorial/ we add .md files</li>
+<li>we can add github sites</li>
+<li>need to figure out how to use .Rmd (how to add linktitle option in the header of Rmd)</li>
+</ul>
+</div>
+<div id="adding-external-images" class="section level3">
+<h3>Adding external images</h3>
+<p><a href="#welcome-2019"><strong>??</strong></a> is my attempt to embed an external image in a Rmarkdown file.</p>
+</div>
+<div id="reopen-r-studio-to-update-posts" class="section level3">
+<h3>Reopen R studio to update posts</h3>
+<ul>
+<li>Click your UserWebsite.Rproj</li>
+<li>set the current directory to your working directory:</li>
+</ul>
+<pre class="r"><code>setwd(&quot;Username.github.io&quot;)</code></pre>
+<ul>
+<li>load <code>blogdown</code></li>
+</ul>
+<pre class="r"><code>library(blogdown)</code></pre>
+<ul>
+<li>go to Addins choose <code>Serve Site</code> or call</li>
+</ul>
+<pre class="r"><code>serve_site()</code></pre>
+<ul>
+<li><p>After you make changes to your content folder, LiveLoad will automatically serve your site.</p></li>
+<li><p>go to terminal</p></li>
+</ul>
+<pre class="bash"><code>git add .
+git commit -m &quot;another edit&quot;
+git push
+bash deploy.sh</code></pre>
+<ul>
+<li>now changes will be made to your website.</li>
+</ul>
+</div>
+</div>
+<div id="adding-your-github-pages-for-your-r-package-minimal-work" class="section level2">
+<h2>Adding your Github pages for your R package (minimal work)</h2>
+<ul>
+<li>After creating your R pacakage, install <a href="https://pkgdown.r-lib.org/"><code>pkgdown</code></a></li>
+</ul>
+<pre class="r"><code>devtools::install_github(&quot;r-lib/pkgdown&quot;)
+library(pkgdown)
+pkgdown::build_site() </code></pre>
+<ul>
+<li><p>create <code>_pkgdown.yaml' in</code>docs/` folder</p></li>
+<li><p>direct terminal to <code>docs/</code> folder</p></li>
+</ul>
+<pre class="bash"><code>touch _pkgdown.yaml</code></pre>
+<ul>
+<li>add the following to <code>_pkgdown.yaml</code></li>
+</ul>
+<p>url: <a href="http://Username.github.io/pkgname" class="uri">http://Username.github.io/pkgname</a></p>
+<ul>
+<li><p>save</p></li>
+<li>push the commits (<code>docs/</code> forlder to <code>master</code> branch)
+<ul>
+<li>go to terminal</li>
+</ul></li>
+</ul>
+<pre class="bash"><code>git add .
+git commit -m &quot;docs/ folder for Github package&quot;
+git push origin master </code></pre>
+<ul>
+<li>Go to Github account
+<ul>
+<li>Go to the repository</li>
+<li>Go to settings</li>
+<li>Scroll down to Github pages section:
+<ul>
+<li>Under the <code>source</code> menu choose <code>master branch/docs folder</code></li>
+<li>Save</li>
+</ul></li>
+</ul></li>
+<li>That’s wow!</li>
+<li>You can give the url <code>https://Username.github.io/pkgname/</code> to your site created using <code>blogdown</code>.</li>
+</ul>
+</div>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/profile.png" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+    <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:jpratheepa31@gmail.com" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/pratheepajega/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/PratheepaJ" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=7zY2XNYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/PratheepaJ" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+    <div class="article-widget">
+      <div class="post-nav">
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/tutorial/barbi/" rel="prev">BAyesian Reduction in Background Interference</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; Pratheepa Jeganathan 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
