@@ -15,6 +15,6 @@ linktitle = "bootLong"
   weight = 2
 +++
 
-In this tutorial, I'll demonstrate how to use bootLong for making inferences on longitudinal microbiome data:
+In this [tutorial](https://pratheepaj.github.io/bootLong/), I'll demonstrate how to use bootLong for making inferences on longitudinal microbiome data.
 
 
