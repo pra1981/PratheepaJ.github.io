@@ -11,7 +11,7 @@ type = "docs"  # Do not modify.
 # Add menu entry to sidebar.
 linktitle = "SPBBspatial"
 [menu.tutorial]
-  parent = "R Github Software"
+  parent = "Software documentation"
   weight = 4
 +++
 

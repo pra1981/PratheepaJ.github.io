@@ -11,7 +11,7 @@ type = "docs"  # Do not modify.
 # Add menu entry to sidebar.
 linktitle = "ESPA"
 [menu.tutorial]
-  parent = "R Github Software"
+  parent = "Software documentation"
   weight = 3
 +++
 
