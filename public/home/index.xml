@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://PratheepaJ.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://PratheepaJ.github.io/home/hero_carousel/</link>
+      <link>/home/hero_carousel/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://PratheepaJ.github.io/home/hero_carousel/</guid>
+      <guid>/home/hero_carousel/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://PratheepaJ.github.io/home/hero/</link>
+      <link>/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://PratheepaJ.github.io/home/hero/</guid>
+      <guid>/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://PratheepaJ.github.io/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://PratheepaJ.github.io/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>Background I am a postdoctoral research fellow in the Department of Statistics at Stanford University, working with Susan Holmes.
-I received a Ph.D. in Mathematics (2016) with an emphasis in Statistics from Texas Tech University, advised by Alex Trindade. While I was a doctoral student, I learned to in apply the statistical methods for metagenomic and clinical research at (1) the Research &amp;amp; Testing Laboratory in Lubbock, advised by Stephen Boyd Cox and (2) the Clinical Research Institute at Texas Tech University Health Sciences Center, advised by Alex Trindade.</description>
+I received a Ph.D. in Mathematics (2016) with an emphasis in Statistics from Texas Tech University, advised by Alex Trindade. As an intern, I used statistical methods for analyzing metagenomic and clinical data at (1) the Research &amp;amp; Testing Laboratory in Lubbock, advised by Stephen Boyd Cox and (2) the Clinical Research Institute at Texas Tech University Health Sciences Center, advised by Alex Trindade.</description>
     </item>
     
     <item>
       <title>Skills</title>
-      <link>https://PratheepaJ.github.io/home/skills/</link>
+      <link>/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
-      <guid>https://PratheepaJ.github.io/home/skills/</guid>
+      <guid>/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://PratheepaJ.github.io/home/experience/</link>
+      <link>/home/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/home/experience/</guid>
+      <guid>/home/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://PratheepaJ.github.io/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
