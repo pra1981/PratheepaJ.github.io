@@ -13,3 +13,5 @@ list_format = 2
 image = ""
 caption = ""
 +++
+
+I will share about interesting topics in agriculture that are written by Mr. Kandiah Jeganathan. He worked at the Department of Agriculture in Sri Lanka between 1971 and 2011.

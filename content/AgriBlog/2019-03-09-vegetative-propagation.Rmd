@@ -1,0 +1,19 @@
+---
+title: Vegetative Propagation
+author: Kandiah Jeganathan
+date: '2019-03-09'
+slug: vegetative-propagation
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+output:
+  blogdown::html_page:
+    toc: true
+    fig_width: 6
+    dev: "svg"
+reading_time: true
+share: true
+profile: false
+---
