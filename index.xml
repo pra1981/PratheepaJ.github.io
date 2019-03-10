@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/</link>
+    <link>/</link>
     <description>Recent content in Pratheepa Jeganathan on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>STATS 205 (Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats205/</link>
+      <link>/teaching/stats205/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats205/</guid>
+      <guid>/teaching/stats205/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>Statistical Methods for Multi-domain Data</title>
-      <link>https://PratheepaJ.github.io/research/current-projects/</link>
+      <link>/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
+      <guid>/research/current-projects/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -72,10 +72,10 @@
     
     <item>
       <title>Statistical Methods for Microbiome Data</title>
-      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
+      <link>/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
+      <guid>/research/statistical-methods-for-microbiome/</guid>
       <description>
 
 
@@ -162,10 +162,10 @@
     
     <item>
       <title>MATH 2300 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/statistical-methods/</link>
+      <link>/teaching/statistical-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/statistical-methods/</guid>
+      <guid>/teaching/statistical-methods/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -206,10 +206,10 @@
     
     <item>
       <title>Microbiome Studies</title>
-      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
+      <link>/research/microbiome-studies/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
+      <guid>/research/microbiome-studies/</guid>
       <description>
 
 
@@ -219,10 +219,10 @@
     
     <item>
       <title>MATH 2345 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -257,10 +257,10 @@
     
     <item>
       <title>MATH 3342 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -298,10 +298,10 @@
     
     <item>
       <title>Saddlepoint Approximations in Statistics</title>
-      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -393,17 +393,43 @@
     </item>
     
     <item>
+      <title>Vegetative Propagation</title>
+      <link>/agriblog/vegetative-propagation/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/agriblog/vegetative-propagation/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Bombay Jam</title>
+      <link>/misc/bombay-jam/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/misc/bombay-jam/</guid>
+      <description>
+
+
+&lt;p&gt;Recently, I started practicing &lt;a href=&#34;https://www.bombayjam.com/&#34;&gt;Bombay Jam&lt;/a&gt;, a dance workout. The best fun exercise activity that I am doing so far.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/blog/2019-01-01-post-on-january-2019/</link>
+      <link>/misc/2019-01-01-post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/blog/2019-01-01-post-on-january-2019/</guid>
+      <guid>/misc/2019-01-01-post-on-january-2019/</guid>
       <description>
 
 
 &lt;p&gt;Happy New Year to Everyone!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
+&lt;img src=&#34;/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Welcome 2019
 &lt;/p&gt;
@@ -413,14 +439,14 @@ Figure 1: Welcome 2019
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/blog/resources_academia/</link>
+      <link>/misc/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/blog/resources_academia/</guid>
+      <guid>/misc/resources_academia/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://PratheepaJ.github.io/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;!-- [Sherri Rose](http://drsherrirose.org/resources/) --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://effortreport.libsyn.com/&#34;&gt;The Effort Report&lt;/a&gt;: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.&lt;/p&gt;&lt;/li&gt;
@@ -431,16 +457,16 @@ Figure 1: Welcome 2019
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/blog/my_thoughts/</link>
+      <link>/misc/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/blog/my_thoughts/</guid>
+      <guid>/misc/my_thoughts/</guid>
       <description>
 
 
 &lt;p&gt;If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
+&lt;img src=&#34;/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: March 20, 2016
 &lt;/p&gt;
@@ -451,41 +477,21 @@ Figure 1: March 20, 2016
     
     <item>
       <title>BAyesian Reduction in Background Interference</title>
-      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
+      <link>/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
+      <guid>/tutorial/barbi/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;BARBI&lt;/code&gt; for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Beta Binomial Distribution</title>
-      <link>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</link>
+      <link>/tutorial/beta_binomial_modeling_count/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</guid>
+      <guid>/tutorial/beta_binomial_modeling_count/</guid>
       <description>&lt;p&gt;The Beta Binomial Distribution implemented in &lt;code&gt;corncob&lt;/code&gt; package.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Empirical saddlepoint approximation for smoothing survival functions under right-censored data</title>
-      <link>https://PratheepaJ.github.io/tutorial/espa/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/tutorial/espa/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;ESPA&lt;/code&gt; for smoothing Kaplan Meier Estimator:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Saddelpoint-based bootstrap (SPBB) inference for spatial regression models</title>
-      <link>https://PratheepaJ.github.io/tutorial/spbbspatial/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/tutorial/spbbspatial/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;SPBBspatial&lt;/code&gt; for making inferences on spatial depndence parameter in the spatial regression models:&lt;/p&gt;
 </description>
     </item>
     
