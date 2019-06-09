@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Course Overview This course covers nonparametric analogs of the one- and two-sample t-tests and analysis of variance; the sign test, median test, Wilcoxon’s tests, and the Kruskal-Wallis and Friedman tests, tests of independence; nonparametric regression and nonparametric density estimation; modern nonparametric techniques; nonparametric confidence interval estimates.
+ Expected outcomes By the end of the course, the student should be able to
+ understand the assumptions underlying the nonparametric methods apply nonparametric methods to modern data analysis problems get hands-on experience in implementing methods and using existing R packages.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/teaching/syllabus/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-127179591-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Pratheepa Jeganathan">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Pratheepa Jeganathan">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/teaching/syllabus/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@PratheepaJ">
+  <meta property="twitter:creator" content="@PratheepaJ">
+  
+  <meta property="og:site_name" content="Pratheepa Jeganathan">
+  <meta property="og:url" content="/teaching/syllabus/">
+  <meta property="og:title" content="STATS 205: Introduction to Nonparametric Statistics | Pratheepa Jeganathan">
+  <meta property="og:description" content="Course Overview This course covers nonparametric analogs of the one- and two-sample t-tests and analysis of variance; the sign test, median test, Wilcoxon’s tests, and the Kruskal-Wallis and Friedman tests, tests of independence; nonparametric regression and nonparametric density estimation; modern nonparametric techniques; nonparametric confidence interval estimates.
+ Expected outcomes By the end of the course, the student should be able to
+ understand the assumptions underlying the nonparametric methods apply nonparametric methods to modern data analysis problems get hands-on experience in implementing methods and using existing R packages."><meta property="og:image" content="/img/profile.png">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  
+
+  <title>STATS 205: Introduction to Nonparametric Statistics | Pratheepa Jeganathan</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Pratheepa Jeganathan</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/research/">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/teaching/">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/misc/">
+            
+            <span>Misc</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/agriblog/">
+            
+            <span>AgriBlog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">STATS 205: Introduction to Nonparametric Statistics</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="" itemprop="datePublished">
+    <time datetime="" itemprop="dateModified">
+      Jan 1, 0001
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=STATS%20205%3a%20Introduction%20to%20Nonparametric%20Statistics&amp;url=%2fteaching%2fsyllabus%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fteaching%2fsyllabus%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fteaching%2fsyllabus%2f&amp;title=STATS%20205%3a%20Introduction%20to%20Nonparametric%20Statistics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fteaching%2fsyllabus%2f&amp;title=STATS%20205%3a%20Introduction%20to%20Nonparametric%20Statistics"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=STATS%20205%3a%20Introduction%20to%20Nonparametric%20Statistics&amp;body=%2fteaching%2fsyllabus%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+
+<div id="course-overview" class="section level2">
+<h2>Course Overview</h2>
+<p>This course covers nonparametric analogs of the one- and two-sample t-tests and analysis of variance; the sign test, median test, Wilcoxon’s tests, and the Kruskal-Wallis and Friedman tests, tests of independence; nonparametric regression and nonparametric density estimation; modern nonparametric techniques; nonparametric confidence interval estimates.</p>
+</div>
+<div id="expected-outcomes" class="section level2">
+<h2>Expected outcomes</h2>
+<p>By the end of the course, the student should be able to</p>
+<ul>
+<li>understand the assumptions underlying the nonparametric methods</li>
+<li>apply nonparametric methods to modern data analysis problems</li>
+<li>get hands-on experience in implementing methods and using existing R packages.</li>
+</ul>
+</div>
+<div id="course-information" class="section level2">
+<h2>Course Information</h2>
+<ul>
+<li>Term: Spring 2019</li>
+<li>Units: 3</li>
+<li>Time: Mon, Wed, Fri 1:30 PM - 2:20 PM</li>
+<li>Location: <a href="https://campus-map.stanford.edu/?srch=200-202">200-202</a></li>
+<li>LEC: 04/01/2019 - 06/05/2019 (10 Weeks - 30 hours)</li>
+</ul>
+</div>
+<div id="instructor" class="section level2">
+<h2>Instructor</h2>
+<p>Pratheepa Jeganathan</p>
+<ul>
+<li>E-mail: pjeganat [at] stanford [dot] edu; <strong>Write in the subject line STATS 205</strong>.</li>
+<li>Office: 390 Serra Mall, Sequoia Hall Room 116.</li>
+<li>Office hours: Mondays 2.30 p.m. - 4 p.m. in XXX or by an email appointment.</li>
+<li>Course website: <a href="https://canvas.stanford.edu/courses/99104">Canvas @ Stanford University</a>, this will contain a bulletin board, lecture slides, homework assignments, reading list, project description, R, R Studio, R Markdown resources etc.</li>
+</ul>
+</div>
+<div id="teaching-assistants" class="section level2">
+<h2>Teaching Assistants</h2>
+<ul>
+<li>Office hours: Thursdays 8 a.m. - 10 a.m., Bowker 207.</li>
+</ul>
+</div>
+<div id="prerequisites" class="section level2">
+<h2>Prerequisites</h2>
+<ul>
+<li><a href="https://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;academicYear=20182019&amp;q=STATS+60%3A+Introduction+to+Statistical+Methods%3A+Precalculus+&amp;collapse=">STATS 60</a> or <a href="https://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;academicYear=20182019&amp;q=STATS+110%3A+Statistical+Methods+in+Engineering+and+the+Physical+Sciences&amp;collapse=">STATS 110</a> or <a href="https://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;academicYear=20182019&amp;q=STATS+160%3A+Introduction+to+Statistical+Methods%3A+Precalculus+&amp;collapse=">STATS 160</a>; Students should familiar with summary statistics, hypothesis testing, point estimation, interval estimation (confidence intervals), basics of statistical inference, and <a href="https://cran.r-project.org/">R</a>.</li>
+</ul>
+</div>
+<div id="texts" class="section level2">
+<h2>Texts</h2>
+<ul>
+<li>Required:
+<ul>
+<li><strong>(HWC)</strong> <a href="https://searchworks.stanford.edu/view/10356739">Nonparametric Statistical Methods</a>.
+<ul>
+<li>Authors: Myles Hollander, Douglas A. Wolfe, Eric Chicken</li>
+<li>Edition: <span class="math inline">\(3^{rd}\)</span> Edition</li>
+<li>Print <a href="ISBN:9780470387375" class="uri">ISBN:9780470387375</a></li>
+<li>Online <a href="ISBN:9781119196037" class="uri">ISBN:9781119196037</a></li>
+</ul></li>
+</ul></li>
+<li>Recommended:
+<ul>
+<li><strong>(DH)</strong>: Davison and Hinkley (1997). Boostrap Method and Their Application.
+<!-- - **(EH)**: Efron and Hastie (2016). Computer Age Statistical Inference: Algorithms, Evidence, and Data Science. --></li>
+<li><strong>(ET)</strong>: Efron and Tibshirani (1994). <a href="https://searchworks.stanford.edu/view/9980237">An Introduction to the Bootstrap</a>.</li>
+<li><strong>(KM)</strong>: Kloke and McKean (2015). <a href="https://searchworks.stanford.edu/view/10718635">Nonparametric Statistical Methods Using R</a>.</li>
+<li><strong>(L)</strong>: Lehmann (2006). Nonparametrics: Statistical Methods Based on Ranks.</li>
+<li><strong>(RHG)</strong>: Ramsay, Hooker, Graves (2009). <a href="https://searchworks.stanford.edu/view/9109922">Functional Data Analysis with R and MATLAB</a>.</li>
+<li><strong>(W)</strong>: Wasserman (2006). <a href="https://searchworks.stanford.edu/view/6263491">All of Nonparametric Statistics</a>.</li>
+</ul></li>
+</ul>
+</div>
+<div id="other-sources" class="section level2">
+<h2>Other sources</h2>
+<ul>
+<li>Recommended Readings: a reading list will be posted on Canvas.
+<ul>
+<li><strong>BHLLSW2009</strong>: Buja, Cook, Hofmann, Lawrence, Lee, Swayne, and Wickham (2009). Statistical Inference for Exploratory Data Analysis and Model Diagnostics.</li>
+<li><strong>D1983</strong>: Diaconis (1983). Theories of Data Analysis: From Magical Thinking Through Classical Statistics.</li>
+<li><strong>DH1994</strong>: Diaconis and Holmes (1994). Gray Codes for Randomization Procedures.</li>
+<li><strong>DH1995</strong>: Diaconis and Holmes (1995). Discrete Probability and Algorithms: Three Examples of Monte-Carlo Markov Chains: At the Interface Between Statistical Computing, Computer Science, and Statistical Mechanics, pg. 43-56.</li>
+<li><strong>JWH2014</strong>: Josse, Wager, and Husson (2014). Confidence Areas for Fixed-Effects PCA.</li>
+</ul></li>
+<li>Useful links
+<ul>
+<li><strong>Li:H1997</strong>: Holmes (1997). <a href="http://statweb.stanford.edu/~susan/courses/b494/node3.html#SECTION00390000000000000000">Lecture Notes on Computer Intensive Methods in Statistics</a>.</li>
+<li><strong>Li:H2004</strong>: Holmes (2004). <a href="http://statweb.stanford.edu/~susan/courses/s208/node40.html">Lecture Notes on Complete Enumeration</a>.</li>
+<li><strong>Li:C2016</strong>: Seiler (2016). <a href="http://christofseiler.github.io/stats205/">Lecture Notes on Nonparametric Statistics</a>.</li>
+<li><strong>Li:W2016</strong>: Wasserman (2016). <a href="http://www.stat.cmu.edu/~larry/=sml/nonparbayes.pdf">Lecture Notes on Nonparametric Bayesian Methods</a>.</li>
+</ul></li>
+</ul>
+</div>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<ul>
+<li>In this course, we will use R for computing and R Markdown for producing lecture slides, solutions for homework assignments. R Markdown/Latex is highly recommended to write the midterm project proposal report and final project report. Install the following software:
+<ul>
+<li>R (required): <a href="https://www.r-project.org/">https://www.r-project.org/</a>.</li>
+<li>R Studio is highly recommended for syntax highlighting, package management, document generation, and more: <a href="https://www.rstudio.com/">https://www.rstudio.com/</a>.
+<ul>
+<li>The newest version of R Studio is highly recommended (v1.1.463).</li>
+</ul></li>
+<li>Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
+<ul>
+<li>Mac users should download macTeX <a href="http://www.tug.org/mactex/downloading.html">http://www.tug.org/mactex/downloading.html</a> from Safari (not Chrome).</li>
+<li>Windows users should install MiKTeX <a href="https://miktex.org/download">https://miktex.org/download</a>.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="grading" class="section level2">
+<h2>Grading</h2>
+<p>The final letter grade for this course will be determined by each method of assessment weighted as follows:</p>
+<ul>
+<li>Class participation (5%)</li>
+<li>Weekly homework assignments (50%)</li>
+<li>Midterm project proposal (10%, due on 05/03/2019)</li>
+<li>Final project (35%, due on 06/05/2019)</li>
+</ul>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies</h2>
+<ul>
+<li>Class Participation
+<ul>
+<li>This includes in-class participation and Canvas Discussion.</li>
+<li>When homework involves simulations and data analysis, you will use R statistical computing software. Please post your R or R Markdown questions to Canvas Discussion.</li>
+<li>Instructor or TA or other students in your class can answer your questions.</li>
+<li>When asking questions about code, be specific (copy and paste the exact error, relevant code, and describe what you are attempting to do). We will not answer questions that are too similar to the problem sets or that would be better answered in office hours with a whiteboard. Needless to say, you should conduct yourself in a courteous and respectful manner on Canvas Discussion.</li>
+<li>The class-participation credit is based on the
+instructor’s subjective judgment of the effort involved.</li>
+</ul></li>
+<li>Weekly homework assignments
+<ul>
+<li>Homework assignment will be assigned every Friday on Canvas Assignments.</li>
+<li>Homework assignment will be due every Friday.
+<ul>
+<li>Turn-in your completed homework assignment in PDF and R Markdown file to TA:</li>
+</ul></li>
+<li>Use <a href="https://bookdown.org/yihui/rmarkdown/">R markdown</a> in R Studio and render it to PDF
+<ul>
+<li>See the following <a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/">link</a> for further outline of using <a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/rmarkdown.Rmd">R markdown for reporting</a>.</li>
+</ul></li>
+<li>Each question in the homework assignment will be graded as follows: <span class="math inline">\(scale \in \left\lbrace0,1,2,3,4\right\rbrace\)</span>
+<ul>
+<li>4: submitted on time and more or less completely correct</li>
+<li>3: submitted on time and partially correct answer</li>
+<li>2: late submission and more or less completely correct</li>
+<li>1: late submission and partially correct answer</li>
+<li>0: late submission (any day after the due date for more than one homework assignment) or submitted with a completely incorrect answer</li>
+</ul></li>
+<li>Each student can hand in only one homework late (within two days after the deadline).</li>
+<li>After attempting homework problems on an individual basis, students may discuss a homework assignment with their classmates. However, students must write up their own solutions individually and explicitly indicate from whom (if anyone) or resources students received help at the top of their homework solutions.</li>
+</ul></li>
+<li>Project description:
+<ul>
+<li>The term project should allow you to see nonparametric statistical methods applied to your field of interest or a theoretical study if that is your primary interest. The project can be one of the following types or a combination of elements from each.
+<ol style="list-style-type: decimal">
+<li>A case study, if you have some original data, and a statistical problem that you want to solve with nonparametric statistics.</li>
+<li>A comparative study, you would like to compare the performance of the nonparametric statistical methods with other methods in different situations.</li>
+<li>A literature review on related papers that will be provided and the literature review should involve in-depth summaries and exposition of one of these papers. You have the freedom to select a paper of your own interest, as long as it is related to the topics of this course.</li>
+</ol></li>
+</ul></li>
+<li>Midterm project content
+<ul>
+<li>The project proposal can be 3-5 pages long (excluding bibliography that should be very complete). Please do not propose an overly ambitious project. Some guidelines:
+<ol style="list-style-type: decimal">
+<li>A simple and clear exposition of the problem that you are addressing.</li>
+<li>Describe the data.</li>
+<li>Review of available methods for such data.</li>
+<li>List the advantages and disadvantages of those methods, in particular, parametric versus nonparametric methods.</li>
+<li>A proposed solution to the problem using the nonparametric method.</li>
+<li>Present a flowchart of the various tasks to complete your project: data collection, programming, simulation, etc.</li>
+</ol></li>
+</ul></li>
+<li>Final project content
+<ul>
+<li>The project report can be 10-12 pages long (excluding bibliography that should be very complete) You should email the R Markdown for the simulation and analysis to the TA: qzhao1 [at] stanford [dot] edu. Some guidelines:
+<ol style="list-style-type: decimal">
+<li>Background of the data and why it is interesting or important.</li>
+<li>Explanation of the method studied and its properties.</li>
+<li>Data analysis or simulation study.</li>
+<li>Interpretation of the results or discussion.</li>
+</ol></li>
+</ul></li>
+<li>Accessible Education
+<ul>
+<li>Students with Documented Disabilities: Students who may need an academic accommodation based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE). Professional staff will evaluate the request with required documentation, recommend reasonable accommodations, and prepare an Accommodation Letter for faculty. Unless the student has a temporary disability, Accommodation letters are issued for the entire academic year. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations. The OAE is located at 563 Salvatierra Walk (phone: 723-1066, <a href="https://oae.stanford.edu/">URL:https://oae.stanford.edu/</a>.)</li>
+<li>Provide me an accommodation letter on or before 04/03/2019.</li>
+</ul></li>
+<li>Honor Code
+<ul>
+<li>Students are bound by the <a href="https://communitystandards.stanford.edu/policies-and-guidance/honor-code">Stanford Honor Code</a>. Violation of the honor code will result in a failing grade among other penalties.</li>
+</ul></li>
+</ul>
+</div>
+<div id="course-schedule" class="section level2">
+<h2>Course Schedule</h2>
+<table>
+<colgroup>
+<col width="13%" />
+<col width="10%" />
+<col width="40%" />
+<col width="21%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Week</th>
+<th>Topic</th>
+<th>Reading</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>04/01/2019</strong></td>
+<td>Week 1</td>
+<td>Overview of current research in nonparametric and adequate initiation to R and R Markdown</td>
+<td><a href="https://community.amstat.org/nonparametricstatisticssection/news">ASA Nonparametric statistics section news</a> gives an overview of some current research topics; install <a href="https://www.r-project.org/">R</a>; install <a href="https://www.rstudio.com/products/rstudio/">RStudio</a>; <a href="http://tryr.codeschool.com/">TryR</a>, <a href="https://www.rstudio.com/resources/videos/r-markdown-eight-ways/">R Markdown webinar</a>, <a href="https://rmarkdown.rstudio.com/">R Markdown</a> provide adequate initiation to R and R Markdown.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>04/03/2019</strong></td>
+<td>Week 1</td>
+<td>Logistics and Preliminaries</td>
+<td>Syllabus, HWC: Chapter 1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>04/05/2019</strong></td>
+<td>Week 1</td>
+<td>The One-sample problem I (testing procedure)</td>
+<td>HWC: Chapter 3.4-3.6, 3.8, 3.1-3.3, 3.7</td>
+<td><strong>Homework 1 posted</strong></td>
+</tr>
+<tr class="even">
+<td><strong>04/08/2019</strong></td>
+<td>Week 2</td>
+<td>The One-sample problem II (estimator associated with the statistic, confidence interval, example)</td>
+<td>HWC: Chapter 3.4-3.6, 3.8, 3.1-3.3, 3.7</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>04/10/2019</strong></td>
+<td>Week 2</td>
+<td>Statistical functionals and Influence functions</td>
+<td>Notes will be posted on W: Chapter 2, ET: Chapter 4, 5, 21.3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>04/12/2019</strong></td>
+<td>Week 2</td>
+<td>Jackknife and Bootstrap I</td>
+<td>HWC: Chapter 8.4 and notes will be posted based on W: Chapter 3, DH, ET: Chapter 6, 11</td>
+<td><strong>Homework 2 Posted</strong>, <strong>Homework 1 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>04/15/2019</strong></td>
+<td>Week 3</td>
+<td>Bootstrap II</td>
+<td>Notes will be posted based on ET: Chapter 23, Re:DH1994, Re:DH1995</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>04/17/2019</strong></td>
+<td>Week 3</td>
+<td>Discrete data problems I</td>
+<td>HWC: Chapter 2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>04/19/2019</strong></td>
+<td>Week 3</td>
+<td>Discrete data problems II</td>
+<td>HWC: Chapter 10</td>
+<td><strong>Homework 3 Posted</strong>, <strong>Homework 2 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>04/22/2019</strong></td>
+<td>Week 4</td>
+<td>Two-sample problem I</td>
+<td>HWC: Chapter 4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>04/24/2019</strong></td>
+<td>Week 4</td>
+<td>Two-sample problem II</td>
+<td>HWC: Chapter 5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>04/26/2019</strong></td>
+<td>Week 4</td>
+<td>Permutation Test I</td>
+<td></td>
+<td><strong>Homework 4 Posted</strong>, <strong>Homework 3 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>04/29/2019</strong></td>
+<td>Week 5</td>
+<td>Permutation Test II</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>05/01/2019</strong></td>
+<td>Week 5</td>
+<td>Ranked-based linear regression</td>
+<td>HWC: Chapter 9</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>05/03/2019</strong></td>
+<td>Week 5</td>
+<td>Smoothing I</td>
+<td>W: Chapter 4</td>
+<td><strong>Midterm project proposal due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>05/06/2019</strong></td>
+<td>Week 6</td>
+<td>Nonparametric regression I</td>
+<td>HWC: Chapter 9.7, 14, W: Chapter 5</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>05/08/2019</strong></td>
+<td>Week 6</td>
+<td>Nonparametric regression II</td>
+<td>HWC: Chapter 9.7, 14, W: Chapter 5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>05/10/2019</strong></td>
+<td>Week 6</td>
+<td>Wavelets</td>
+<td>HWC: Chapter 13, W: Chapter 9</td>
+<td><strong>Homework 5 Posted</strong>, <strong>Homework 4 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>05/13/2019</strong></td>
+<td>Week 7</td>
+<td>ANOVA I</td>
+<td>HWC: Chapter 6, 7</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>05/15/2019</strong></td>
+<td>Week 7</td>
+<td>ANOVA II , multiple comparison</td>
+<td>HWC: Chapter 6, 7</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>05/17/2019</strong></td>
+<td>Week 7</td>
+<td>Survival analysis I</td>
+<td>HWC: Chapter 10</td>
+<td><strong>Homework 6 Posted</strong>, <strong>Homework 5 Due</strong></td>
+</tr>
+<tr class="even">
+<td><strong>05/20/2019</strong></td>
+<td>Week 8</td>
+<td>Survival analysis II</td>
+<td>HWC: Chapter 10</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>05/22/2019</strong></td>
+<td>Week 8</td>
+<td>Ranked set sampling</td>
+<td>HWC: Chapter 15</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>05/24/2019</strong></td>
+<td>Week 8</td>
+<td>Bayesian nonparametric I</td>
+<td>HWC: Chapter 16, Li:W2016</td>
+<td><strong>Homework 7 Posted</strong>, <strong>Homework 6 Due</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>05/27/2019</strong></td>
+<td>Week 9</td>
+<td><strong>(Holiday, no classes)</strong></td>
+<td></td>
+<td>Memorial Day</td>
+</tr>
+<tr class="even">
+<td><strong>05/29/2019</strong></td>
+<td>Week 9</td>
+<td>Bayesian nonparametric II</td>
+<td>HWC: Chapter 16, Li:W2016</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>05/31/2019</strong></td>
+<td>Week 9</td>
+<td>Inference for data visualization</td>
+<td>Re:BHLLSW2009, Re:D1983, Re:JWH2014</td>
+<td><strong>Homework 7 Due</strong> (no late submission allowed, End-Quarter Period starts)</td>
+</tr>
+<tr class="even">
+<td><strong>06/03/2019</strong></td>
+<td>Week 10</td>
+<td>Multivariate nonparamteric tests, Bootstrap III</td>
+<td>ET: Chapter 12, 14</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>06/05/2019</strong></td>
+<td>Week 10</td>
+<td>Wrap-up</td>
+<td></td>
+<td><strong>Final project due</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="important-dates" class="section level2">
+<h2>Important Dates</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Day</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>04/19/2019</td>
+<td>Friday</td>
+<td>Last day to add or drop a class</td>
+</tr>
+<tr class="even">
+<td>05/13/2019</td>
+<td>Monday</td>
+<td>Term withdrawal deadline with a partial refund</td>
+</tr>
+<tr class="odd">
+<td>05/27/2019</td>
+<td>Monday</td>
+<td>Memorial Day (holiday, no classes)</td>
+</tr>
+<tr class="even">
+<td>06/05/2019</td>
+<td>Wednesday</td>
+<td>Last day of classes</td>
+</tr>
+<tr class="odd">
+<td>06/06/2019</td>
+<td>Thursday</td>
+<td>Day before finals, no classes</td>
+</tr>
+<tr class="even">
+<td>06/07/2019 - 06/12/2019</td>
+<td>Friday - Wednesday</td>
+<td>End-Quarter examinations</td>
+</tr>
+<tr class="odd">
+<td>06/13/2019</td>
+<td>Thursday, noon</td>
+<td>Grades for graduating students due</td>
+</tr>
+<tr class="even">
+<td>06/18/2019</td>
+<td>Tuesday, 11.59 p.m.</td>
+<td>Grades for non-graduating students due</td>
+</tr>
+</tbody>
+</table>
+<p><em>Disclaimer: This syllabus provides a general plan; deviations may be necessary.</em></p>
+</div>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/profile.png" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+    <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/pratheepajega/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/PratheepaJ" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=7zY2XNYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/PratheepaJ" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+    <div class="article-widget">
+      <div class="post-nav">
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/teaching/stats205/lecture_0_overview_setup/" rel="next">Lecture 0: Overview and Setup</a>
+  </div>
+  
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; Pratheepa Jeganathan 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
