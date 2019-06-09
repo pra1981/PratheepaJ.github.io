@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Overview   Rank-based testing (classical nonparametric techniques), R-estimators, nonparametric confidence intervals, modern nonparametric (bootstrap), curve fitting (density, regression function), confidence sets, wavelets, Bayesian nonparametric, credible intervals.
+ Current interests  Special issue in Statistical Sciences (A Review Journal of The Institute of Mathematical Statistics): gives papers for review project (17 articles) (Randles et al. 2004).     Software Introduction to R We will use R and R Markdown for this course (highly recommended).">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/teaching/stats205/lecture_0_overview_setup/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-127179591-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Pratheepa Jeganathan">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Pratheepa Jeganathan">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/teaching/stats205/lecture_0_overview_setup/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@PratheepaJ">
+  <meta property="twitter:creator" content="@PratheepaJ">
+  
+  <meta property="og:site_name" content="Pratheepa Jeganathan">
+  <meta property="og:url" content="/teaching/stats205/lecture_0_overview_setup/">
+  <meta property="og:title" content="Lecture 0: Overview and Setup | Pratheepa Jeganathan">
+  <meta property="og:description" content="Overview   Rank-based testing (classical nonparametric techniques), R-estimators, nonparametric confidence intervals, modern nonparametric (bootstrap), curve fitting (density, regression function), confidence sets, wavelets, Bayesian nonparametric, credible intervals.
+ Current interests  Special issue in Statistical Sciences (A Review Journal of The Institute of Mathematical Statistics): gives papers for review project (17 articles) (Randles et al. 2004).     Software Introduction to R We will use R and R Markdown for this course (highly recommended)."><meta property="og:image" content="/img/profile.png">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  
+
+  <title>Lecture 0: Overview and Setup | Pratheepa Jeganathan</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Pratheepa Jeganathan</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/research/">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/teaching/">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/misc/">
+            
+            <span>Misc</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/agriblog/">
+            
+            <span>AgriBlog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Lecture 0: Overview and Setup</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="" itemprop="datePublished">
+    <time datetime="" itemprop="dateModified">
+      Jan 1, 0001
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Lecture%200%3a%20Overview%20and%20Setup&amp;url=%2fteaching%2fstats205%2flecture_0_overview_setup%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fteaching%2fstats205%2flecture_0_overview_setup%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fteaching%2fstats205%2flecture_0_overview_setup%2f&amp;title=Lecture%200%3a%20Overview%20and%20Setup"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fteaching%2fstats205%2flecture_0_overview_setup%2f&amp;title=Lecture%200%3a%20Overview%20and%20Setup"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Lecture%200%3a%20Overview%20and%20Setup&amp;body=%2fteaching%2fstats205%2flecture_0_overview_setup%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<div id="overview" class="section level1">
+<h1>Overview</h1>
+<div id="section" class="section level2">
+<h2></h2>
+<ul>
+<li><p>Rank-based testing (classical nonparametric techniques), R-estimators, nonparametric confidence intervals, modern nonparametric (bootstrap), curve fitting (density, regression function), confidence sets, wavelets, Bayesian nonparametric, credible intervals.</p></li>
+<li>Current interests
+<ul>
+<li><a href="https://projecteuclid.org/euclid.ss/1113832719">Special issue in Statistical Sciences (A Review Journal of The Institute of Mathematical Statistics)</a>: gives papers for review project (17 articles) <span class="citation">(Randles et al. 2004)</span>.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="software" class="section level1">
+<h1>Software</h1>
+<div id="introduction-to-r" class="section level2">
+<h2>Introduction to R</h2>
+<p>We will use R and R Markdown for this course (highly recommended). The examples in the lecture notes and homework assignments will be written in R. Choosing R for your homework solutions and project is highly recommended.</p>
+<ul>
+<li>Follow this <a href="https://www.r-project.org/">https://www.r-project.org/</a> to install R:
+<ul>
+<li>R is an interpreted language, which means you will not have to compile your code and your actual code will be executed.</li>
+<li>R is interactive for data analysis.</li>
+<li>R includes interfaces to other programming languages (Python, Julia, C++), which means you can adapt R to big data analysis or computationally intensive procedures <span class="citation">(Chambers 2017)</span>.</li>
+<li>Read more about R: <a href="https://www.r-project.org/about.html">here</a>.</li>
+</ul></li>
+</ul>
+</div>
+<div id="introduction-to-r-markdown" class="section level2">
+<h2>Introduction to R Markdown</h2>
+<ul>
+<li>Follow this <a href="https://www.rstudio.com/">https://www.rstudio.com/</a> to install R Studio (The newest version of R Studio is highly recommended (v1.1.463)): we will use R Markdown from R Studio to
+<ul>
+<li>track data analysis.</li>
+<li>produce high-quality documents that can be shared with your collaborators.</li>
+<li>reproduce the results.</li>
+<li>Read more about R Markdown: <a href="https://rmarkdown.rstudio.com/index.html">here</a>.</li>
+</ul></li>
+</ul>
+</div>
+<div id="introduction-to-latex" class="section level2">
+<h2>Introduction to Latex</h2>
+<p>(optional, if you will render R Markdown to HTML documents and if you’ll use some other word processor to write a report for your project)</p>
+<ul>
+<li>Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
+<ul>
+<li>Mac users should download macTeX <a href="http://www.tug.org/mactex/downloading.html">http://www.tug.org/mactex/downloading.html</a> from Safari (not Chrome).</li>
+<li>Windows users should install MiKTeX <a href="https://miktex.org/download">https://miktex.org/download</a>.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="basics-of-r-and-r-markdown" class="section level1">
+<h1>Basics of R and R Markdown</h1>
+<div id="vectors" class="section level2">
+<h2>Vectors</h2>
+<p>These examples follow <strong>(KM)</strong>: Kloke and McKean (2015). Nonparametric Statistical Methods Using R. Chapter 1</p>
+</div>
+<div id="matrices-and-data-frames" class="section level2">
+<h2>Matrices and data frames</h2>
+<p>Make vectors:</p>
+<pre class="r"><code>x &lt;- c(11,218,123,36,1001)
+y &lt;- rep(1,5)
+z &lt;- seq(1,5,by =1)</code></pre>
+<p>Vector operations:</p>
+<pre class="r"><code>y + z</code></pre>
+<pre><code>## [1] 2 3 4 5 6</code></pre>
+<pre class="r"><code>u = y + z # comments: assign the value to variable u
+u</code></pre>
+<pre><code>## [1] 2 3 4 5 6</code></pre>
+</div>
+<div id="section-1" class="section level2">
+<h2></h2>
+<p>Some more operations</p>
+<pre class="r"><code>sum(x)</code></pre>
+<pre><code>## [1] 1389</code></pre>
+<pre class="r"><code>c(mean(x),sd(x),var(x),median(x))</code></pre>
+<pre><code>## [1]    277.8000    412.3733 170051.7000    123.0000</code></pre>
+<pre class="r"><code>length(x)</code></pre>
+<pre><code>## [1] 5</code></pre>
+</div>
+<div id="generate-a-random-sample" class="section level2">
+<h2>Generate a random sample</h2>
+<p>Ex: coin tossing</p>
+<pre class="r"><code>coin &lt;- c(&quot;H&quot;, &quot;T&quot;)
+set.seed(100)
+samples &lt;- sample(x= coin, size =100, replace = TRUE)</code></pre>
+<p>the number times <em>H</em> shows up</p>
+<pre class="r"><code>sum(samples == &quot;H&quot;)</code></pre>
+<pre><code>## [1] 50</code></pre>
+</div>
+<div id="matrices" class="section level2">
+<h2>Matrices</h2>
+<p>combine vectors of same data type into matrices</p>
+<pre class="r"><code>X = cbind(x,y,z)
+X</code></pre>
+<pre><code>##         x y z
+## [1,]   11 1 1
+## [2,]  218 1 2
+## [3,]  123 1 3
+## [4,]   36 1 4
+## [5,] 1001 1 5</code></pre>
+</div>
+<div id="section-2" class="section level2">
+<h2></h2>
+<p>create a matrix using R function from the base package</p>
+<pre class="r"><code>Y = matrix(data = c(2,3,4,5,6,7), nrow = 2, ncol =3, byrow = TRUE)
+Y</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    2    3    4
+## [2,]    5    6    7</code></pre>
+</div>
+<div id="data-frame" class="section level2">
+<h2>Data frame</h2>
+<p>combine vectors of different data types</p>
+<pre class="r"><code>subjects = c(&#39;Jim&#39;,&#39;Jack&#39;,&#39;Joe&#39;,&#39;Mary&#39;,&#39;Jean&#39;)
+score = c(85,90,75,100,70)
+D = data.frame(subjects = subjects, score = score)
+D</code></pre>
+<pre><code>##   subjects score
+## 1      Jim    85
+## 2     Jack    90
+## 3      Joe    75
+## 4     Mary   100
+## 5     Jean    70</code></pre>
+</div>
+<div id="section-3" class="section level2">
+<h2></h2>
+<pre class="r"><code>D$class = c(&quot;Jun&quot;, &quot;Sopho&quot;,&quot;Sopho&quot;, &quot;Sopho&quot;, &quot;Jun&quot;)
+D</code></pre>
+<pre><code>##   subjects score class
+## 1      Jim    85   Jun
+## 2     Jack    90 Sopho
+## 3      Joe    75 Sopho
+## 4     Mary   100 Sopho
+## 5     Jean    70   Jun</code></pre>
+</div>
+<div id="generating-random-variables" class="section level2">
+<h2>Generating random variables</h2>
+<p>R provides numerous functions for random number generation</p>
+<p>Ex: generate standard normal random variable</p>
+<pre class="r"><code>z = rnorm(n = 100, mean = 0, sd = 1)</code></pre>
+<pre class="r"><code>summary(z)</code></pre>
+<pre><code>##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+## -2.27193 -0.72820 -0.12918 -0.08774  0.45056  2.58196</code></pre>
+</div>
+<div id="graphics" class="section level2">
+<h2>Graphics</h2>
+<p>Basic plotting Ex: histogram of <span class="math inline">\(Z\)</span></p>
+<pre class="r"><code>hist(z,breaks = 30)</code></pre>
+<p><img src="/teaching/stats205/Lecture_0_overview_setup_files/figure-html/unnamed-chunk-13-1.png" width="288" /></p>
+</div>
+<div id="sophisticated-plots" class="section level2">
+<h2>Sophisticated plots</h2>
+<p>The ggplot2 package is very popular to make more sophisticated plots</p>
+<pre class="r"><code>library(ggplot2)</code></pre>
+<p>You are encouraged to learn the grammar of ggplot. There are many tutorials online. Here is one example <a href="http://www.cookbook-r.com/Graphs/">link</a>.</p>
+</div>
+<div id="section-4" class="section level2">
+<h2></h2>
+<p>Let’s see how to use ggplot2 for scatter plots on automobile data</p>
+<pre class="r"><code>data(mtcars)
+ggplot(mtcars, aes(x=wt,y=mpg)) + 
+  geom_point(position=position_jitter(w=0.1,h=0)) +
+  geom_smooth() + xlab(&#39;Weight (1000 lbs)&#39;) + 
+  ylab(&quot;Miles/(US) gallon&quot;)</code></pre>
+</div>
+<div id="section-5" class="section level2">
+<h2></h2>
+<p><img src="/teaching/stats205/Lecture_0_overview_setup_files/figure-html/unnamed-chunk-16-1.png" width="288" /></p>
+</div>
+<div id="repeating-tasks" class="section level2">
+<h2>Repeating tasks</h2>
+<p>In addition to <code>for</code> loop, R provides <code>apply</code> and <code>tapply</code> functions to replicate code a number of times</p>
+<pre class="r"><code>X</code></pre>
+<pre><code>##         x y z
+## [1,]   11 1 1
+## [2,]  218 1 2
+## [3,]  123 1 3
+## [4,]   36 1 4
+## [5,] 1001 1 5</code></pre>
+<p>row-wise mean</p>
+<pre class="r"><code>apply(X,1,mean)</code></pre>
+<pre><code>## [1]   4.333333  73.666667  42.333333  13.666667 335.666667</code></pre>
+</div>
+<div id="section-6" class="section level2">
+<h2></h2>
+<p>column-wise mean</p>
+<pre class="r"><code>apply(X,2,mean)</code></pre>
+<pre><code>##     x     y     z 
+## 277.8   1.0   3.0</code></pre>
+<pre class="r"><code>D</code></pre>
+<pre><code>##   subjects score class
+## 1      Jim    85   Jun
+## 2     Jack    90 Sopho
+## 3      Joe    75 Sopho
+## 4     Mary   100 Sopho
+## 5     Jean    70   Jun</code></pre>
+<pre class="r"><code>tapply(D$score,D$class,mean)</code></pre>
+<pre><code>##      Jun    Sopho 
+## 77.50000 88.33333</code></pre>
+</div>
+<div id="user-defined-functions" class="section level2">
+<h2>User defined functions</h2>
+<pre class="r"><code>mSummary = function(x) {
+  q1 = quantile(x,.25)
+  q3 = quantile(x,.75) 
+  list(med=median(x),iqr=q3-q1)
+}
+xsamp = 1:13
+mSummary(xsamp)</code></pre>
+<pre><code>## $med
+## [1] 7
+## 
+## $iqr
+## 75% 
+##   6</code></pre>
+</div>
+<div id="monte-carlo-simulations" class="section level2">
+<h2>Monte Carlo simulations</h2>
+<p>Generate a dataset with 100 rows and 10 columns. Each row is from a standard normal distribution.</p>
+<pre class="r"><code>set.seed(1000)
+X = matrix(rnorm(10*100),ncol=10)</code></pre>
+<p>Sample mean of each of the 100 samples:</p>
+<pre class="r"><code>xbar = apply(X, MARGIN = 1, FUN = mean)</code></pre>
+<p>Variance of sample mean:</p>
+<pre class="r"><code>var(xbar)</code></pre>
+<pre><code>## [1] 0.1013805</code></pre>
+<p>compared to theoretical results: <span class="math inline">\(\frac{\sigma^2}{n}\)</span></p>
+<pre class="r"><code>1/10</code></pre>
+<pre><code>## [1] 0.1</code></pre>
+</div>
+<div id="r-packages" class="section level2">
+<h2>R packages</h2>
+<p>Two distribution site: CRAN and Bioconductor</p>
+<p>In addition to commonly used functions in R, some other functions are available from developers. In order to have access to all of the functions used throughout the text <strong>HWC</strong>, we need to install and load <code>NSM3</code> package.</p>
+<pre class="r"><code>install.packages(&quot;NSM3&quot;)</code></pre>
+<pre class="r"><code>library(NSM3)</code></pre>
+<pre><code>## Loading required package: combinat</code></pre>
+<pre><code>## 
+## Attaching package: &#39;combinat&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:utils&#39;:
+## 
+##     combn</code></pre>
+<pre><code>## Loading required package: MASS</code></pre>
+<pre><code>## Loading required package: partitions</code></pre>
+<pre><code>## Loading required package: survival</code></pre>
+<pre><code>## fANCOVA 0.5-1 loaded</code></pre>
+<pre class="r"><code>data(rhythmicity)
+head(rhythmicity)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    3    5   15
+## [2,]    1    3   18
+## [3,]    5    4   21
+## [4,]    2   NA    6
+## [5,]    0    2   17
+## [6,]    0    2   10</code></pre>
+</div>
+</div>
+<div id="templates" class="section level1">
+<h1>Templates</h1>
+<div id="homework-template" class="section level2">
+<h2>Homework template</h2>
+<ul>
+<li><p>See the template in Canvas/Files/Templates</p></li>
+<li><p>See the following <a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/">link</a> for a further outline of using <a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/rmarkdown.Rmd">R markdown for reporting</a>.</p></li>
+</ul>
+</div>
+<div id="section-7" class="section level2">
+<h2></h2>
+<p><img src="hw.png" alt="Homework Template" />
+<!-- ## Generate your homework template (R Markdown) --></p>
+<!-- ## Generate your midterm project proposal template (R Markdown) -->
+<!-- ## Generate your final project template (R Markdown) -->
+</div>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<div id="references-for-this-lecture" class="section level2 unnumbered">
+<h2>References for this lecture</h2>
+<div id="refs" class="references">
+<div id="ref-chambers2017">
+<p>Chambers, John M. 2017. <em>Extending R</em>. Chapman; Hall/CRC.</p>
+</div>
+<div id="ref-randles2004">
+<p>Randles, Ronald H, Thomas P Hettmansperger, George Casella, and others. 2004. “Introduction to the Special Issue: Nonparametric Statistics.” <em>Statistical Science</em> 19 (4). Institute of Mathematical Statistics: 561–61.</p>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/profile.png" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+    <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.linkedin.com/in/pratheepajega/" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/PratheepaJ" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=7zY2XNYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/PratheepaJ" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+    <div class="article-widget">
+      <div class="post-nav">
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/teaching/mathematical-statistics-for-engineers-and-scientists/" rel="next">MATH 3342 (TTU)</a>
+  </div>
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/teaching/syllabus/" rel="prev">STATS 205: Introduction to Nonparametric Statistics</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; Pratheepa Jeganathan 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
