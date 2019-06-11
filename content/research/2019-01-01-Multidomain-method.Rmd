@@ -1,6 +1,6 @@
 ---
 title: Statistical Methods for Multi-domain Data
-summary: "Data structure and Multi-table statistical methods "
+summary: "Multi-table statistical methods "
 author: Pratheepa Jeganathan
 date: '2019-01-01'
 slug: current-projects
@@ -17,9 +17,9 @@ share: false
 profile: false
 ---
 
-##  Integrating Microbiome and CyTOF data
+##  Integrating multi-domian genome-level data
 
-High-throughput and mass cytometry technologies have revolutionized the quantification of human diseases with molecular and biological multiple mediators. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and dependency.
-I am currently working on establishing a data structure and workflow for storing, processing, transforming, visualizing multi-domain data.
+High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the geome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparse.
 
-##  Modeling the Dynamical Interactions 
+My current research focus on establishing a data structure and probabilistic modeling for multi-domain data.
+
