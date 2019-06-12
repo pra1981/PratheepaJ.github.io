@@ -24,5 +24,5 @@ weight: 1
 
 #  Lecture Notes
 
-
+[Lecture 0](Lecture_0_overview_setup.pdf) 
 
