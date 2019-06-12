@@ -16,7 +16,7 @@ caption = ""
 
 My research interests are at the interface of mathematical statistics and new technology-generated data. I employ a combination of statistical theory and computational tools that I have mastered during graduate and postdoctoral training with potential collaborators to knowledge discovery.
 
-Applied statistical research: apply, extend, and develop statistical methods for multiple measurements made at the genome-level at multiple gestational age from pregnant women. 
+Applied statistical research: statistical methods for multiple measurements made at the genome-level at multiple gestational age from pregnant women. 
 
 Theoretical research: approximation theory for learning dependency in high-dimensional data. 
 
