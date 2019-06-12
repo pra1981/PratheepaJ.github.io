@@ -47,7 +47,7 @@ Although extracting and sequencing molecular-grade water to provide negative con
 
 ## Software
 
-Our method will be available as an open-source R package at [BARBI](https://github.com/PratheepaJ/BARBI). [Tutorial](https://pratheepaj.github.io/tutorial/barbi/) will be avaialble soon.
+Our method will be available as an open-source R package at [BARBI](https://github.com/PratheepaJ/BARBI). [Tutorial](https://pratheepaj.github.io/tutorial/barbi/) will be available soon.
 
 ## Paper(s)
 

@@ -1,6 +1,6 @@
 ---
 title: Saddlepoint Approximations in Statistics
-summary: "Saddlepoint-based bootstrap method (SPBB), multivariate SPBB, extension of empirical saddlepoint apporximation for right-censored data, bivariate saddlepoint approximations."
+summary: "Saddlepoint-based bootstrap method (SPBB), multivariate SPBB, extension of empirical saddlepoint approximation for right-censored data, bivariate saddlepoint approximations."
 author: ~
 date: '2019-01-02'
 slug: saddlepoint-approximations-in-statistics
@@ -30,7 +30,7 @@ I presented my work on mSPBB in my PhD dissertation part I.
 
 These are unpublished work. 
 
-# Saddlepoint Approximation for Bivariate Cumultative Distribution Function (CDF)
+# Saddlepoint Approximation for Bivariate Cumulative Distribution Function (CDF)
 
 We defined the formula for the variable that was not defined in [Wang (1990)](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C)
 
@@ -68,7 +68,7 @@ The SPBB method is used to construct confidence intervals for parameter whose es
 
 ##  Software
 
-An R pacakge [SPBBspatial](https://github.com/PratheepaJ/SPBBspatial) implements our method. Look at the [tutorial](https://pratheepaj.github.io/tutorial/spbbspatial/)
+An R package [SPBBspatial](https://github.com/PratheepaJ/SPBBspatial) implements our method. Look at the [tutorial](https://pratheepaj.github.io/tutorial/spbbspatial/)
 
 ##  Paper
 
