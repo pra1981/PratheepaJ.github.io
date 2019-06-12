@@ -17,9 +17,13 @@ share: false
 profile: false
 ---
 
-##  Integrating multi-domian genome-level data
 
 High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the geome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparse.
 
-My current research focus on establishing a data structure and probabilistic modeling for multi-domain data.
+##  Data structure for multi-domian genome-level data
 
+First, I am working on establishing a data structure for multi-domian genome-level data in R/Bioconductor. 
+
+##  Statistical method for multi-domian genome-level data
+
+Second, I focus on developing probabilistic modeling for multi-domain genome-level data in R/Bioconductor/Stan.
