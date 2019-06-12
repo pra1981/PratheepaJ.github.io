@@ -18,7 +18,7 @@ profile: false
 ---
 
 
-High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the geome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparse.
+High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
 
 ##  Data structure for multi-domian genome-level data
 
