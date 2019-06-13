@@ -1,5 +1,5 @@
 ---
-title: Saddlepoint Approximations in Statistics
+title: Approximation theory in statistics
 summary: "Saddlepoint-based bootstrap method (SPBB), multivariate SPBB, extension of empirical saddlepoint approximation for right-censored data, bivariate saddlepoint approximations."
 author: ~
 date: '2019-01-02'
@@ -39,7 +39,6 @@ We defined the formula for the variable that was not defined in [Wang (1990)](ht
 ## Software
 
 ## Paper
-
 
 
 # Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.
