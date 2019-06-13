@@ -10,10 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Multi-domain Methods",
-    "Resampling Methods for Dependent Data",
-    "Bayesian Statistics",
-    "Saddlepoint Approximations in Statistics"
+    "Multi-domain statistical methods",
+    "Resampling methods for dependent data",
+    "Bayesian statistics",
+    "Probabilistic modeling",
+    "Approximation theory in statistics"
   ]
 
 # List your qualifications (such as academic degrees).
