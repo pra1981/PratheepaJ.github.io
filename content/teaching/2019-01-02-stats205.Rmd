@@ -130,7 +130,7 @@ schedule <- "
 |**05/24/2019**| Week 8| Bayesian nonparametric I|HWC: Chapter 16, Li:W2016 |**Homework 7 Posted**, **Homework 6 Due** |
 |**05/27/2019**| Week 9|**(Holiday, no classes)** | |Memorial Day |
 |**05/29/2019**| Week 9|Bayesian nonparametric II | HWC: Chapter 16, Li:W2016 | | 
-|**05/31/2019**| Week 9 [Lecture 25] (Lecture_25_Inference_on_data_visualization.pdf)|Inference for data visualization | Re:BHLLSW2009, Re:D1983, Re:JWH2014|**Homework 7 Due** (no late submission allowed, End-Quarter Period starts) |
+|**05/31/2019**| Week 9 [Lecture 25](Lecture_25_Inference_on_data_visualization.pdf)|Inference for data visualization | Re:BHLLSW2009, Re:D1983, Re:JWH2014|**Homework 7 Due** (no late submission allowed, End-Quarter Period starts) |
 |**06/03/2019**| Week 10 [Lecture 26](Lecture_26_Bootstrap_III.pdf)|Bootstrap III |ET: Chapter 12, 14| |
 |**06/05/2019**| Week 10 [Lecture 27](Lecture_27_Wrap_up.pdf)|Wrap-up  | | **Final project due**|
 "
