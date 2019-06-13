@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Misc on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/misc/</link>
+    <link>/misc/</link>
     <description>Recent content in Misc on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="https://PratheepaJ.github.io/misc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/misc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bombay Jam</title>
-      <link>https://PratheepaJ.github.io/misc/bombay-jam/</link>
+      <link>/misc/bombay-jam/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/bombay-jam/</guid>
+      <guid>/misc/bombay-jam/</guid>
       <description>Recently, I started practicing Bombay Jam, a dance workout. The best fun exercise activity that I am doing so far.</description>
     </item>
     
     <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</link>
+      <link>/misc/2019-01-01-post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</guid>
+      <guid>/misc/2019-01-01-post-on-january-2019/</guid>
       <description> Happy New Year to Everyone!
  Figure 1: Welcome 2019  </description>
     </item>
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/misc/resources_academia/</link>
+      <link>/misc/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/resources_academia/</guid>
+      <guid>/misc/resources_academia/</guid>
       <description>  The Effort Report: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.
  Mathematical Writing: Every mathematician should read this book and keep near to his/her desk.
   </description>
@@ -44,10 +44,10 @@
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/misc/my_thoughts/</link>
+      <link>/misc/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/my_thoughts/</guid>
+      <guid>/misc/my_thoughts/</guid>
       <description>If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.
  Figure 1: March 20, 2016  Figure 1 is my attempt to embed an external image in an Rmarkdown file.</description>
     </item>
