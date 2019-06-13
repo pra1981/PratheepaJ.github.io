@@ -105,7 +105,7 @@ schedule <- "
 |Date     | Week  | Topic                      |Reading        |Notes     |
 |---------|-------|----------------------------|---------------|----------|
 | **04/01/2019**|Week 1 [Lecture 0](Lecture_0_overview_setup.pdf)  | Overview of current research in nonparametric and adequate initiation to R and R Markdown| [ASA Nonparametric statistics section news](https://community.amstat.org/nonparametricstatisticssection/news) gives an overview of some current research topics; install [R](https://www.r-project.org/); install [RStudio](https://www.rstudio.com/products/rstudio/); [TryR](http://tryr.codeschool.com/), [R Markdown webinar](https://www.rstudio.com/resources/videos/r-markdown-eight-ways/), [R Markdown](https://rmarkdown.rstudio.com/) provide adequate initiation to R and R Markdown.| |
-|**04/03/2019**| Week 1| Logistics and Preliminaries | Syllabus, HWC: Chapter  1||
+|**04/03/2019**| Week 1 [Lecture 1](Lecture_1_logistics_preliminaries.pdf)| Logistics and Preliminaries | Syllabus, HWC: Chapter  1||
 |**04/05/2019**| Week 1| The One-sample problem I (testing procedure) | HWC: Chapter 3.4-3.6, 3.8, 3.1-3.3, 3.7|**Homework 1 posted**|
 |**04/08/2019**| Week 2| The One-sample problem II (estimator associated with the statistic, confidence interval, example) | HWC: Chapter 3.4-3.6, 3.8, 3.1-3.3, 3.7||
 |**04/10/2019**| Week 2|Statistical functionals and Influence functions| Notes will be posted on W: Chapter 2, ET: Chapter 4, 5, 21.3||
