@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/</link>
+    <link>/</link>
     <description>Recent content in Pratheepa Jeganathan on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>STATS 205 (Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats205/</link>
+      <link>/teaching/stats205/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats205/</guid>
+      <guid>/teaching/stats205/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -184,126 +184,126 @@
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/05/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 1&lt;/td&gt;
+&lt;td&gt;Week 1 &lt;a href=&#34;Lecture_2_one_sample_problem.pdf&#34;&gt;Lecture 2&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;The One-sample problem I (testing procedure)&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 3.4-3.6, 3.8, 3.1-3.3, 3.7&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Homework 1 posted&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/08/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;Week 2 &lt;a href=&#34;Lecture_3_one_sample_problem_II.pdf&#34;&gt;Lecture 3&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;The One-sample problem II (estimator associated with the statistic, confidence interval, example)&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 3.4-3.6, 3.8, 3.1-3.3, 3.7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/10/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;Week 2 &lt;a href=&#34;Lecture_4_statistical_functionals_influence_functions.pdf&#34;&gt;Lecture 4&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Statistical functionals and Influence functions&lt;/td&gt;
 &lt;td&gt;Notes will be posted on W: Chapter 2, ET: Chapter 4, 5, 21.3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/12/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;Week 2 &lt;a href=&#34;Lecture_5_jackknife_bootstrap.pdf&#34;&gt;Lecture 5&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Jackknife and Bootstrap I&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 8.4 and notes will be posted based on W: Chapter 3, DH, ET: Chapter 6, 11&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Homework 2 Posted&lt;/strong&gt;, &lt;strong&gt;Homework 1 Due&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/15/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Week 3 &lt;a href=&#34;Lecture_6_bootstrap_II.pdf&#34;&gt;Lecture 6&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Bootstrap II&lt;/td&gt;
 &lt;td&gt;Notes will be posted based on ET: Chapter 23, Re:DH1994, Re:DH1995&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/17/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Week 3 &lt;a href=&#34;Lecture_7_discrete_data_problem.pdf&#34;&gt;Lecture 7&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Discrete data problems I&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 2&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/19/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Week 3 &lt;a href=&#34;Lecture_8_discrete_data_problem_II.pdf&#34;&gt;Lecture 8&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Discrete data problems II&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 10&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Homework 3 Posted&lt;/strong&gt;, &lt;strong&gt;Homework 2 Due&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/22/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Week 4 &lt;a href=&#34;Lecture_9_two_sample_problem_I.pdf&#34;&gt;Lecture 9&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Two-sample problem I&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 4&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/24/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Week 4 &lt;a href=&#34;Lecture_10_two_sample_problem_II.pdf&#34;&gt;Lecture 10&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Two-sample problem II&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 5&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/26/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Week 4 &lt;a href=&#34;Lecture_11_Permutation_tests.pdf&#34;&gt;Lecture 11&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Permutation Test I&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Homework 4 Posted&lt;/strong&gt;, &lt;strong&gt;Homework 3 Due&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;04/29/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Week 5 &lt;a href=&#34;Lecture_12_Permutation_tests_II.pdf&#34;&gt;Lecture 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Permutation Test II&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/01/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Week 5 &lt;a href=&#34;Lecture_13_Regression_problems.pdf&#34;&gt;Lecture 13&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Ranked-based linear regression&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 9&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/03/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Week 5 &lt;a href=&#34;Lecture_14_Smoothing.pdf&#34;&gt;Lecture 14&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Smoothing I&lt;/td&gt;
 &lt;td&gt;W: Chapter 4&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Midterm project proposal due&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/06/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Week 6 &lt;a href=&#34;Lecture_15_Nonparametric_regression_I.pdf&#34;&gt;Lecture 15&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Nonparametric regression I&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 9.7, 14, W: Chapter 5&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/08/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Week 6 &lt;a href=&#34;Lecture_16_Nonparametric_regression_II.pdf&#34;&gt;Lecture 16&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Nonparametric regression II&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 9.7, 14, W: Chapter 5&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/10/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Week 6 &lt;a href=&#34;Lecture_17_Wavelets.pdf&#34;&gt;Lecture 17&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Wavelets&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 13, W: Chapter 9&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Homework 5 Posted&lt;/strong&gt;, &lt;strong&gt;Homework 4 Due&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/13/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 7&lt;/td&gt;
+&lt;td&gt;Week 7 &lt;a href=&#34;Lecture_18_ANOVA.pdf&#34;&gt;Lecture 18&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;ANOVA I&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 6, 7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/15/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 7&lt;/td&gt;
+&lt;td&gt;Week 7 &lt;a href=&#34;Lecture_19_ANOVA_II.pdf&#34;&gt;Lecture 19&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;ANOVA II , multiple comparison&lt;/td&gt;
 &lt;td&gt;HWC: Chapter 6, 7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -352,21 +352,21 @@
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;05/31/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 9&lt;/td&gt;
+&lt;td&gt;Week 9 [Lecture 25] (Lecture_25_Inference_on_data_visualization.pdf)&lt;/td&gt;
 &lt;td&gt;Inference for data visualization&lt;/td&gt;
 &lt;td&gt;Re:BHLLSW2009, Re:D1983, Re:JWH2014&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Homework 7 Due&lt;/strong&gt; (no late submission allowed, End-Quarter Period starts)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;06/03/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 10&lt;/td&gt;
-&lt;td&gt;Multivariate nonparamteric tests, Bootstrap III&lt;/td&gt;
+&lt;td&gt;Week 10 &lt;a href=&#34;Lecture_26_Bootstrap_III.pdf&#34;&gt;Lecture 26&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Bootstrap III&lt;/td&gt;
 &lt;td&gt;ET: Chapter 12, 14&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;06/05/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 10&lt;/td&gt;
+&lt;td&gt;Week 10 &lt;a href=&#34;Lecture_27_Wrap_up.pdf&#34;&gt;Lecture 27&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Wrap-up&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Final project due&lt;/strong&gt;&lt;/td&gt;
@@ -380,10 +380,10 @@
     
     <item>
       <title>Statistical Methods for Multi-domain Data</title>
-      <link>https://PratheepaJ.github.io/research/current-projects/</link>
+      <link>/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
+      <guid>/research/current-projects/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -407,10 +407,10 @@
     
     <item>
       <title>Statistical Methods for Microbiome Data</title>
-      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
+      <link>/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
+      <guid>/research/statistical-methods-for-microbiome/</guid>
       <description>
 
 
@@ -497,10 +497,10 @@
     
     <item>
       <title>MATH 2300 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/statistical-methods/</link>
+      <link>/teaching/statistical-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/statistical-methods/</guid>
+      <guid>/teaching/statistical-methods/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -541,10 +541,10 @@
     
     <item>
       <title>Microbiome Studies</title>
-      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
+      <link>/research/microbiome-studies/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
+      <guid>/research/microbiome-studies/</guid>
       <description>
 
 
@@ -554,10 +554,10 @@
     
     <item>
       <title>MATH 2345 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -592,10 +592,10 @@
     
     <item>
       <title>MATH 3342 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -633,10 +633,10 @@
     
     <item>
       <title>Saddlepoint Approximations in Statistics</title>
-      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -729,10 +729,10 @@
     
     <item>
       <title>Vegetative Propagation</title>
-      <link>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</link>
+      <link>/agriblog/vegetative-propagation/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</guid>
+      <guid>/agriblog/vegetative-propagation/</guid>
       <description>
 
 
@@ -742,10 +742,10 @@
     
     <item>
       <title>Bombay Jam</title>
-      <link>https://PratheepaJ.github.io/misc/bombay-jam/</link>
+      <link>/misc/bombay-jam/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/bombay-jam/</guid>
+      <guid>/misc/bombay-jam/</guid>
       <description>
 
 
@@ -755,16 +755,16 @@
     
     <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</link>
+      <link>/misc/2019-01-01-post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</guid>
+      <guid>/misc/2019-01-01-post-on-january-2019/</guid>
       <description>
 
 
 &lt;p&gt;Happy New Year to Everyone!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
+&lt;img src=&#34;/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Welcome 2019
 &lt;/p&gt;
@@ -774,14 +774,14 @@ Figure 1: Welcome 2019
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/misc/resources_academia/</link>
+      <link>/misc/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/resources_academia/</guid>
+      <guid>/misc/resources_academia/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://PratheepaJ.github.io/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;!-- [Sherri Rose](http://drsherrirose.org/resources/) --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://effortreport.libsyn.com/&#34;&gt;The Effort Report&lt;/a&gt;: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.&lt;/p&gt;&lt;/li&gt;
@@ -792,16 +792,16 @@ Figure 1: Welcome 2019
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/misc/my_thoughts/</link>
+      <link>/misc/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/my_thoughts/</guid>
+      <guid>/misc/my_thoughts/</guid>
       <description>
 
 
 &lt;p&gt;If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
+&lt;img src=&#34;/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: March 20, 2016
 &lt;/p&gt;
@@ -812,20 +812,20 @@ Figure 1: March 20, 2016
     
     <item>
       <title>BAyesian Reduction in Background Interference</title>
-      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
+      <link>/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
+      <guid>/tutorial/barbi/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;BARBI&lt;/code&gt; for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Beta Binomial Distribution</title>
-      <link>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</link>
+      <link>/tutorial/beta_binomial_modeling_count/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</guid>
+      <guid>/tutorial/beta_binomial_modeling_count/</guid>
       <description>&lt;p&gt;The Beta Binomial Distribution implemented in &lt;code&gt;corncob&lt;/code&gt; package.&lt;/p&gt;
 </description>
     </item>
