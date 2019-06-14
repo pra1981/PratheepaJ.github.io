@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Pratheepa Jeganathan</title>
-    <link>/teaching/</link>
+    <link>https://PratheepaJ.github.io/teaching/</link>
     <description>Recent content in Teaching on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://PratheepaJ.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>STATS 205 (Stanford)</title>
-      <link>/teaching/stats205/</link>
+      <link>https://PratheepaJ.github.io/teaching/stats205/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stats205/</guid>
+      <guid>https://PratheepaJ.github.io/teaching/stats205/</guid>
       <description>Description Syllabus Course Overview Expected outcomes Course Information Prerequisites Texts Other sources Software Grading  Lecture Notes Course Schedule R Markdown files    Description Course link.
  Syllabus Course Overview This course covers nonparametric analogs of the one- and two-sample t-tests and analysis of variance; the sign test, median test, Wilcoxon’s tests, and the Kruskal-Wallis and Friedman tests, tests of independence; nonparametric regression and nonparametric density estimation; modern nonparametric techniques; nonparametric confidence interval estimates.</description>
     </item>
     
     <item>
       <title>MATH 2300 (TTU)</title>
-      <link>/teaching/statistical-methods/</link>
+      <link>https://PratheepaJ.github.io/teaching/statistical-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/statistical-methods/</guid>
+      <guid>https://PratheepaJ.github.io/teaching/statistical-methods/</guid>
       <description>  MATH 2300 Description Syllabus Lecture Notes    MATH 2300 I taught statistical Methods (MATH 2300) for undergraduates at Texas Tech University.
  Fall 2012[40+42 students in two classes] Spring 2013[15+43] Summer 2013 [21] Fall 2013 [116] Spring 2014 [45+47] Fall 2014 [125] Fall 2015 [44])  Description Course description.
  Syllabus  Lecture Notes   </description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>MATH 2345 (TTU)</title>
-      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <link>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <guid>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</guid>
       <description>  MATH 2345 Description Syllabus Lecture Notes    MATH 2345 I taught introduction to statistics with application to business (MATH2345) for undergraduates at Texas Tech University.
  Summer 2014 [25 students]  Description Course description.
  Syllabus  Lecture Notes   </description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>MATH 3342 (TTU)</title>
-      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <link>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <guid>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
       <description>  MATH 3342 Description Syllabus Lecture Notes    MATH 3342 I taught mathematical statistics for engineers and scientists (MATH 3342) for undergraduates at Texas Tech University.
  Spring 2015 [149 students] Summer 2015 [27] Spring 2016 [44] Summer 2016 [21]  Description Course description.
  Syllabus  Lecture Notes   </description>
