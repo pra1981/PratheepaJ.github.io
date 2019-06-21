@@ -1,0 +1,18 @@
+---
+title: STATS 191 (Autumn 2019, Stanford)
+summary: "Introduction to Applied Statistics."
+author: "PJ"
+date: '2019-06-20'
+slug: stats205
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+output:
+  blogdown::html_page:
+    toc: true
+weight: 6
+---
+
+Course contents will be available soon.

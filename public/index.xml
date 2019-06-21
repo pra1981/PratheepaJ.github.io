@@ -2,20 +2,259 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/</link>
+    <link>/</link>
     <description>Recent content in Pratheepa Jeganathan on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
-    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>STATS 205 (Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats205/</link>
+      <title>Statistical Methods for Multi-domain Data</title>
+      <link>/research/current-projects/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/research/current-projects/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-structure-for-multi-domain-genome-level-data&#34;&gt;Data structure for multi-domain genome-level data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-method-for-multi-domain-genome-level-data&#34;&gt;Statistical method for multi-domain genome-level data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.&lt;/p&gt;
+&lt;div id=&#34;data-structure-for-multi-domain-genome-level-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data structure for multi-domain genome-level data&lt;/h2&gt;
+&lt;p&gt;First, I am working on establishing a data structure for multi-domain genome-level data in R/Bioconductor.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;statistical-method-for-multi-domain-genome-level-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Statistical method for multi-domain genome-level data&lt;/h2&gt;
+&lt;p&gt;Second, I focus on developing probabilistic modeling for multi-domain genome-level data in R/Bioconductor/Stan.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistical Methods for Microbiome Data</title>
+      <link>/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats205/</guid>
+      <guid>/research/statistical-methods-for-microbiome/</guid>
+      <description>
+
+
+
+
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#block-bootstrap-method&#34;&gt;Block Bootstrap Method&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples&#34;&gt;Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#software-1&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#papers&#34;&gt;Paper(s)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;block-bootstrap-method&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Block Bootstrap Method&lt;/h1&gt;
+&lt;p&gt;Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability.&lt;/p&gt;
+&lt;p&gt;Longitudinal microbiome data are used to either model abundance over time or compare the abundances of bacteria between two or more cohorts. We have devised a method for making nonparametric inferences in longitudinal microbiome data in the latter case.&lt;/p&gt;
+&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;The proposed resampling method combined moving block bootstrap (MBB) method &lt;span class=&#34;citation&#34;&gt;(Lahiri 2013)&lt;/span&gt;, empirical subsampling method &lt;span class=&#34;citation&#34;&gt;(Hall, Horowitz, and Jing 1995)&lt;/span&gt;, mixture model &lt;span class=&#34;citation&#34;&gt;(McMurdie and Holmes 2014)&lt;/span&gt;, generalized linear model &lt;span class=&#34;citation&#34;&gt;(Diggle 2002)&lt;/span&gt;, generalized estimating equation &lt;span class=&#34;citation&#34;&gt;(Liang and Zeger 1986)&lt;/span&gt;, median-ratio method &lt;span class=&#34;citation&#34;&gt;(Anders and Huber 2010)&lt;/span&gt;, and shrinkage estimation&lt;span class=&#34;citation&#34;&gt;(Robbins 1956; Stephens 2016)&lt;/span&gt; to enabling inference on microbiome longitudinal data. With the optimal block size computed using subsampling, the MBB method accounts for within-subject dependency by using overlapping blocks of repeated observations within each subject to draw valid inferences based on approximately pivotal statistics. This resampling method for dependent data was motivated by the literature on the block bootstrap method for time series data along with subsampling method for optimal block size estimation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;I developed an open-source R package &lt;a href=&#34;https://github.com/PratheepaJ/bootLong&#34;&gt;bootLong&lt;/a&gt; to make our method accessible and provide tools for exploring within-subject dependency in longitudinal data. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/bootlong/&#34;&gt;tutorial.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;The manuscript is available at &lt;a href=&#34;https://arxiv.org/abs/1809.01832&#34;&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples&lt;/h1&gt;
+&lt;p&gt;With the potential to diagnose any known microbial organism, metagenomic Next-Generation Sequencing (NGS) has been regarded as a tool that will revolutionize infectious disease diagnostics. NGS removes the need for a pre-informed hypothesis from clinicians, detects nonculturable organisms, and can be optimized to include a turnaround time of 24-48 hours. Only recently, however, has the scientific community begun to understand the pitfalls of NGS. Microbial nucleic acids from reagent and lab environment contamination have been shown to result in signals that researchers falsely infer to be the cause of a patient’s illness. This problem is exacerbated in low biomass samples, such as plasma, where more than 99% of sequencing reads align to the human genome .&lt;/p&gt;
+&lt;p&gt;Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in ultra-low biomass samples are limited.&lt;/p&gt;
+&lt;div id=&#34;software-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;Our method will be available as an open-source R package at &lt;a href=&#34;https://github.com/PratheepaJ/BARBI&#34;&gt;BARBI&lt;/a&gt;. &lt;a href=&#34;https://pratheepaj.github.io/tutorial/barbi/&#34;&gt;Tutorial&lt;/a&gt; will be available soon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;papers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper(s)&lt;/h2&gt;
+&lt;p&gt;SIRS (In preparation)&lt;/p&gt;
+&lt;p&gt;Healthy Flossing (In preparation)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-AndersHuber2010&#34;&gt;
+&lt;p&gt;Anders, Simon, and Wolfgang Huber. 2010. “Differential Expression Analysis for Sequence Count Data.” &lt;em&gt;Genome Biology&lt;/em&gt; 11 (10). BioMed Central: R106.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-D2002&#34;&gt;
+&lt;p&gt;Diggle, Peter. 2002. &lt;em&gt;Analysis of Longitudinal Data&lt;/em&gt;. Oxford University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-HHJ1995&#34;&gt;
+&lt;p&gt;Hall, Peter, Joel L Horowitz, and Bing-Yi Jing. 1995. “On Blocking Rules for the Bootstrap with Dependent Data.” &lt;em&gt;Biometrika&lt;/em&gt; 82 (3). Biometrika Trust: 561–74.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-lahiri2013&#34;&gt;
+&lt;p&gt;Lahiri, Soumendra Nath. 2013. &lt;em&gt;Resampling Methods for Dependent Data&lt;/em&gt;. Springer Science &amp;amp; Business Media.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-liang1986&#34;&gt;
+&lt;p&gt;Liang, Kung-Yee, and Scott L Zeger. 1986. “Longitudinal Data Analysis Using Generalized Linear Models.” &lt;em&gt;Biometrika&lt;/em&gt; 73 (1). Oxford University Press: 13–22.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-MH2014&#34;&gt;
+&lt;p&gt;McMurdie, Paul J, and Susan Holmes. 2014. “Waste Not, Want Not: Why Rarefying Microbiome Data Is Inadmissible.” &lt;em&gt;PLoS Comput Biol&lt;/em&gt; 10 (4). Public Library of Science: e1003531.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Robbins1956&#34;&gt;
+&lt;p&gt;Robbins, Herbert. 1956. “An Empirical Bayes Approach to Statistics.” Columbia University, New York City, United States.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Stephens2016&#34;&gt;
+&lt;p&gt;Stephens, Matthew. 2016. “False Discovery Rates: A New Deal.” &lt;em&gt;Biostatistics&lt;/em&gt; 18 (2). Oxford University Press: 275–94.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microbiome Studies</title>
+      <link>/research/microbiome-studies/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/research/microbiome-studies/</guid>
+      <description>
+
+
+&lt;p&gt;We are working on establishing a workflow for analyzing microbiome genome-level data: metataxonomics, metagenomics, metatranscriptomics, and metabolomics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Approximation theory in statistics</title>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#multivariate-saddlepoint-based-bootstrap-method-mspbb&#34;&gt;Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#saddlepoint-approximation-for-bivariate-cumulative-distribution-function-cdf&#34;&gt;Saddlepoint Approximation for Bivariate Cumulative Distribution Function (CDF)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#correction-to-the-formula&#34;&gt;Correction to the formula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software-1&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper-1&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring.&#34;&gt;Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method-1&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software-2&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper-2&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#saddlepoint-based-bootstrap-method-spbb&#34;&gt;Saddlepoint-Based Bootstrap Method (SPBB)&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method-2&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software-3&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper-3&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;multivariate-saddlepoint-based-bootstrap-method-mspbb&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)&lt;/h1&gt;
+&lt;p&gt;The second project for my PhD dissertation was to generalize the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators.&lt;/p&gt;
+&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;I presented my work on mSPBB in my PhD dissertation part I.&lt;/p&gt;
+&lt;p&gt;These are unpublished work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;saddlepoint-approximation-for-bivariate-cumulative-distribution-function-cdf&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Saddlepoint Approximation for Bivariate Cumulative Distribution Function (CDF)&lt;/h1&gt;
+&lt;p&gt;We defined the formula for the variable that was not defined in &lt;a href=&#34;https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C&#34;&gt;Wang (1990)&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;correction-to-the-formula&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Correction to the formula&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring.&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.&lt;/h1&gt;
+&lt;p&gt;One of the projects for my dissertation work was to derive a class of statistical method to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right censored.&lt;/p&gt;
+&lt;div id=&#34;method-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;To work around these issues, we define the empirical moment generating function (MGF) of the tail-completed density function based on the KM estimator, then, using the saddlepoint method, accurately approximate a smooth survival function. Before using the saddlepoint method for this purpose, however, we establish the convergence results of the modified version of the empirical MGF based on the KM estimator using the M-estimation and multivariate delta method. According to the simulations, the empirical saddlepoint approximation method produces better estimation than existing methods, such as log-spline. We apply this method for several event-time data from the clinical research to estimate a smooth survival curve.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;I developed an open-source R package &lt;a href=&#34;https://github.com/PratheepaJ/ESPA&#34;&gt;ESPA&lt;/a&gt; that make our method easily accessible. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/espa/&#34;&gt;tutorial.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;Paper will be available at the Canadian journal of statistics (accepted - 2018).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;saddlepoint-based-bootstrap-method-spbb&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Saddlepoint-Based Bootstrap Method (SPBB)&lt;/h1&gt;
+&lt;p&gt;We consider a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In the spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data.&lt;/p&gt;
+&lt;div id=&#34;method-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Method&lt;/h2&gt;
+&lt;p&gt;The SPBB method is used to construct confidence intervals for parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;p&gt;An R package &lt;a href=&#34;https://github.com/PratheepaJ/SPBBspatial&#34;&gt;SPBBspatial&lt;/a&gt; implements our method. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/spbbspatial/&#34;&gt;tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Paper&lt;/h2&gt;
+&lt;p&gt;This paper is available at &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675315000020&#34;&gt;&lt;em&gt;Spatial statistics&lt;/em&gt;&lt;/a&gt; journal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS 191 (Autumn 2019, Stanford)</title>
+      <link>/teaching/stats205/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stats205/</guid>
+      <description>
+
+
+&lt;p&gt;Course contents will be available soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>STATS 205 (Spring 2019, Stanford)</title>
+      <link>/teaching/stats205/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stats205/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -384,128 +623,11 @@
     </item>
     
     <item>
-      <title>Statistical Methods for Multi-domain Data</title>
-      <link>https://PratheepaJ.github.io/research/current-projects/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
-      <description>
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#data-structure-for-multi-domain-genome-level-data&#34;&gt;Data structure for multi-domain genome-level data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#statistical-method-for-multi-domain-genome-level-data&#34;&gt;Statistical method for multi-domain genome-level data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;p&gt;High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.&lt;/p&gt;
-&lt;div id=&#34;data-structure-for-multi-domain-genome-level-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Data structure for multi-domain genome-level data&lt;/h2&gt;
-&lt;p&gt;First, I am working on establishing a data structure for multi-domain genome-level data in R/Bioconductor.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;statistical-method-for-multi-domain-genome-level-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Statistical method for multi-domain genome-level data&lt;/h2&gt;
-&lt;p&gt;Second, I focus on developing probabilistic modeling for multi-domain genome-level data in R/Bioconductor/Stan.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Statistical Methods for Microbiome Data</title>
-      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
-      <description>
-
-
-
-
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#block-bootstrap-method&#34;&gt;Block Bootstrap Method&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples&#34;&gt;Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#software-1&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#papers&#34;&gt;Paper(s)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;block-bootstrap-method&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Block Bootstrap Method&lt;/h1&gt;
-&lt;p&gt;Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability.&lt;/p&gt;
-&lt;p&gt;Longitudinal microbiome data are used to either model abundance over time or compare the abundances of bacteria between two or more cohorts. We have devised a method for making nonparametric inferences in longitudinal microbiome data in the latter case.&lt;/p&gt;
-&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Method&lt;/h2&gt;
-&lt;p&gt;The proposed resampling method combined moving block bootstrap (MBB) method &lt;span class=&#34;citation&#34;&gt;(Lahiri 2013)&lt;/span&gt;, empirical subsampling method &lt;span class=&#34;citation&#34;&gt;(Hall, Horowitz, and Jing 1995)&lt;/span&gt;, mixture model &lt;span class=&#34;citation&#34;&gt;(McMurdie and Holmes 2014)&lt;/span&gt;, generalized linear model &lt;span class=&#34;citation&#34;&gt;(Diggle 2002)&lt;/span&gt;, generalized estimating equation &lt;span class=&#34;citation&#34;&gt;(Liang and Zeger 1986)&lt;/span&gt;, median-ratio method &lt;span class=&#34;citation&#34;&gt;(Anders and Huber 2010)&lt;/span&gt;, and shrinkage estimation&lt;span class=&#34;citation&#34;&gt;(Robbins 1956; Stephens 2016)&lt;/span&gt; to enabling inference on microbiome longitudinal data. With the optimal block size computed using subsampling, the MBB method accounts for within-subject dependency by using overlapping blocks of repeated observations within each subject to draw valid inferences based on approximately pivotal statistics. This resampling method for dependent data was motivated by the literature on the block bootstrap method for time series data along with subsampling method for optimal block size estimation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Software&lt;/h2&gt;
-&lt;p&gt;I developed an open-source R package &lt;a href=&#34;https://github.com/PratheepaJ/bootLong&#34;&gt;bootLong&lt;/a&gt; to make our method accessible and provide tools for exploring within-subject dependency in longitudinal data. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/bootlong/&#34;&gt;tutorial.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Paper&lt;/h2&gt;
-&lt;p&gt;The manuscript is available at &lt;a href=&#34;https://arxiv.org/abs/1809.01832&#34;&gt;arXiv&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;bayesian-inference-for-removing-dna-contaminants-in-low-biomass-samples&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples&lt;/h1&gt;
-&lt;p&gt;With the potential to diagnose any known microbial organism, metagenomic Next-Generation Sequencing (NGS) has been regarded as a tool that will revolutionize infectious disease diagnostics. NGS removes the need for a pre-informed hypothesis from clinicians, detects nonculturable organisms, and can be optimized to include a turnaround time of 24-48 hours. Only recently, however, has the scientific community begun to understand the pitfalls of NGS. Microbial nucleic acids from reagent and lab environment contamination have been shown to result in signals that researchers falsely infer to be the cause of a patient’s illness. This problem is exacerbated in low biomass samples, such as plasma, where more than 99% of sequencing reads align to the human genome .&lt;/p&gt;
-&lt;p&gt;Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in ultra-low biomass samples are limited.&lt;/p&gt;
-&lt;div id=&#34;software-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Software&lt;/h2&gt;
-&lt;p&gt;Our method will be available as an open-source R package at &lt;a href=&#34;https://github.com/PratheepaJ/BARBI&#34;&gt;BARBI&lt;/a&gt;. &lt;a href=&#34;https://pratheepaj.github.io/tutorial/barbi/&#34;&gt;Tutorial&lt;/a&gt; will be available soon.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;papers&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Paper(s)&lt;/h2&gt;
-&lt;p&gt;SIRS (In preparation)&lt;/p&gt;
-&lt;p&gt;Healthy Flossing (In preparation)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
-&lt;h1&gt;References&lt;/h1&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
-&lt;div id=&#34;ref-AndersHuber2010&#34;&gt;
-&lt;p&gt;Anders, Simon, and Wolfgang Huber. 2010. “Differential Expression Analysis for Sequence Count Data.” &lt;em&gt;Genome Biology&lt;/em&gt; 11 (10). BioMed Central: R106.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-D2002&#34;&gt;
-&lt;p&gt;Diggle, Peter. 2002. &lt;em&gt;Analysis of Longitudinal Data&lt;/em&gt;. Oxford University Press.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-HHJ1995&#34;&gt;
-&lt;p&gt;Hall, Peter, Joel L Horowitz, and Bing-Yi Jing. 1995. “On Blocking Rules for the Bootstrap with Dependent Data.” &lt;em&gt;Biometrika&lt;/em&gt; 82 (3). Biometrika Trust: 561–74.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-lahiri2013&#34;&gt;
-&lt;p&gt;Lahiri, Soumendra Nath. 2013. &lt;em&gt;Resampling Methods for Dependent Data&lt;/em&gt;. Springer Science &amp;amp; Business Media.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-liang1986&#34;&gt;
-&lt;p&gt;Liang, Kung-Yee, and Scott L Zeger. 1986. “Longitudinal Data Analysis Using Generalized Linear Models.” &lt;em&gt;Biometrika&lt;/em&gt; 73 (1). Oxford University Press: 13–22.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-MH2014&#34;&gt;
-&lt;p&gt;McMurdie, Paul J, and Susan Holmes. 2014. “Waste Not, Want Not: Why Rarefying Microbiome Data Is Inadmissible.” &lt;em&gt;PLoS Comput Biol&lt;/em&gt; 10 (4). Public Library of Science: e1003531.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Robbins1956&#34;&gt;
-&lt;p&gt;Robbins, Herbert. 1956. “An Empirical Bayes Approach to Statistics.” Columbia University, New York City, United States.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;ref-Stephens2016&#34;&gt;
-&lt;p&gt;Stephens, Matthew. 2016. “False Discovery Rates: A New Deal.” &lt;em&gt;Biostatistics&lt;/em&gt; 18 (2). Oxford University Press: 275–94.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>MATH 2300 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/statistical-methods/</link>
+      <link>/teaching/statistical-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/statistical-methods/</guid>
+      <guid>/teaching/statistical-methods/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -545,24 +667,11 @@
     </item>
     
     <item>
-      <title>Microbiome Studies</title>
-      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
-      <description>
-
-
-&lt;p&gt;We are working on establishing a workflow for analyzing microbiome genome-level data: metataxonomics, metagenomics, metatranscriptomics, and metabolomics.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>MATH 2345 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -596,107 +705,11 @@
     </item>
     
     <item>
-      <title>Approximation theory in statistics</title>
-      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
-      <description>
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#multivariate-saddlepoint-based-bootstrap-method-mspbb&#34;&gt;Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#saddlepoint-approximation-for-bivariate-cumulative-distribution-function-cdf&#34;&gt;Saddlepoint Approximation for Bivariate Cumulative Distribution Function (CDF)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#correction-to-the-formula&#34;&gt;Correction to the formula&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#software-1&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#paper-1&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring.&#34;&gt;Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#method-1&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#software-2&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#paper-2&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#saddlepoint-based-bootstrap-method-spbb&#34;&gt;Saddlepoint-Based Bootstrap Method (SPBB)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#method-2&#34;&gt;Method&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#software-3&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#paper-3&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;multivariate-saddlepoint-based-bootstrap-method-mspbb&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)&lt;/h1&gt;
-&lt;p&gt;The second project for my PhD dissertation was to generalize the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators.&lt;/p&gt;
-&lt;div id=&#34;method&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Method&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Software&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paper&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Paper&lt;/h2&gt;
-&lt;p&gt;I presented my work on mSPBB in my PhD dissertation part I.&lt;/p&gt;
-&lt;p&gt;These are unpublished work.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;saddlepoint-approximation-for-bivariate-cumulative-distribution-function-cdf&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Saddlepoint Approximation for Bivariate Cumulative Distribution Function (CDF)&lt;/h1&gt;
-&lt;p&gt;We defined the formula for the variable that was not defined in &lt;a href=&#34;https://www.cambridge.org/core/journals/journal-of-applied-probability/article/saddlepoint-approximations-for-bivariate-distributions/BA1D4A854B7DEEB68A5C1CF054ADDF9C&#34;&gt;Wang (1990)&lt;/a&gt;&lt;/p&gt;
-&lt;div id=&#34;correction-to-the-formula&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Correction to the formula&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;software-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Software&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paper-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Paper&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring.&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.&lt;/h1&gt;
-&lt;p&gt;One of the projects for my dissertation work was to derive a class of statistical method to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right censored.&lt;/p&gt;
-&lt;div id=&#34;method-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Method&lt;/h2&gt;
-&lt;p&gt;To work around these issues, we define the empirical moment generating function (MGF) of the tail-completed density function based on the KM estimator, then, using the saddlepoint method, accurately approximate a smooth survival function. Before using the saddlepoint method for this purpose, however, we establish the convergence results of the modified version of the empirical MGF based on the KM estimator using the M-estimation and multivariate delta method. According to the simulations, the empirical saddlepoint approximation method produces better estimation than existing methods, such as log-spline. We apply this method for several event-time data from the clinical research to estimate a smooth survival curve.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;software-2&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Software&lt;/h2&gt;
-&lt;p&gt;I developed an open-source R package &lt;a href=&#34;https://github.com/PratheepaJ/ESPA&#34;&gt;ESPA&lt;/a&gt; that make our method easily accessible. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/espa/&#34;&gt;tutorial.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paper-2&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Paper&lt;/h2&gt;
-&lt;p&gt;Paper will be available at the Canadian journal of statistics (accepted - 2018).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;saddlepoint-based-bootstrap-method-spbb&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Saddlepoint-Based Bootstrap Method (SPBB)&lt;/h1&gt;
-&lt;p&gt;We consider a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In the spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data.&lt;/p&gt;
-&lt;div id=&#34;method-2&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Method&lt;/h2&gt;
-&lt;p&gt;The SPBB method is used to construct confidence intervals for parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;software-3&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Software&lt;/h2&gt;
-&lt;p&gt;An R package &lt;a href=&#34;https://github.com/PratheepaJ/SPBBspatial&#34;&gt;SPBBspatial&lt;/a&gt; implements our method. Look at the &lt;a href=&#34;https://pratheepaj.github.io/tutorial/spbbspatial/&#34;&gt;tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paper-3&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Paper&lt;/h2&gt;
-&lt;p&gt;This paper is available at &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211675315000020&#34;&gt;&lt;em&gt;Spatial statistics&lt;/em&gt;&lt;/a&gt; journal.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>MATH 3342 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -734,10 +747,10 @@
     
     <item>
       <title>Vegetative Propagation</title>
-      <link>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</link>
+      <link>/agriblog/vegetative-propagation/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</guid>
+      <guid>/agriblog/vegetative-propagation/</guid>
       <description>
 
 
@@ -747,10 +760,10 @@
     
     <item>
       <title>Bombay Jam</title>
-      <link>https://PratheepaJ.github.io/misc/bombay-jam/</link>
+      <link>/misc/bombay-jam/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/bombay-jam/</guid>
+      <guid>/misc/bombay-jam/</guid>
       <description>
 
 
@@ -760,16 +773,16 @@
     
     <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</link>
+      <link>/misc/2019-01-01-post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</guid>
+      <guid>/misc/2019-01-01-post-on-january-2019/</guid>
       <description>
 
 
 &lt;p&gt;Happy New Year to Everyone!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
+&lt;img src=&#34;/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Welcome 2019
 &lt;/p&gt;
@@ -779,14 +792,14 @@ Figure 1: Welcome 2019
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/misc/resources_academia/</link>
+      <link>/misc/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/resources_academia/</guid>
+      <guid>/misc/resources_academia/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://PratheepaJ.github.io/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;!-- [Sherri Rose](http://drsherrirose.org/resources/) --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://effortreport.libsyn.com/&#34;&gt;The Effort Report&lt;/a&gt;: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.&lt;/p&gt;&lt;/li&gt;
@@ -797,16 +810,16 @@ Figure 1: Welcome 2019
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/misc/my_thoughts/</link>
+      <link>/misc/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/my_thoughts/</guid>
+      <guid>/misc/my_thoughts/</guid>
       <description>
 
 
 &lt;p&gt;If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
+&lt;img src=&#34;/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: March 20, 2016
 &lt;/p&gt;
@@ -817,21 +830,11 @@ Figure 1: March 20, 2016
     
     <item>
       <title>BAyesian Reduction in Background Interference</title>
-      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
+      <link>/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
+      <guid>/tutorial/barbi/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;BARBI&lt;/code&gt; for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Beta Binomial Distribution</title>
-      <link>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
-      
-      <guid>https://PratheepaJ.github.io/tutorial/beta_binomial_modeling_count/</guid>
-      <description>&lt;p&gt;The Beta Binomial Distribution implemented in &lt;code&gt;corncob&lt;/code&gt; package.&lt;/p&gt;
 </description>
     </item>
     

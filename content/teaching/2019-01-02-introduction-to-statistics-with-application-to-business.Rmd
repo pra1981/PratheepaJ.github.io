@@ -12,7 +12,7 @@ image:
 output:
   blogdown::html_page:
     toc: true
-weight: 3  
+weight: 9  
 ---
 
 # MATH 2345
