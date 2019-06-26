@@ -26,7 +26,7 @@ type: "page"
 
 In my first project for my PhD dissertation, I generalized the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators. 
 
-I dervied the necessary and sufficient conditions to approximate the CDF of estimators via estimating equations.  
+I derived the necessary and sufficient conditions to approximate the CDF of estimators via estimating equations.  
 
 ## Method
 
@@ -55,7 +55,7 @@ These are unpublished work.
 
 # Multivariate Saddlepoint Density Approximation for the Yule-Walker Estimators 
 
-In the context of lagged dependent variables, Daniels (1956) derived the sad- dlepoint density for a serial correlation coefficient of an autoregressive process with order one AR(1). 
+In the context of lagged dependent variables, Daniels (1956) derived the saddlepoint density for a serial correlation coefficient of an autoregressive process with order one AR(1). 
 
 We proposed the extension to make inference in the context of a multi-dimensional parameter $\phi$, which we take to be the k-dimensional vector, $\phi = \left[\phi_{1}, \cdots, \phi_{k} \right]^{T}$.
 

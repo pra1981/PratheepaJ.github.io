@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/research/</link>
+    <link>/research/</link>
     <description>Recent content in Research on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Pratheepa Jeganathan 2018</copyright>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="https://PratheepaJ.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Statistical Methods for Multi-domain Data</title>
-      <link>https://PratheepaJ.github.io/research/current-projects/</link>
+      <link>/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
+      <guid>/research/current-projects/</guid>
       <description>Data structure for multi-domain genome-level data Statistical method for multi-domain genome-level data   High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular and biological multiple mediators at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
 Data structure for multi-domain genome-level data First, I am working on establishing a data structure for multi-domain genome-level data in R/Bioconductor.</description>
     </item>
     
     <item>
       <title>Statistical Methods for Microbiome Data</title>
-      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
+      <link>/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
+      <guid>/research/statistical-methods-for-microbiome/</guid>
       <description>Block Bootstrap Method Method Software Paper My Presentations  A Bayesian Approach to Contamination Removal in Molecular Microbial Studies Software Paper(s) My Presentations  References   Block Bootstrap Method Rapidly evolving high-throughput sequencing technology enables the comprehensive search for microbial biomarkers using longitudinal experiments. Such experiments consist of repeated biological observations from each subject over time and are essential in accounting for the high between-subject and within-subject variability.</description>
     </item>
     
     <item>
       <title>Microbiome Studies</title>
-      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
+      <link>/research/microbiome-studies/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
+      <guid>/research/microbiome-studies/</guid>
       <description>We are working on establishing a workflow for analyzing microbiome genome-level data: metataxonomics, metagenomics, metatranscriptomics, and metabolomics.</description>
     </item>
     
     <item>
       <title>Approximation theory in statistics</title>
-      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
       <description>Multivariate Saddlepoint-Based Bootstrap Method (mSPBB) Method Software Paper  Saddlepoint Approximation for Bivariate Cumulative Distribution Function (CDF) Correction to the formula Software Paper  Multivariate Saddlepoint Density Approximation for the Yule-Walker Estimators Method Software Paper  Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring. Method Software Paper  Saddlepoint-Based Bootstrap Method (SPBB) Method Software Paper    Multivariate Saddlepoint-Based Bootstrap Method (mSPBB) In my first project for my PhD dissertation, I generalized the SPBB method to make inferences on the multiple parameters of a statistical model.</description>
     </item>
     
