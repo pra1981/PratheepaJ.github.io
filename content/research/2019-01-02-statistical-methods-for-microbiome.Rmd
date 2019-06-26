@@ -39,11 +39,14 @@ I developed an open-source R package [bootLong](https://github.com/PratheepaJ/bo
 
 The manuscript is available at [arXiv](https://arxiv.org/abs/1809.01832).
 
-#  Bayesian Inference for Removing DNA Contaminants in Low-Biomass Samples
+## My Presentations
+- April 19, 2018: Biomedical Computation at Stanford 2018: [conference site.](http://bcats.stanford.edu/html/eventinfo.html)
+
+#  A Bayesian Approach to Contamination Removal in Molecular Microbial Studies
 
 With the potential to diagnose any known microbial organism, metagenomic Next-Generation Sequencing (NGS) has been regarded as a tool that will revolutionize infectious disease diagnostics. NGS removes the need for a pre-informed hypothesis from clinicians, detects nonculturable organisms, and can be optimized to include a turnaround time of 24-48 hours. Only recently, however, has the scientific community begun to understand the pitfalls of NGS. Microbial nucleic acids from reagent and lab environment contamination have been shown to result in signals that researchers falsely infer to be the cause of a patient’s illness. This problem is exacerbated in low biomass samples, such as plasma, where more than 99\% of sequencing reads align to the human genome \citep{grumaz2016}.
 
-Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in ultra-low biomass samples are limited. 
+Although extracting and sequencing molecular-grade water to provide negative controls helps overcome this issue, downstream analysis can still be challenging because many common contaminants are also clinically relevant organisms. Computational methods to identify contaminants in low biomass samples are limited. 
 
 ## Software
 
@@ -51,8 +54,17 @@ Our method will be available as an open-source R package at [BARBI](https://gith
 
 ## Paper(s)
 
-SIRS (In preparation)
+- Method paper (ready to submit)
 
-Healthy Flossing (In preparation)
+- Application to suspected sepsis diagnosis. (submitted)
+
+- Application to identify translocation of bacteria (ready to submit)
+
+## My Presentations
+
+- July 24-27, 2019: 21st Meeting of New Researchers in 
+Statistics and Probability: [schedule available soon.](http://groups.imstat.org/newresearchers/conferences/nrc.html)
+
+- April 2, 2019: 3rd Workshop on Statistical and Algorithmic Challenges in Microbiome Data Analysis: [video link here.](https://www.simonsfoundation.org/videos-3rd-workshop-on-statistical-and-algorithmic-challenges-in-microbiome-data-analysis-973/)
 
 # References
