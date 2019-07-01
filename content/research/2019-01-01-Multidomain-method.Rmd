@@ -18,7 +18,7 @@ profile: false
 ---
 
 
-High-throughput sequencing and mass cytometry technologies have revolutionized the quantification of molecular biomarkers at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
+High-throughput sequencing and single-cell technologies have revolutionized the quantification of molecular biomarkers at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
 
 ##  Data structure for multi-domain genome-level data
 
