@@ -14,11 +14,11 @@ image = ""
 caption = ""
 +++
 
-My research interests are at the interface of mathematical statistics and new technology-generated data. I employ a combination of statistical theory and computational tools that I have mastered during graduate and postdoctoral training with collaborators to knowledge discovery.
+My research interests are probability and statistical theory and computational statistics for new technology-generated multi-domain data. 
 
-Applied statistical research: statistical methods for multiple measurements made at the genome-level at multiple gestational age from pregnant women. 
+My current applied research is probabilistic modeling for microbiome genome-level data and host immune response in pregnant women to elucidate interactions.
 
-Theoretical research: approximation theory for learning dependency in high-dimensional data. 
+My current theoretical research focuses on approximation theory for learning dependency in high-dimensional data. 
 
 <!--- 1) multi-domain and spatio-temporal statistical methods to various problems in high-throughput sequencing (HiSeq) and single-cell sequencing data, and 
 
