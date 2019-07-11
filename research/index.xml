@@ -18,9 +18,8 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/research/current-projects/</guid>
-      <description>Data structure for multi-domain genome-level data Statistical method for multi-domain genome-level data   High-throughput sequencing and single-cell technologies have revolutionized the quantification of molecular biomarkers at the genome-level. The data produced by these techniques are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
-Data structure for multi-domain genome-level data First, I am working on establishing a data structure for multi-domain genome-level data in R/Bioconductor.
- Statistical method for multi-domain genome-level data Second, I focus on developing probabilistic modeling for multi-domain genome-level data in R/Bioconductor/Stan.</description>
+      <description>Data structure for multi-domain genome-level data Statistical method for multi-domain genome-level data   High-throughput technologies (Next-generation DNA sequencing, single-cell RNA sequencing, Mass spectrometry, etc.) have revolutionized the quantification of biomarkers at the genome-level. The high-throughput genomic data are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
+Data structure for multi-domain genome-level data First, I am working on establishing a data structure for multi-domain genome-level data in R/Bioconductor.</description>
     </item>
     
     <item>
