@@ -46,4 +46,4 @@ I received an MS in Statistics from Texas Tech University, advised by [Alex Trin
 
 Apart from research, I am interested in teaching, mentoring, curriculum development, community outreach, sports, and art. 
 
-My CV can be found [here](files/cv.pdf) 
+<!-- My CV can be found [here](files/cv.pdf) -->
