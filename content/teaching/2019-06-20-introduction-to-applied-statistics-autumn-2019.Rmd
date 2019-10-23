@@ -67,6 +67,7 @@ An introductory statistics course, such as
         - Install [Tinytex](https://yihui.name/tinytex/)
             - install.packages('tinytex')
             - tinytex::install_tinytex()
+
 ##  Evaluation
 
 The final letter grade for this course will be determined by each method of assessment weighted as follows:
