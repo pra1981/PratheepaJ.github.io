@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/</link>
+    <link>/</link>
     <description>Recent content in Pratheepa Jeganathan on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Statistical Methods for Multi-domain Data</title>
-      <link>https://PratheepaJ.github.io/research/current-projects/</link>
+      <link>/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
+      <guid>/research/current-projects/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>Statistical Methods for Microbiome Data</title>
-      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
+      <link>/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
+      <guid>/research/statistical-methods-for-microbiome/</guid>
       <description>
 
 
@@ -148,10 +148,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Microbiome Studies</title>
-      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
+      <link>/research/microbiome-studies/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
+      <guid>/research/microbiome-studies/</guid>
       <description>
 
 
@@ -161,10 +161,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Approximation theory in statistics</title>
-      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
       <description>
 
 
@@ -298,23 +298,512 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>STATS 191 (Autumn 2019, Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats191/</link>
+      <link>/teaching/stats191/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats191/</guid>
+      <guid>/teaching/stats191/</guid>
       <description>
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description&#34;&gt;Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Syllabus&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-overview&#34;&gt;Course Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#expected-outcomes&#34;&gt;Expected outcomes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#course-information&#34;&gt;Course Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#textbook&#34;&gt;Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#software&#34;&gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#policies&#34;&gt;Policies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lecture-notes&#34;&gt;Lecture Notes&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#important-dates&#34;&gt;Important Dates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Course contents will be available soon.&lt;/p&gt;
+&lt;div id=&#34;description&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Description&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://explorecourses.stanford.edu/search?q=STATS+191&amp;amp;view=catalog&amp;amp;page=0&amp;amp;academicYear=&amp;amp;filter-term-Autumn=on&amp;amp;collapse=&amp;amp;filter-coursestatus-Active=on&#34;&gt;Course link.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;syllabus&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Syllabus&lt;/h1&gt;
+&lt;div id=&#34;course-overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Course Overview&lt;/h2&gt;
+&lt;p&gt;Statistical tools for modern data analysis. Topics include regression and prediction, elements of the analysis of variance, bootstrap, and cross-validation. Emphasis is on conceptual rather than theoretical understanding. Student assignments require use of the software package &lt;a href=&#34;http://cran.r-project.org&#34;&gt;R&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expected-outcomes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expected outcomes&lt;/h2&gt;
+&lt;p&gt;By the end of the course, students should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enter tabular data using &lt;a href=&#34;http://cran.r-project.org&#34;&gt;R&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Plot data using &lt;a href=&#34;http://cran.r-project.org&#34;&gt;R&lt;/a&gt;, to help in exploratory data analysis.&lt;/li&gt;
+&lt;li&gt;Formulate regression models for the data, while understanding some of the limitations and assumptions implicit in using these models.&lt;/li&gt;
+&lt;li&gt;Fit models using &lt;a href=&#34;http://cran.r-project.org&#34;&gt;R&lt;/a&gt; and interpret the output.&lt;/li&gt;
+&lt;li&gt;Test for associations in a given model.&lt;/li&gt;
+&lt;li&gt;Use diagnostic plots and tests to assess the adequacy of a particular model.&lt;/li&gt;
+&lt;li&gt;Find confidence intervals for the effects of different explanatory variables in the model.&lt;/li&gt;
+&lt;li&gt;Use some basic model selection procedures, as found in &lt;a href=&#34;http://cran.r-project.org&#34;&gt;R&lt;/a&gt;, to find a &lt;em&gt;best&lt;/em&gt; model in a class of models.&lt;/li&gt;
+&lt;li&gt;Fit simple ANOVA models in &lt;a href=&#34;http://cran.r-project.org&#34;&gt;R&lt;/a&gt;, treating them as special cases of multiple regression models.&lt;/li&gt;
+&lt;li&gt;Fit simple logistic and Poisson regression models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;course-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Course Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Term: Autumn 2019&lt;/li&gt;
+&lt;li&gt;Units: 3&lt;/li&gt;
+&lt;li&gt;Time: Mon, Wed, Fri 1:30 PM - 2:20 PM&lt;/li&gt;
+&lt;li&gt;Location: &lt;a href=&#34;https://campus-map.stanford.edu/?srch=Gates+B3#&#34;&gt;Gates B3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LEC: 09/23/2019 - 12/06/2019 (10 Weeks - 30 hours)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;prerequisites&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;An introductory statistics course, such as
+- &lt;a href=&#34;https://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;page=0&amp;amp;catalog=&amp;amp;academicYear=20182019&amp;amp;q=STATS+60%3A+Introduction+to+Statistical+Methods%3A+Precalculus+&amp;amp;collapse=&#34;&gt;STATS 60&lt;/a&gt; or &lt;a href=&#34;https://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;page=0&amp;amp;catalog=&amp;amp;academicYear=20182019&amp;amp;q=STATS+110%3A+Statistical+Methods+in+Engineering+and+the+Physical+Sciences&amp;amp;collapse=&#34;&gt;STATS 110&lt;/a&gt; or &lt;a href=&#34;https://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;page=0&amp;amp;catalog=&amp;amp;academicYear=&amp;amp;q=stats141&amp;amp;collapse=&#34;&gt;STATS 141&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;textbook&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Textbook&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Required:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;(CH)&lt;/strong&gt; &lt;a href=&#34;http://www1.aucegypt.edu/faculty/hadi/RABE5&#34;&gt;Regression Analysis by Example&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;Authors: Samprit Chatterjee, Ali S. Hadi&lt;/li&gt;
+&lt;li&gt;Edition: &lt;span class=&#34;math inline&#34;&gt;\(5^{th}\)&lt;/span&gt; Edition&lt;/li&gt;
+&lt;li&gt;Print &lt;a href=&#34;ISBN:978-0-470-90584-05&#34; class=&#34;uri&#34;&gt;ISBN:978-0-470-90584-05&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;software&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In this course, we will use R for computing and R Markdown for producing lecture slides, solutions for homework assignments. R Markdown is highly recommended to write the solutions for homework assignments. Install the following software:
+&lt;ul&gt;
+&lt;li&gt;R (required): &lt;a href=&#34;https://www.r-project.org/&#34;&gt;https://www.r-project.org/&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;R Studio is highly recommended for syntax highlighting, package management, document generation, and more: &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;https://www.rstudio.com/&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;The newest version of R Studio is highly recommended.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://yihui.name/tinytex/&#34;&gt;Tinytex&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;install.packages(‘tinytex’)&lt;/li&gt;
+&lt;li&gt;tinytex::install_tinytex()
+## Evaluation&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The final letter grade for this course will be determined by each method of assessment weighted as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;7 weekly homework assignments (55%)&lt;/li&gt;
+&lt;li&gt;Midterm examination (15%, Wednesday, 10/23/2019)&lt;/li&gt;
+&lt;li&gt;Final examination (30%, according to Stanford calendar: Wednesday, 12/11/2019 @ 3:30 PM, location TBD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;policies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Policies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Class Participation
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bonus points 5%&lt;/strong&gt;. Pop quizzes will be given in class (SCPD students can complete in 24 hours). Scan your hand-written solutions as a PDF file/write down your answer in R markdown and render your answer to PDF and upload your answers to &lt;a href=&#34;https://www.gradescope.com/courses/60528&#34;&gt;gradescope.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In-class participation and Piazza discussion are encouraged.
+&lt;ul&gt;
+&lt;li&gt;Find our class page at: &lt;a href=&#34;https://piazza.com/stanford/fall2019/stats191/home&#34;&gt;https://piazza.com/stanford/fall2019/stats191/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. If you have any problems or feedback for the developers, email &lt;a href=&#34;mailto:team@piazza.com&#34; class=&#34;email&#34;&gt;team@piazza.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;When homework involves simulations and data analysis, you will use R statistical computing software. Please post your R or R Markdown questions to Canvas Discussion.&lt;/li&gt;
+&lt;li&gt;Instructor or TA or other students in your class can answer your questions.&lt;/li&gt;
+&lt;li&gt;When asking questions about code, be specific (copy and paste the exact error, relevant code, and describe what you are attempting to do). We will not answer questions that are too similar to the problem sets or that would be better answered in office hours with a whiteboard. Needless to say, you should conduct yourself in a courteous and respectful manner on Canvas Discussion.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Weekly homework assignments
+&lt;ul&gt;
+&lt;li&gt;Homework assignment will be assigned every Friday on &lt;a href=&#34;https://canvas.stanford.edu/courses/108253/assignments&#34;&gt;Canvas Assignments&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Homework assignment will be due every Friday.
+&lt;ul&gt;
+&lt;li&gt;Prepare your completed homework assignment in PDF format and submit a copy to &lt;a href=&#34;https://www.gradescope.com/courses/60528&#34;&gt;gradescope.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Write the solution for each question on a new page (use &lt;code&gt;\newpage&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/&#34;&gt;R markdown&lt;/a&gt; in R Studio and render it to PDF
+&lt;ul&gt;
+&lt;li&gt;See the following link for further outline of using &lt;a href=&#34;http://www.stat.cmu.edu/~cshalizi/rmarkdown/rmarkdown.Rmd&#34;&gt;R markdown for reporting&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Each question in the homework assignment will be graded as follows: &lt;span class=&#34;math inline&#34;&gt;\(scale \in \left\lbrace 0,1,2\right\rbrace\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;2: submitted on time and more or less correct answer&lt;/li&gt;
+&lt;li&gt;1: submitted on time and partially correct answer&lt;/li&gt;
+&lt;li&gt;0: submitted with a completely incorrect answer or late submission (any day after the due date for more than one homework assignment).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Each student can hand in only one homework late (within three days after the deadline).&lt;/li&gt;
+&lt;li&gt;After attempting homework problems on an individual basis, students may discuss a homework assignment with their classmates. However, students must write up their own solutions individually and explicitly indicate from whom (if anyone) or resources students received help at the top of their homework solutions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Midterm examination
+&lt;ul&gt;
+&lt;li&gt;In-class examination: Wednesday, October 23, 2019 @ 1:30PM - 2.20 PM, Gates B3.&lt;/li&gt;
+&lt;li&gt;Students &lt;strong&gt;are not allowed&lt;/strong&gt; to take midterm examinations other than the scheduled date and time (except for the event of extraordinary circumstance that is determined solely by me.)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Final examination
+&lt;ul&gt;
+&lt;li&gt;In-class examination.&lt;/li&gt;
+&lt;li&gt;Following the Stanford &lt;a href=&#34;https://registrar.stanford.edu/autumn-quarter-exams&#34;&gt;calendar&lt;/a&gt;: Wednesday, December 11, 2019 @ 3:30PM-6:30 PM, location TBD.&lt;/li&gt;
+&lt;li&gt;Students &lt;strong&gt;are not allowed&lt;/strong&gt; to take final examinations earlier than the scheduled date and time (except for the event of extraordinary circumstance that is determined solely by me.).&lt;/li&gt;
+&lt;li&gt;Students &lt;strong&gt;are not allowed&lt;/strong&gt; to take this course with another conflicting final examination schedule.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Accessible Education
+&lt;ul&gt;
+&lt;li&gt;Students with Documented Disabilities: Students who may need an academic accommodation based on the impact of a disability must initiate the request with the Office of Accessible Education (OAE). Professional staff will evaluate the request with required documentation, recommend reasonable accommodations, and prepare an Accommodation Letter for faculty. Unless the student has a temporary disability, Accommodation letters are issued for the entire academic year. Students should contact the OAE as soon as possible since timely notice is needed to coordinate accommodations. The OAE is located at 563 Salvatierra Walk (phone: 723-1066, &lt;a href=&#34;https://oae.stanford.edu/&#34;&gt;URL:https://oae.stanford.edu/&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Provide me an accommodation letter on or before &lt;strong&gt;09/30/2019&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Honor Code
+&lt;ul&gt;
+&lt;li&gt;Students are bound by the &lt;a href=&#34;https://communitystandards.stanford.edu/policies-and-guidance/honor-code&#34;&gt;Stanford Honor Code&lt;/a&gt;. Violation of the honor code will result in a failing grade among other penalties.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Stanford Center for Professional Development (SCPD)
+&lt;ul&gt;
+&lt;li&gt;Stats 191 is listed as one of the SCPD courses.&lt;/li&gt;
+&lt;li&gt;Lecture recordings are being made and might be shared with others at Stanford beyond those currently enrolled in the class.&lt;/li&gt;
+&lt;li&gt;SCPD policies on student privacy: &lt;strong&gt;Video cameras located in the back of the room will capture the instructor presentations in this course. For your convenience, you can access these recordings by logging into the course Canvas site. These recordings might be reused in other Stanford courses, viewed by other Stanford students, faculty, or staff, or used for other education and research purposes. Note that while the cameras are positioned with the intention of recording only the instructor, occasionally a part of your image or voice might be incidentally captured. If you have questions, please contact a member of the teaching team.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lecture-notes&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Lecture Notes&lt;/h1&gt;
+&lt;div id=&#34;course-schedule&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Course Schedule&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;20%&#34; /&gt;
+&lt;col width=&#34;20%&#34; /&gt;
+&lt;col width=&#34;20%&#34; /&gt;
+&lt;col width=&#34;20%&#34; /&gt;
+&lt;col width=&#34;20%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Reading&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;09/23/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 1 &lt;a href=&#34;Lecture_1_course_logistics.pdf&#34;&gt;Lecture 1&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Course introduction and review&lt;/td&gt;
+&lt;td&gt;Syllabus, Lecture notes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;09/25/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 1 &lt;a href=&#34;Lecture_2_Review.pdf&#34;&gt;Lecture 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Review&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;09/27/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 1 &lt;a href=&#34;Lecture_3_tips_on_R.pdf&#34;&gt;Lecture 3&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Some tips on R&lt;/td&gt;
+&lt;td&gt;Lecture notes&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 1 posted&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;09/30/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 2 &lt;a href=&#34;Lecture_4_simple_linear_regression.pdf&#34;&gt;Lecture 4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Simple linear regression 1 (introduction, correlation, model, estimation)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 2.1-2.4&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/02/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;Simple linear regression 2 (inference and prediction)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 2.5-2.8&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/04/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;Diagnostics for simple linear regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 2.9&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 2 posted&lt;/strong&gt;, &lt;strong&gt;Homework 1 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/07/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Multiple linear regression 1 (introduction, model, estimation, geometry of least squares)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 3.1-3.5&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/09/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Multiple linear regression 2 (interpretation, matrix formulation, estimation, inference)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 3.6-3.9&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/11/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Multiple linear regression 3 (prediction, contrasts, testing)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 3.10-3.11&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 3 posted&lt;/strong&gt;, &lt;strong&gt;Homework 2 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/14/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Diagnostics in multiple linear regression (types of residuals, influence)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 4&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/16/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Diagnostics in multiple linear regression (outlier detection, residual plots)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 4&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/18/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Interactions and qualitative variables (interactions)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 5&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 4 posted&lt;/strong&gt;, &lt;strong&gt;Homework 3 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/21/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Interactions and qualitative variables (visualization, ANOVA)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 5&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/23/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 5 &lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;Midterm Examinations &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/25/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;ANOVA models (one-way ANOVA, testing, contrasts)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 5&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/28/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;ANOVA models (two-way ANOVA, testing, contrasts, mixed effects model)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 5&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;10/30/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Transformations and Weighted Least Squares&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 6,7&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/01/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Correlated errors&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 8,9&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 5 posted&lt;/strong&gt;, &lt;strong&gt;Homework 4 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/04/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 7&lt;/td&gt;
+&lt;td&gt;Correlated errors&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 8,9&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/06/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 7&lt;/td&gt;
+&lt;td&gt;Bootstrapping regression&lt;/td&gt;
+&lt;td&gt;Lecture notes will be provided&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/08/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 7&lt;/td&gt;
+&lt;td&gt;Selection&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 11&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 6 posted&lt;/strong&gt;, &lt;strong&gt;Homework 5 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/11/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 8&lt;/td&gt;
+&lt;td&gt;Selection&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 11&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/13/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 8&lt;/td&gt;
+&lt;td&gt;Selection&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 11&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/15/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 8&lt;/td&gt;
+&lt;td&gt;Penalized regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 10&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 7 posted&lt;/strong&gt;, &lt;strong&gt;Homework 6 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/18/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 9&lt;/td&gt;
+&lt;td&gt;Penalized regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 10&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/20/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 9&lt;/td&gt;
+&lt;td&gt;Penalized regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 10&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/22/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 9&lt;/td&gt;
+&lt;td&gt;Logistic regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 12&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Homework 7 Due&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/25/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;Thanksgiving Recess (no classes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/27/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;Thanksgiving Recess (no classes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;11/29/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;Thanksgiving Recess (no classes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;12/02/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 10&lt;/td&gt;
+&lt;td&gt;Logistic regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 12&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;12/04/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 10&lt;/td&gt;
+&lt;td&gt;Poisson regression&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 13.3&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;strong&gt;12/06/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Week 10&lt;/td&gt;
+&lt;td&gt;Final Review&lt;/td&gt;
+&lt;td&gt;Review will be posted&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;strong&gt;12/11/2019&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;–&lt;/td&gt;
+&lt;td&gt;End-Quarter examinations &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;important-dates&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Important Dates&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;col width=&#34;33%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Day&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;10/11/2019&lt;/td&gt;
+&lt;td&gt;Friday, 5:00 p.m.&lt;/td&gt;
+&lt;td&gt;Last day to add or drop a class&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;10/23/2019&lt;/td&gt;
+&lt;td&gt;Wednesday, 1:30-2:20 p.m.&lt;/td&gt;
+&lt;td&gt;Midterm examination&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;11/04/2019&lt;/td&gt;
+&lt;td&gt;Monday, 5:00 p.m.&lt;/td&gt;
+&lt;td&gt;Term withdrawal deadline with a partial refund&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;11/25/2019- 11/29/2019&lt;/td&gt;
+&lt;td&gt;Monday - Friday&lt;/td&gt;
+&lt;td&gt;Thanksgiving Recess (no classes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;12/02/2019 - 12/08/2019&lt;/td&gt;
+&lt;td&gt;Monday - Sunday&lt;/td&gt;
+&lt;td&gt;End-Quarter Period&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;12/06/2019&lt;/td&gt;
+&lt;td&gt;Friday&lt;/td&gt;
+&lt;td&gt;Last day of classes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;12/11/2019&lt;/td&gt;
+&lt;td&gt;Wednesday&lt;/td&gt;
+&lt;td&gt;Final Examinations @ 3:30 p.m. - 6.30 p.m.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;12/17/2019&lt;/td&gt;
+&lt;td&gt;Tuesday, 11.59 p.m.&lt;/td&gt;
+&lt;td&gt;Grades due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>STATS 205 (Spring 2019, Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats205/</link>
+      <link>/teaching/stats205/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats205/</guid>
+      <guid>/teaching/stats205/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -429,8 +918,12 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
 &lt;ul&gt;
-&lt;li&gt;Mac users should download macTeX &lt;a href=&#34;http://www.tug.org/mactex/downloading.html&#34;&gt;http://www.tug.org/mactex/downloading.html&lt;/a&gt; from Safari (not Chrome).&lt;/li&gt;
-&lt;li&gt;Windows users should install MiKTeX &lt;a href=&#34;https://miktex.org/download&#34;&gt;https://miktex.org/download&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.&lt;/li&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://yihui.name/tinytex/&#34;&gt;Tinytex&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;install.packages(‘tinytex’)&lt;/li&gt;
+&lt;li&gt;tinytex::install_tinytex()&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -684,10 +1177,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>MATH 2300 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/statistical-methods/</link>
+      <link>/teaching/statistical-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/statistical-methods/</guid>
+      <guid>/teaching/statistical-methods/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -728,10 +1221,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>MATH 2345 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -766,10 +1259,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>MATH 3342 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -807,10 +1300,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Vegetative Propagation</title>
-      <link>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</link>
+      <link>/agriblog/vegetative-propagation/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</guid>
+      <guid>/agriblog/vegetative-propagation/</guid>
       <description>
 
 
@@ -820,10 +1313,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Bombay Jam</title>
-      <link>https://PratheepaJ.github.io/misc/bombay-jam/</link>
+      <link>/misc/bombay-jam/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/bombay-jam/</guid>
+      <guid>/misc/bombay-jam/</guid>
       <description>
 
 
@@ -833,16 +1326,16 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</link>
+      <link>/misc/2019-01-01-post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</guid>
+      <guid>/misc/2019-01-01-post-on-january-2019/</guid>
       <description>
 
 
 &lt;p&gt;Happy New Year to Everyone!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
+&lt;img src=&#34;/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Welcome 2019
 &lt;/p&gt;
@@ -852,14 +1345,14 @@ Figure 1: Welcome 2019
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/misc/resources_academia/</link>
+      <link>/misc/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/resources_academia/</guid>
+      <guid>/misc/resources_academia/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://PratheepaJ.github.io/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;!-- [Sherri Rose](http://drsherrirose.org/resources/) --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://effortreport.libsyn.com/&#34;&gt;The Effort Report&lt;/a&gt;: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.&lt;/p&gt;&lt;/li&gt;
@@ -870,16 +1363,16 @@ Figure 1: Welcome 2019
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/misc/my_thoughts/</link>
+      <link>/misc/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/my_thoughts/</guid>
+      <guid>/misc/my_thoughts/</guid>
       <description>
 
 
 &lt;p&gt;If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
+&lt;img src=&#34;/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: March 20, 2016
 &lt;/p&gt;
@@ -890,10 +1383,10 @@ Figure 1: March 20, 2016
     
     <item>
       <title>BAyesian Reduction in Background Interference</title>
-      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
+      <link>/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
+      <guid>/tutorial/barbi/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;BARBI&lt;/code&gt; for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):&lt;/p&gt;
 </description>
     </item>

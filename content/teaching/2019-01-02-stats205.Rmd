@@ -85,8 +85,10 @@ By the end of the course, the student should be able to
     - R Studio is highly recommended for syntax highlighting, package management, document generation, and more: [https://www.rstudio.com/](https://www.rstudio.com/).
         - The newest version of R Studio is highly recommended (v1.1.463).
     - Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
-        - Mac users should download macTeX [http://www.tug.org/mactex/downloading.html](http://www.tug.org/mactex/downloading.html) from Safari (not Chrome).
-        - Windows users should install MiKTeX [https://miktex.org/download](https://miktex.org/download).
+        - Latex, which will enable you to create PDFs directly from the R Markdown in RStudio.
+        - Install [Tinytex](https://yihui.name/tinytex/)
+            - install.packages('tinytex')
+            - tinytex::install_tinytex()
 
 ##  Grading
 The final letter grade for this course will be determined by each method of assessment weighted as follows:
