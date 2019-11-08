@@ -83,7 +83,7 @@ I developed an open-source R package [ESPA](https://github.com/PratheepaJ/ESPA) 
 
 ##  Paper
 
-- Paper is available at the [Canadian Journal of Dtatistics:]((https://onlinelibrary.wiley.com/doi/abs/10.1002/cjs.11491).
+- Paper is available at the [Canadian Journal of Statistics:](https://onlinelibrary.wiley.com/doi/abs/10.1002/cjs.11491).
 
 - PhD dissertation Chapter III.
 
