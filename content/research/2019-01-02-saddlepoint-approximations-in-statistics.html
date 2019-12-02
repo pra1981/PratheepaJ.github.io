@@ -59,7 +59,7 @@ type: "page"
 
 <div id="multivariate-saddlepoint-based-bootstrap-method-mspbb" class="section level1">
 <h1>Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)</h1>
-<p>In my first project for my PhD dissertation, I generalized the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators.</p>
+<p>In my first project for my Ph.D. dissertation, I generalized the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods, such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators.</p>
 <p>I derived the necessary and sufficient conditions to approximate the CDF of estimators via estimating equations.</p>
 <div id="method" class="section level2">
 <h2>Method</h2>
@@ -113,7 +113,7 @@ type: "page"
 </div>
 <div id="empirical-saddlepoint-approximations-for-smoothing-survival-functions-under-right-censoring." class="section level1">
 <h1>Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.</h1>
-<p>The second project for my dissertation focused on deriving a class of statistical method to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right censored.</p>
+<p>The second project for my dissertation focused on deriving a class of statistical methods to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but the KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right-censored.</p>
 <div id="method-2" class="section level2">
 <h2>Method</h2>
 <p>To work around these issues, we define the empirical moment generating function (MGF) of the tail-completed density function based on the KM estimator, then, using the saddlepoint method, accurately approximate a smooth survival function. Before using the saddlepoint method for this purpose, however, we establish the convergence results of the modified version of the empirical MGF based on the KM estimator using the M-estimation and multivariate delta method. According to the simulations, the empirical saddlepoint approximation method produces better estimation than existing methods, such as log-spline. We apply this method for several event-time data from the clinical research to estimate a smooth survival curve.</p>
@@ -132,10 +132,10 @@ type: "page"
 </div>
 <div id="saddlepoint-based-bootstrap-method-spbb" class="section level1">
 <h1>Saddlepoint-Based Bootstrap Method (SPBB)</h1>
-<p>We considered a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In the spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data.</p>
+<p>We considered a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data.</p>
 <div id="method-3" class="section level2">
 <h2>Method</h2>
-<p>The SPBB method is used to construct confidence intervals for parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator.</p>
+<p>The SPBB method is used to construct confidence intervals for a parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator.</p>
 </div>
 <div id="software-4" class="section level2">
 <h2>Software</h2>

@@ -24,7 +24,7 @@ type: "page"
 
 # Multivariate Saddlepoint-Based Bootstrap Method (mSPBB)
 
-In my first project for my PhD dissertation, I generalized the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators. 
+In my first project for my Ph.D. dissertation, I generalized the SPBB method to make inferences on the multiple parameters of a statistical model. Although there are other methods, such as asymptotic and bootstrap methods to solve inference problems, the SPBB method is more computationally efficient and accurate. For example, the SPBB method replaces the multiple simulation runs required by the bootstrap method with a single approximation to the joint cumulative distribution function (CDF) of the estimators. 
 
 I derived the necessary and sufficient conditions to approximate the CDF of estimators via estimating equations.  
 
@@ -71,7 +71,7 @@ These are unpublished work.
 
 # Empirical Saddlepoint Approximations for Smoothing Survival Functions Under Right Censoring.
 
-The second project for my dissertation focused on deriving a class of statistical method to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right censored.
+The second project for my dissertation focused on deriving a class of statistical methods to estimate a smooth survival curve sought to extend the empirical saddlepoint method based on the Kaplan-Meier (KM) estimator. The KM estimator is a commonly used nonparametric estimator of a survival function, but the KM estimator only defines the approximate probability of observed failure times and may not define a proper density function if the largest observation is right-censored.
 
 ##  Method
 
@@ -89,10 +89,10 @@ I developed an open-source R package [ESPA](https://github.com/PratheepaJ/ESPA) 
 
 # Saddlepoint-Based Bootstrap Method (SPBB)
 
-We considered a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In the spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data. 
+We considered a class of statistical method called saddlepoint-based bootstrap (SPBB) method to make inference about the spatial dependence parameter in the spatial regression model. In spatial econometrics, the analyst can use the SPBB method to analyze the significance of the spatial dependence parameter. Then, the analyst could also decide whether to use the spatial autoregressive model, the conditional autoregressive model, or the spatial moving average model to fit the spatial lattice data. 
 
 ## Method
-The SPBB method is used to construct confidence intervals for parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator. 
+The SPBB method is used to construct confidence intervals for a parameter whose estimator is a unique root of a quadratic estimating equation. In the SPBB method, we use the monotonicity of the quadratic estimating equation in parameter to relate the distribution of an estimator to the distribution of the respective quadratic estimating equation. Using the saddlepoint methods, it is then possible to accurately approximate the distribution of the estimator. Then confidence interval can be produced by pivoting the distribution of the estimator. 
 
 ##  Software
 

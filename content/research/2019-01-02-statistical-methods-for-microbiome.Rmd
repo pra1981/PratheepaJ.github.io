@@ -54,9 +54,10 @@ Our method will be available as an open-source R package at [BARBI](https://gith
 
 ## Paper(s)
 
-- Method paper (ready to submit)
+- Method paper (Submitted)
 
-- Application to suspected sepsis diagnosis. (submitted)
+- Application to suspected sepsis diagnosis (Submitted).
+   - Preprint is available at [biorxiv](https://www.biorxiv.org/content/10.1101/854182v1.full)
 
 - Application to identify translocation of bacteria (ready to submit)
 

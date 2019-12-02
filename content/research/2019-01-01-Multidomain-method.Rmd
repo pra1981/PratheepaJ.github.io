@@ -18,9 +18,10 @@ profile: false
 ---
 
 
-High-throughput technologies (Next-generation DNA sequencing, single-cell RNA sequencing, Mass spectrometry, etc.) have revolutionized the quantification of biomarkers at the genome-level. The high-throughput genomic data are complex in nature because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
+High-throughput technologies (Next-generation DNA sequencing, single-cell RNA sequencing, Mass spectrometry, etc.) have revolutionized the quantification of biomarkers at the genome-level. The high-throughput genomic data are complex because of high-dimensionality, heterogeneity, multi-domain, and sparsity.
 
-##  Data structure for multi-domain genome-level data
+
+##  Data structure (container) for multi-domain genome-level data
 
 First, I am working on establishing a data structure for multi-domain genome-level data in R/Bioconductor. 
 
