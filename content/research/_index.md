@@ -16,7 +16,7 @@ caption = ""
 
 My research interests are probability and statistical theory and computational statistics for new technology-generated multi-domain data. 
 
-My current applied research is probabilistic modeling for microbiome genome-level data and host immune response in pregnant women to elucidate interactions.
+My current applied research is statistical methods for microbiome genome-level data and host immune response in pregnant women to elucidate interactions.
 
 My current theoretical research focuses on approximation theory for learning dependency in high-dimensional data. 
 
