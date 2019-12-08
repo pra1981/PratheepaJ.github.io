@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pratheepa Jeganathan on Pratheepa Jeganathan</title>
-    <link>https://PratheepaJ.github.io/</link>
+    <link>/</link>
     <description>Recent content in Pratheepa Jeganathan on Pratheepa Jeganathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Statistical Methods for Multi-domain Data</title>
-      <link>https://PratheepaJ.github.io/research/current-projects/</link>
+      <link>/research/current-projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/current-projects/</guid>
+      <guid>/research/current-projects/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>Statistical Methods for Microbiome Data</title>
-      <link>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</link>
+      <link>/research/statistical-methods-for-microbiome/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/statistical-methods-for-microbiome/</guid>
+      <guid>/research/statistical-methods-for-microbiome/</guid>
       <description>
 
 
@@ -151,10 +151,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Microbiome Studies</title>
-      <link>https://PratheepaJ.github.io/research/microbiome-studies/</link>
+      <link>/research/microbiome-studies/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/microbiome-studies/</guid>
+      <guid>/research/microbiome-studies/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -187,10 +187,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Approximation theory in statistics</title>
-      <link>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</link>
+      <link>/research/saddlepoint-approximations-in-statistics/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/research/saddlepoint-approximations-in-statistics/</guid>
+      <guid>/research/saddlepoint-approximations-in-statistics/</guid>
       <description>
 
 
@@ -324,10 +324,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>STATS 191 (Autumn 2019, Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats191/</link>
+      <link>/teaching/stats191/</link>
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats191/</guid>
+      <guid>/teaching/stats191/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -652,7 +652,7 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;11/04/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 7 &lt;a href=&#34;&#34;&gt;Lecture 19&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 7 [Lecture 19]&lt;/td&gt;
 &lt;td&gt;Correlated errors&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 8,9&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
@@ -673,14 +673,14 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;11/11/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 8 &lt;a href=&#34;&#34;&gt;Lecture 22&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 8 [Lecture 22]&lt;/td&gt;
 &lt;td&gt;Selection&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 11&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;11/13/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 8 &lt;a href=&#34;&#34;&gt;Lecture 23&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 8 [Lecture 23]&lt;/td&gt;
 &lt;td&gt;Selection&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 11&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
@@ -694,14 +694,14 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;11/18/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 9 &lt;a href=&#34;&#34;&gt;Lecture 25&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 9 [Lecture 25]&lt;/td&gt;
 &lt;td&gt;Penalized regression&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 10&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;11/20/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 9 &lt;a href=&#34;&#34;&gt;Lecture 26&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 9 [Lecture 26]&lt;/td&gt;
 &lt;td&gt;Penalized regression&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 10&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
@@ -736,14 +736,14 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td&gt;&lt;strong&gt;12/02/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 10 &lt;a href=&#34;&#34;&gt;Lecture 28&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 10 [Lecture 28]&lt;/td&gt;
 &lt;td&gt;Logistic regression&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 12&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td&gt;&lt;strong&gt;12/04/2019&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Week 10 &lt;a href=&#34;&#34;&gt;Lecture 29&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Week 10 [Lecture 29]&lt;/td&gt;
 &lt;td&gt;Poisson regression&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;CH&lt;/strong&gt;: Chapter 13.3&lt;/td&gt;
 &lt;td&gt;–&lt;/td&gt;
@@ -834,10 +834,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>STATS 205 (Spring 2019, Stanford)</title>
-      <link>https://PratheepaJ.github.io/teaching/stats205/</link>
+      <link>/teaching/stats205/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/stats205/</guid>
+      <guid>/teaching/stats205/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1211,10 +1211,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>MATH 2300 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/statistical-methods/</link>
+      <link>/teaching/statistical-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/statistical-methods/</guid>
+      <guid>/teaching/statistical-methods/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1255,10 +1255,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>MATH 2345 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</link>
+      <link>/teaching/introduction-to-statistics-with-application-to-business/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/introduction-to-statistics-with-application-to-business/</guid>
+      <guid>/teaching/introduction-to-statistics-with-application-to-business/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1293,10 +1293,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>MATH 3342 (TTU)</title>
-      <link>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
+      <link>/teaching/mathematical-statistics-for-engineers-and-scientists/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
+      <guid>/teaching/mathematical-statistics-for-engineers-and-scientists/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1334,10 +1334,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Vegetative Propagation</title>
-      <link>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</link>
+      <link>/agriblog/vegetative-propagation/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/agriblog/vegetative-propagation/</guid>
+      <guid>/agriblog/vegetative-propagation/</guid>
       <description>
 
 
@@ -1347,10 +1347,10 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>Bombay Jam</title>
-      <link>https://PratheepaJ.github.io/misc/bombay-jam/</link>
+      <link>/misc/bombay-jam/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/bombay-jam/</guid>
+      <guid>/misc/bombay-jam/</guid>
       <description>
 
 
@@ -1360,16 +1360,16 @@ Statistics and Probability: &lt;a href=&#34;http://groups.imstat.org/newresearch
     
     <item>
       <title>New Year Wishes 2019</title>
-      <link>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</link>
+      <link>/misc/2019-01-01-post-on-january-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/2019-01-01-post-on-january-2019/</guid>
+      <guid>/misc/2019-01-01-post-on-january-2019/</guid>
       <description>
 
 
 &lt;p&gt;Happy New Year to Everyone!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
+&lt;img src=&#34;/img/welcome2019.jpg&#34; alt=&#34;Welcome 2019&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Welcome 2019
 &lt;/p&gt;
@@ -1379,14 +1379,14 @@ Figure 1: Welcome 2019
     
     <item>
       <title>Resources for Academia</title>
-      <link>https://PratheepaJ.github.io/misc/resources_academia/</link>
+      <link>/misc/resources_academia/</link>
       <pubDate>Fri, 28 Dec 2018 23:11:30 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/resources_academia/</guid>
+      <guid>/misc/resources_academia/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;https://PratheepaJ.github.io/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/small.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 &lt;!-- [Sherri Rose](http://drsherrirose.org/resources/) --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://effortreport.libsyn.com/&#34;&gt;The Effort Report&lt;/a&gt;: Elizabeth and Roger talk about things happening around academia, such as research, teaching, grant writing, collaboration, mentoring, advising, making a successful career, academic writing, attending meetings, applying for faculty positions, and the list goes on.&lt;/p&gt;&lt;/li&gt;
@@ -1397,16 +1397,16 @@ Figure 1: Welcome 2019
     
     <item>
       <title>My Thoughts</title>
-      <link>https://PratheepaJ.github.io/misc/my_thoughts/</link>
+      <link>/misc/my_thoughts/</link>
       <pubDate>Fri, 28 Dec 2018 23:04:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/misc/my_thoughts/</guid>
+      <guid>/misc/my_thoughts/</guid>
       <description>
 
 
 &lt;p&gt;If you expect to have trust on significant other, be fully transparent: especially those things that you don’t want to share. Let other significant decide the full dimension of love.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:first-ext-image&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://PratheepaJ.github.io/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
+&lt;img src=&#34;/img/March_20_2016.jpg&#34; alt=&#34;March 20, 2016&#34;  /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: March 20, 2016
 &lt;/p&gt;
@@ -1417,10 +1417,10 @@ Figure 1: March 20, 2016
     
     <item>
       <title>BAyesian Reduction in Background Interference</title>
-      <link>https://PratheepaJ.github.io/tutorial/barbi/</link>
+      <link>/tutorial/barbi/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>https://PratheepaJ.github.io/tutorial/barbi/</guid>
+      <guid>/tutorial/barbi/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll demonstrate how to use &lt;code&gt;BARBI&lt;/code&gt; for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):&lt;/p&gt;
 </description>
     </item>
