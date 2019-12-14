@@ -15,6 +15,8 @@ linktitle = "BARBI"
   weight = 1
 +++
 
-In this tutorial, I'll demonstrate how to use `BARBI` for removing contaminants in low-biomass samples (metagenomics NGS data of cell-free DNA):
+In this [tutorial](https://pratheepaj.github.io/BARBI/), I demonstrate how to use BARBI for DNA contamination removal in molecular microbial studies.
+
+
 
 
