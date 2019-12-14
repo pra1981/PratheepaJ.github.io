@@ -1,5 +1,5 @@
 +++
-title = "BAyesian Reduction in Background Interference"
+title = "BAyesian Reference analysis in the Background Interference (BARBI)"
 
 date = 2018-12-28T00:00:00
 # lastmod = 2018-09-09T00:00:00
